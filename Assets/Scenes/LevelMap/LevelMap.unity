@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 1539590396}
   - component: {fileID: 1539590395}
   - component: {fileID: 1539590394}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Building Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5952,7 +5952,7 @@ GameObject:
   - component: {fileID: 1647172369}
   - component: {fileID: 1647172371}
   - component: {fileID: 1647172370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
