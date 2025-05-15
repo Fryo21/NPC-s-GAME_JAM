@@ -135,7 +135,20 @@ public class GameManager : MonoBehaviour
             }
 
             spawnedNPCs.Add(npc);
+
+            // Register Npc in DroneManager 
+            if (dataHolder != null)
+            {
+                NPCData npcData = dataToUse[i % dataToUse.Count];
+                dataHolder.nPCData = npcData;
+
+                UpdateNPCVisuals(npc, npcData);
+
+                // Register in DroneManager
+                DroneManager.Instance?.RegisterNPC(dataHolder);
+            }
         }
+       
 
         Debug.Log($"Spawned {spawnedNPCs.Count} NPCs");
     }
@@ -161,10 +174,20 @@ public class GameManager : MonoBehaviour
     {
         foreach (GameObject npc in spawnedNPCs)
         {
+            // Unregister from DroneManager
+            NPCDataHolder dataHolder = npc.GetComponent<NPCDataHolder>();
             if (npc != null)
             {
-                Destroy(npc);
+                if (dataHolder != null)
+                {
+                    // Unregister from DroneManager
+                    DroneManager.Instance?.UnregisterNPC(dataHolder);
+                }
+                else Debug.LogError("NPCDataHolder not found on NPC prefab!");
             }
+            
+                Destroy(npc);
+            
         }
         spawnedNPCs.Clear();
     }
