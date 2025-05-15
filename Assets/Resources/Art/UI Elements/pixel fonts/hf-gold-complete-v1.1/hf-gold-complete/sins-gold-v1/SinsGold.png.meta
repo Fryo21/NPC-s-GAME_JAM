@@ -1,0 +1,4741 @@
+fileFormatVersion: 2
+guid: 467273290c5a68c4cb34a75468586ebe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1243449529150601164
+    second: SinsGold_0
+  - first:
+      213: -7676887617881670806
+    second: SinsGold_1
+  - first:
+      213: 7044760013399147832
+    second: SinsGold_2
+  - first:
+      213: 5387946878952027026
+    second: SinsGold_3
+  - first:
+      213: 2019756451398521720
+    second: SinsGold_4
+  - first:
+      213: -627041979502041428
+    second: SinsGold_5
+  - first:
+      213: -1557909700894856491
+    second: SinsGold_6
+  - first:
+      213: 5240982041696669506
+    second: SinsGold_7
+  - first:
+      213: -7563766467028470394
+    second: SinsGold_8
+  - first:
+      213: -5756040657037465762
+    second: SinsGold_9
+  - first:
+      213: 1341850877774888276
+    second: SinsGold_10
+  - first:
+      213: 3696495946989114366
+    second: SinsGold_11
+  - first:
+      213: 4800994270863607268
+    second: SinsGold_12
+  - first:
+      213: -2210309097449748019
+    second: SinsGold_13
+  - first:
+      213: -3319967175058538429
+    second: SinsGold_14
+  - first:
+      213: 1837224974444202174
+    second: SinsGold_15
+  - first:
+      213: 7400504780437452417
+    second: SinsGold_16
+  - first:
+      213: 2475662325955807817
+    second: SinsGold_17
+  - first:
+      213: 2216905892935801294
+    second: SinsGold_18
+  - first:
+      213: 1606437018085393436
+    second: SinsGold_19
+  - first:
+      213: -5888086026239312166
+    second: SinsGold_20
+  - first:
+      213: -5215645307197197171
+    second: SinsGold_21
+  - first:
+      213: -6319934901659896960
+    second: SinsGold_22
+  - first:
+      213: 753840709542602000
+    second: SinsGold_23
+  - first:
+      213: -6204953672073693246
+    second: SinsGold_24
+  - first:
+      213: -1517292016661126909
+    second: SinsGold_25
+  - first:
+      213: -8611381341307106331
+    second: SinsGold_26
+  - first:
+      213: 5634688715008897706
+    second: SinsGold_27
+  - first:
+      213: 5910150832055640913
+    second: SinsGold_28
+  - first:
+      213: 8789311953104035479
+    second: SinsGold_29
+  - first:
+      213: 4646664918521227964
+    second: SinsGold_30
+  - first:
+      213: 1974276452574954812
+    second: SinsGold_31
+  - first:
+      213: -4823950960217222213
+    second: SinsGold_32
+  - first:
+      213: 1450577131550853287
+    second: SinsGold_33
+  - first:
+      213: 1757588044194925112
+    second: SinsGold_34
+  - first:
+      213: -8437294660951079
+    second: SinsGold_35
+  - first:
+      213: 671517217468287266
+    second: SinsGold_36
+  - first:
+      213: -2912639125613422178
+    second: SinsGold_37
+  - first:
+      213: -2006976619657477402
+    second: SinsGold_38
+  - first:
+      213: 3937891296475244902
+    second: SinsGold_39
+  - first:
+      213: 2471557024509672279
+    second: SinsGold_40
+  - first:
+      213: -10159688879785420
+    second: SinsGold_41
+  - first:
+      213: -4305730090992580475
+    second: SinsGold_42
+  - first:
+      213: 6382359534148087920
+    second: SinsGold_43
+  - first:
+      213: 1455957411824022686
+    second: SinsGold_44
+  - first:
+      213: 1377619361890755455
+    second: SinsGold_45
+  - first:
+      213: -237854873741828047
+    second: SinsGold_46
+  - first:
+      213: 514681557081943853
+    second: SinsGold_47
+  - first:
+      213: -5750942495159210616
+    second: SinsGold_48
+  - first:
+      213: -6364244726574518007
+    second: SinsGold_49
+  - first:
+      213: 2418432525693672576
+    second: SinsGold_50
+  - first:
+      213: -3656690838911795725
+    second: SinsGold_51
+  - first:
+      213: -3163727832474886594
+    second: SinsGold_52
+  - first:
+      213: 7472039335226479213
+    second: SinsGold_53
+  - first:
+      213: 4536400818025319161
+    second: SinsGold_54
+  - first:
+      213: 6861744443052263965
+    second: SinsGold_55
+  - first:
+      213: -4266880100031103582
+    second: SinsGold_56
+  - first:
+      213: 2171274821530377778
+    second: SinsGold_57
+  - first:
+      213: -6805920244851365851
+    second: SinsGold_58
+  - first:
+      213: 8945015596706361463
+    second: SinsGold_59
+  - first:
+      213: -8027896985159918364
+    second: SinsGold_60
+  - first:
+      213: 8070105949315986260
+    second: SinsGold_61
+  - first:
+      213: 377445378610817131
+    second: SinsGold_62
+  - first:
+      213: -4656406543467122318
+    second: SinsGold_63
+  - first:
+      213: -764021741722653820
+    second: SinsGold_64
+  - first:
+      213: -2443131791225393534
+    second: SinsGold_65
+  - first:
+      213: 7741146094926740362
+    second: SinsGold_66
+  - first:
+      213: 434297401582762411
+    second: SinsGold_67
+  - first:
+      213: -6201174468175276043
+    second: SinsGold_68
+  - first:
+      213: -7717546035519162419
+    second: SinsGold_69
+  - first:
+      213: 5350077982915569726
+    second: SinsGold_70
+  - first:
+      213: -1025830129286266156
+    second: SinsGold_71
+  - first:
+      213: -3213044127310384031
+    second: SinsGold_72
+  - first:
+      213: -1889833846797840990
+    second: SinsGold_73
+  - first:
+      213: -5509952384271505261
+    second: SinsGold_74
+  - first:
+      213: -4213798720361750134
+    second: SinsGold_75
+  - first:
+      213: 6170165735871414789
+    second: SinsGold_76
+  - first:
+      213: -4923639192389601180
+    second: SinsGold_77
+  - first:
+      213: 649127091088531045
+    second: SinsGold_78
+  - first:
+      213: 2987556990365360259
+    second: SinsGold_79
+  - first:
+      213: 1769376368745347603
+    second: SinsGold_80
+  - first:
+      213: 7832732779276312625
+    second: SinsGold_81
+  - first:
+      213: 3654543501926952266
+    second: SinsGold_82
+  - first:
+      213: 4995446950347490193
+    second: SinsGold_83
+  - first:
+      213: -642271181172280034
+    second: SinsGold_84
+  - first:
+      213: -6932804389950096757
+    second: SinsGold_85
+  - first:
+      213: -6860249378283266958
+    second: SinsGold_86
+  - first:
+      213: 6706730176283150990
+    second: SinsGold_87
+  - first:
+      213: -371483347003962081
+    second: SinsGold_88
+  - first:
+      213: -6628577097303106278
+    second: SinsGold_89
+  - first:
+      213: -7577558345626424295
+    second: SinsGold_90
+  - first:
+      213: 7777794202985060648
+    second: SinsGold_91
+  - first:
+      213: 3098210182006930870
+    second: SinsGold_92
+  - first:
+      213: 1209469953439561183
+    second: SinsGold_93
+  - first:
+      213: 3318207325829174447
+    second: SinsGold_94
+  - first:
+      213: -4400065684700283748
+    second: SinsGold_95
+  - first:
+      213: -6313342231669453753
+    second: SinsGold_96
+  - first:
+      213: 9014447182729492672
+    second: SinsGold_97
+  - first:
+      213: -1443366564270006638
+    second: SinsGold_98
+  - first:
+      213: 4655252363512204218
+    second: SinsGold_99
+  - first:
+      213: -1422563641394200553
+    second: SinsGold_100
+  - first:
+      213: -4158467207679779991
+    second: SinsGold_101
+  - first:
+      213: 4114132197489003863
+    second: SinsGold_102
+  - first:
+      213: -7097839287522535630
+    second: SinsGold_103
+  - first:
+      213: -6462080751802878626
+    second: SinsGold_104
+  - first:
+      213: -4416070554464378721
+    second: SinsGold_105
+  - first:
+      213: -4447115421333106724
+    second: SinsGold_106
+  - first:
+      213: 9210831497515780190
+    second: SinsGold_107
+  - first:
+      213: -1631070956691692019
+    second: SinsGold_108
+  - first:
+      213: -6591969302356017424
+    second: SinsGold_109
+  - first:
+      213: -6018658891472385256
+    second: SinsGold_110
+  - first:
+      213: -5020125474447240425
+    second: SinsGold_111
+  - first:
+      213: 7657193559733921306
+    second: SinsGold_112
+  - first:
+      213: 8790342694354046936
+    second: SinsGold_113
+  - first:
+      213: 4067864634322914347
+    second: SinsGold_114
+  - first:
+      213: -3393380377699831092
+    second: SinsGold_115
+  - first:
+      213: 4146290915777765529
+    second: SinsGold_116
+  - first:
+      213: 1565124684529344522
+    second: SinsGold_117
+  - first:
+      213: -3135315151213926930
+    second: SinsGold_118
+  - first:
+      213: 4175876234960820602
+    second: SinsGold_119
+  - first:
+      213: 5844056883540351727
+    second: SinsGold_120
+  - first:
+      213: -4274476457404455990
+    second: SinsGold_121
+  - first:
+      213: -3419256480585823540
+    second: SinsGold_122
+  - first:
+      213: 6734351714053657633
+    second: SinsGold_123
+  - first:
+      213: 6952725316979915794
+    second: SinsGold_124
+  - first:
+      213: -1446035406907205102
+    second: SinsGold_125
+  - first:
+      213: 3749662239690399616
+    second: SinsGold_126
+  - first:
+      213: 5153770006583356894
+    second: SinsGold_127
+  - first:
+      213: -3433742872015723418
+    second: SinsGold_128
+  - first:
+      213: 5910646362440774872
+    second: SinsGold_129
+  - first:
+      213: -5575332119514811992
+    second: SinsGold_130
+  - first:
+      213: 2554594528215930100
+    second: SinsGold_131
+  - first:
+      213: 8592449319415785267
+    second: SinsGold_132
+  - first:
+      213: 7777646791032549726
+    second: SinsGold_133
+  - first:
+      213: -6564910734935402482
+    second: SinsGold_134
+  - first:
+      213: 809452678757056979
+    second: SinsGold_135
+  - first:
+      213: 614846875097573496
+    second: SinsGold_136
+  - first:
+      213: -3668455153161616002
+    second: SinsGold_137
+  - first:
+      213: -5871122250574731539
+    second: SinsGold_138
+  - first:
+      213: 2850921011495225461
+    second: SinsGold_139
+  - first:
+      213: 7673625715444063895
+    second: SinsGold_140
+  - first:
+      213: -2260543117813511011
+    second: SinsGold_141
+  - first:
+      213: 3936262084635981627
+    second: SinsGold_142
+  - first:
+      213: 9200207278089168531
+    second: SinsGold_143
+  - first:
+      213: 4047836918748832315
+    second: SinsGold_144
+  - first:
+      213: -6419717109037147780
+    second: SinsGold_145
+  - first:
+      213: -4390268834538644942
+    second: SinsGold_146
+  - first:
+      213: 3401511780154431016
+    second: SinsGold_147
+  - first:
+      213: -6308089863029071826
+    second: SinsGold_148
+  - first:
+      213: 1536177116439729410
+    second: SinsGold_149
+  - first:
+      213: -531057123449048018
+    second: SinsGold_150
+  - first:
+      213: -5456841644455832917
+    second: SinsGold_151
+  - first:
+      213: -4088511328882629585
+    second: SinsGold_152
+  - first:
+      213: -1513997032974147549
+    second: SinsGold_153
+  - first:
+      213: -7630205816770016181
+    second: SinsGold_154
+  - first:
+      213: 2550083551481798108
+    second: SinsGold_155
+  - first:
+      213: -8651416864590207801
+    second: SinsGold_156
+  - first:
+      213: -6455530030656912904
+    second: SinsGold_157
+  - first:
+      213: 357813656454318756
+    second: SinsGold_158
+  - first:
+      213: -456659285324044245
+    second: SinsGold_159
+  - first:
+      213: 7258060655860854239
+    second: SinsGold_160
+  - first:
+      213: 8913376591895947976
+    second: SinsGold_161
+  - first:
+      213: -1758047686184329058
+    second: SinsGold_162
+  - first:
+      213: 5402710528129296513
+    second: SinsGold_163
+  - first:
+      213: -1663589575595077501
+    second: SinsGold_164
+  - first:
+      213: -8050122896312717228
+    second: SinsGold_165
+  - first:
+      213: -3918335321127307584
+    second: SinsGold_166
+  - first:
+      213: 651836335585338656
+    second: SinsGold_167
+  - first:
+      213: 7995684712419919881
+    second: SinsGold_168
+  - first:
+      213: 4291073917562496296
+    second: SinsGold_169
+  - first:
+      213: -7081606840267855433
+    second: SinsGold_170
+  - first:
+      213: 5960544979951743436
+    second: SinsGold_171
+  - first:
+      213: -8371646900791093885
+    second: SinsGold_172
+  - first:
+      213: -8106282083056005325
+    second: SinsGold_173
+  - first:
+      213: 2186414704112826563
+    second: SinsGold_174
+  - first:
+      213: 654880560675987265
+    second: SinsGold_175
+  - first:
+      213: -4979446639617711586
+    second: SinsGold_176
+  - first:
+      213: 2481887170834964614
+    second: SinsGold_177
+  - first:
+      213: 5580247455373379063
+    second: SinsGold_178
+  - first:
+      213: -856317652764918541
+    second: SinsGold_179
+  - first:
+      213: -2473360531951413669
+    second: SinsGold_180
+  - first:
+      213: -5557399962814318944
+    second: SinsGold_181
+  - first:
+      213: 5490861089754696090
+    second: SinsGold_182
+  - first:
+      213: -1922271511949049999
+    second: SinsGold_183
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SinsGold_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7f52932ce914110800000000000000
+      internalID: 1243449529150601164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b719ba267367590800000000000000
+      internalID: -7676887617881670806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835488e48e304c160800000000000000
+      internalID: 7044760013399147832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2933c9cc325d5ca40800000000000000
+      internalID: 5387946878952027026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873996a9acd970c10800000000000000
+      internalID: 2019756451398521720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6e58054ac4c47f0800000000000000
+      internalID: -627041979502041428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dae6069161316ae0800000000000000
+      internalID: -1557909700894856491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f08852665bbb840800000000000000
+      internalID: 5240982041696669506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685b1c8097a180790800000000000000
+      internalID: -7563766467028470394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57639ce48f6e10b0800000000000000
+      internalID: -5756040657037465762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d715f83463f9210800000000000000
+      internalID: 1341850877774888276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef315f99a779c4330800000000000000
+      internalID: 3696495946989114366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5c2834ade80a240800000000000000
+      internalID: 4800994270863607268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc981ba26976351e0800000000000000
+      internalID: -2210309097449748019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340cda8b17b1de1d0800000000000000
+      internalID: -3319967175058538429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8093651622f7910800000000000000
+      internalID: 1837224974444202174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186fd8463efd3b660800000000000000
+      internalID: 7400504780437452417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ac962d4c15b5220800000000000000
+      internalID: 2475662325955807817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec998e8f92804ce10800000000000000
+      internalID: 2216905892935801294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c148409e4f53b4610800000000000000
+      internalID: 1606437018085393436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_20
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade701f94f0594ea0800000000000000
+      internalID: -5888086026239312166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_21
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84f31e0a3e4e97b0800000000000000
+      internalID: -5215645307197197171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083f7fef0b41b48a0800000000000000
+      internalID: -6319934901659896960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_23
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015e38d912e267a00800000000000000
+      internalID: 753840709542602000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7ba40b28393e9a0800000000000000
+      internalID: -6204953672073693246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301a06623fe71fae0800000000000000
+      internalID: -1517292016661126909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb86fd8b4a3e7880800000000000000
+      internalID: -8611381341307106331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2f10e488f623e40800000000000000
+      internalID: 5634688715008897706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_28
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153e7a15ed2150250800000000000000
+      internalID: 5910150832055640913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_29
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e5cd057a8e9f970800000000000000
+      internalID: 8789311953104035479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba2ab2df154c7040800000000000000
+      internalID: 4646664918521227964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35062439f9066b10800000000000000
+      internalID: 1974276452574954812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_32
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3195af822ed0db0800000000000000
+      internalID: -4823950960217222213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_33
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8c465373c712410800000000000000
+      internalID: 1450577131550853287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_34
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a46bb9305346810800000000000000
+      internalID: 1757588044194925112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_35
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d36ed0435602eff0800000000000000
+      internalID: -8437294660951079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_36
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22981c7f955b15900800000000000000
+      internalID: 671517217468287266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9958e6a52a3497d0800000000000000
+      internalID: -2912639125613422178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_38
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e24dc8d569c524e0800000000000000
+      internalID: -2006976619657477402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_39
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6696282354336a630800000000000000
+      internalID: 3937891296475244902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b3508d40cbc4220800000000000000
+      internalID: 2471557024509672279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_41
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43aba4911d7ebdff0800000000000000
+      internalID: -10159688879785420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_42
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5884da38b49fe34c0800000000000000
+      internalID: -4305730090992580475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_43
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07079bd5e22b29850800000000000000
+      internalID: 6382359534148087920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_44
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e943ed35d89943410800000000000000
+      internalID: 1455957411824022686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_45
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73e23db2894e1310800000000000000
+      internalID: 1377619361890755455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_46
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130e586a048f2bcf0800000000000000
+      internalID: -237854873741828047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_47
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f60563624842700800000000000000
+      internalID: 514681557081943853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_48
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d265c354c8030b0800000000000000
+      internalID: -5750942495159210616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_49
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9017fd0f329ada7a0800000000000000
+      internalID: -6364244726574518007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_50
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cd837919fff8120800000000000000
+      internalID: 2418432525693672576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_51
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdbc355e03d04dc0800000000000000
+      internalID: -3656690838911795725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_52
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e515b6c4e2814d0800000000000000
+      internalID: -3163727832474886594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d629be3df2402b760800000000000000
+      internalID: 7472039335226479213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_54
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fac035528884fe30800000000000000
+      internalID: 4536400818025319161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_55
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a04a34730d93f50800000000000000
+      internalID: 6861744443052263965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_56
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad767ae72ff8c4c0800000000000000
+      internalID: -4266880100031103582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_57
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e511f32fae12e10800000000000000
+      internalID: 2171274821530377778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_58
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528aefbb8938c81a0800000000000000
+      internalID: -6805920244851365851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_59
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770f200ea44132c70800000000000000
+      internalID: 8945015596706361463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_60
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec1d12c93e279090800000000000000
+      internalID: -8027896985159918364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_61
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453feb88a96ceff60800000000000000
+      internalID: 8070105949315986260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_62
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68e5327294fc3500800000000000000
+      internalID: 377445378610817131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_63
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27176de5bee116fb0800000000000000
+      internalID: -4656406543467122318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_64
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b22fb1646a565f0800000000000000
+      internalID: -764021741722653820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_65
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eeb848490481ed0800000000000000
+      internalID: -2443131791225393534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_66
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bb286eb531e6b60800000000000000
+      internalID: 7741146094926740362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_67
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9373c8f2fe60600800000000000000
+      internalID: 434297401582762411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_68
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7d03a2da001f9a0800000000000000
+      internalID: -6201174468175276043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_69
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7f72f15c4c5e490800000000000000
+      internalID: -7717546035519162419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_70
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38225c549b4f3a40800000000000000
+      internalID: 5350077982915569726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_71
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2cff7bee483c1f0800000000000000
+      internalID: -1025830129286266156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_72
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1647200c369f863d0800000000000000
+      internalID: -3213044127310384031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_73
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adca1d0126f5c5e0800000000000000
+      internalID: -1889833846797840990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_74
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3982e2edf77b883b0800000000000000
+      internalID: -5509952384271505261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_75
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81a7d5b3649585c0800000000000000
+      internalID: -4213798720361750134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_76
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50207ebbb05d0a550800000000000000
+      internalID: 6170165735871414789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_77
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4683d67bd38bbabb0800000000000000
+      internalID: -4923639192389601180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_78
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e1a6e66a9220900800000000000000
+      internalID: 649127091088531045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_79
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38066f4014fe57920800000000000000
+      internalID: 2987556990365360259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_80
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a790dce661e8810800000000000000
+      internalID: 1769376368745347603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_81
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130a25196f473bc60800000000000000
+      internalID: 7832732779276312625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_82
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d6190d3fb87b230800000000000000
+      internalID: 3654543501926952266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_83
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19345c9c884635540800000000000000
+      internalID: 4995446950347490193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_84
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1571cc73c13617f0800000000000000
+      internalID: -642271181172280034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_85
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a71cf832bb9cf90800000000000000
+      internalID: -6932804389950096757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_86
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cd4d0a98f7bc0a0800000000000000
+      internalID: -6860249378283266958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_87
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a00c1cf87131d50800000000000000
+      internalID: 6706730176283150990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_88
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d0bd53dd938daf0800000000000000
+      internalID: -371483347003962081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_89
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d55fcef309204a0800000000000000
+      internalID: -6628577097303106278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_90
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ce32015da17d690800000000000000
+      internalID: -7577558345626424295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_91
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829540d7e9640fb60800000000000000
+      internalID: 7777794202985060648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_92
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd750adebd0ffa20800000000000000
+      internalID: 3098210182006930870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_93
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5f54db386e8c010800000000000000
+      internalID: 1209469953439561183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_94
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa495237bf3ac0e20800000000000000
+      internalID: 3318207325829174447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_95
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cbd038293dfe2c0800000000000000
+      internalID: -4400065684700283748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_96
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cced790b08268a0800000000000000
+      internalID: -6313342231669453753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_97
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8bc1db3ffb91d70800000000000000
+      internalID: 9014447182729492672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_98
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e9200d1c128fbe0800000000000000
+      internalID: -1443366564270006638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_99
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb41fa2c57ca9040800000000000000
+      internalID: 4655252363512204218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_100
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710005cb7e9024ce0800000000000000
+      internalID: -1422563641394200553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_101
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bd22c6b182a46c0800000000000000
+      internalID: -4158467207679779991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_102
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d445e9f65581930800000000000000
+      internalID: 4114132197489003863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_103
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237586226c86f7d90800000000000000
+      internalID: -7097839287522535630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_104
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5576e63bc31256a0800000000000000
+      internalID: -6462080751802878626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_105
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90a6126a37f6b2c0800000000000000
+      internalID: -4416070554464378721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_106
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf474c061ca842c0800000000000000
+      internalID: -4447115421333106724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_107
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e584867227273df70800000000000000
+      internalID: 9210831497515780190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_108
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d066fee4b954d59e0800000000000000
+      internalID: -1631070956691692019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_109
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe3ac268de9484a0800000000000000
+      internalID: -6591969302356017424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_110
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bca8d50ad697ca0800000000000000
+      internalID: -6018658891472385256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_111
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713deaf8a7ee45ab0800000000000000
+      internalID: -5020125474447240425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_112
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16695819f0d34a60800000000000000
+      internalID: 7657193559733921306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_113
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df4ce67b129df970800000000000000
+      internalID: 8790342694354046936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_114
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c013b1555f37830800000000000000
+      internalID: 4067864634322914347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_115
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2bb6f768a48e0d0800000000000000
+      internalID: -3393380377699831092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_116
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990ec52be959a8930800000000000000
+      internalID: 4146290915777765529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_117
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a002192bb9078b510800000000000000
+      internalID: 1565124684529344522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_118
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee56ef84b7f1d74d0800000000000000
+      internalID: -3135315151213926930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_119
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79d5da9f41b3f930800000000000000
+      internalID: 4175876234960820602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_120
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea599eb5c24a1150800000000000000
+      internalID: 5844056883540351727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_121
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac323a32f420ea4c0800000000000000
+      internalID: -4274476457404455990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_122
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccacabec85c5c80d0800000000000000
+      internalID: -3419256480585823540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_123
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12416bc2439357d50800000000000000
+      internalID: 6734351714053657633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_124
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cf373b6da0d7060800000000000000
+      internalID: 6952725316979915794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_125
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a98a67576aeebe0800000000000000
+      internalID: -1446035406907205102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_126
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f1170c0f9790430800000000000000
+      internalID: 3749662239690399616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_127
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edda670e38ed58740800000000000000
+      internalID: 5153770006583356894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_128
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6642977fc05e850d0800000000000000
+      internalID: -3433742872015723418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_129
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4bc3afc85d60250800000000000000
+      internalID: 5910646362440774872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_130
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 2
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a17e770af070a2b0800000000000000
+      internalID: -5575332119514811992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_131
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f49777403eb37320800000000000000
+      internalID: 2554594528215930100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_132
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337235a91238e3770800000000000000
+      internalID: 8592449319415785267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_133
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51b3f77c80cfeb60800000000000000
+      internalID: 7777646791032549726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_134
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08d60e0870c4e4a0800000000000000
+      internalID: -6564910734935402482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_135
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d18dc33ce0cb3b00800000000000000
+      internalID: 809452678757056979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_136
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878237da9ff588800800000000000000
+      internalID: 614846875097573496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_137
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75c9597977071dc0800000000000000
+      internalID: -3668455153161616002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_138
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6e99d6b65958ea0800000000000000
+      internalID: -5871122250574731539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_139
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578cedc1e81809720800000000000000
+      internalID: 2850921011495225461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_140
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e985c7ee13e7a60800000000000000
+      internalID: 7673625715444063895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_141
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c854fd200f0a0e0800000000000000
+      internalID: -2260543117813511011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_142
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37f091c28960a630800000000000000
+      internalID: 3936262084635981627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_143
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396e77e46c3bdaf70800000000000000
+      internalID: 9200207278089168531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_144
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b326cb23b3ecc2830800000000000000
+      internalID: 4047836918748832315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_145
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79d75d6d4598e6a0800000000000000
+      internalID: -6419717109037147780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_146
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a1bd071c1a213c0800000000000000
+      internalID: -4390268834538644942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_147
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826596b21f8943f20800000000000000
+      internalID: 3401511780154431016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_148
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20e8e6f0b92578a0800000000000000
+      internalID: -6308089863029071826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_149
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2055979c2f8915510800000000000000
+      internalID: 1536177116439729410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_150
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24f0612c5e41a8f0800000000000000
+      internalID: -531057123449048018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_151
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2d6aa9f676544b0800000000000000
+      internalID: -5456841644455832917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_152
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f246ac5bb90b247c0800000000000000
+      internalID: -4088511328882629585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_153
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320a49258b33dfae0800000000000000
+      internalID: -1513997032974147549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_154
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ccd487c301c1690800000000000000
+      internalID: -7630205816770016181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_155
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd93a9aa77b36320800000000000000
+      internalID: 2550083551481798108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_156
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4e646e23effe780800000000000000
+      internalID: -8651416864590207801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_157
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f104d5d3a95966a0800000000000000
+      internalID: -6455530030656912904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_158
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa4eb0ff9537f400800000000000000
+      internalID: 357813656454318756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_159
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2860eaacce99a9f0800000000000000
+      internalID: -456659285324044245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_160
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd23de26bfc9b460800000000000000
+      internalID: 7258060655860854239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_161
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca6d3509cca2bb70800000000000000
+      internalID: 8913376591895947976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_162
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9029c6a1f82a97e0800000000000000
+      internalID: -1758047686184329058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_163
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188e86db9984afa40800000000000000
+      internalID: 5402710528129296513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_164
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380dc96581eb9e8e0800000000000000
+      internalID: -1663589575595077501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_165
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450ba0f80e7384090800000000000000
+      internalID: -8050122896312717228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_166
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6375129c64f99c0800000000000000
+      internalID: -3918335321127307584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_167
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025a14291b9cb0900800000000000000
+      internalID: 651836335585338656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_168
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9088fcb02e066fe60800000000000000
+      internalID: 7995684712419919881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_169
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825a1413ef4fc8b30800000000000000
+      internalID: 4291073917562496296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_170
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9abd6491419bd90800000000000000
+      internalID: -7081606840267855433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_171
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1f2c5341c18b250800000000000000
+      internalID: 5960544979951743436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_172
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385d855af7fe1db80800000000000000
+      internalID: -8371646900791093885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_173
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f4556f463b08f80800000000000000
+      internalID: -8106282083056005325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_174
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8f55ad694b75e10800000000000000
+      internalID: 2186414704112826563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_175
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f9665766a961900800000000000000
+      internalID: 654880560675987265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_176
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12e29bd9a375eab0800000000000000
+      internalID: -4979446639617711586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_177
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680a7367b3f617220800000000000000
+      internalID: 2481887170834964614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_178
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5ce48ce75017d40800000000000000
+      internalID: 5580247455373379063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_179
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcfc0cb1afbd14f0800000000000000
+      internalID: -856317652764918541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_180
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56909b53bbdcadd0800000000000000
+      internalID: -2473360531951413669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_181
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6fead9d2620e2b0800000000000000
+      internalID: -5557399962814318944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_182
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99c7ddb115733c40800000000000000
+      internalID: 5490861089754696090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SinsGold_183
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f7c689e38b255e0800000000000000
+      internalID: -1922271511949049999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

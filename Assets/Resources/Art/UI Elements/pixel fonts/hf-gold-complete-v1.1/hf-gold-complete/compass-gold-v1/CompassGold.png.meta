@@ -1,0 +1,5591 @@
+fileFormatVersion: 2
+guid: 9becad0c987b17643a6415e2da91f0d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7998539181727634484
+    second: CompassGold_0
+  - first:
+      213: -7191705388948984759
+    second: CompassGold_1
+  - first:
+      213: -297833941924839461
+    second: CompassGold_2
+  - first:
+      213: 4254628724937490736
+    second: CompassGold_3
+  - first:
+      213: 404691673357139879
+    second: CompassGold_4
+  - first:
+      213: -9139825569501940897
+    second: CompassGold_5
+  - first:
+      213: 8797443753428662414
+    second: CompassGold_6
+  - first:
+      213: 5855727111338430585
+    second: CompassGold_7
+  - first:
+      213: -5125329491304235164
+    second: CompassGold_8
+  - first:
+      213: -4409252202255892409
+    second: CompassGold_9
+  - first:
+      213: -8153339175786121388
+    second: CompassGold_10
+  - first:
+      213: -5196337940982945992
+    second: CompassGold_11
+  - first:
+      213: 6693757176574935139
+    second: CompassGold_12
+  - first:
+      213: 395355965906409104
+    second: CompassGold_13
+  - first:
+      213: 2185471714910100723
+    second: CompassGold_14
+  - first:
+      213: 4009280992954840469
+    second: CompassGold_15
+  - first:
+      213: 8800939958423567643
+    second: CompassGold_16
+  - first:
+      213: -8632432840448951920
+    second: CompassGold_17
+  - first:
+      213: 4662864621018357837
+    second: CompassGold_18
+  - first:
+      213: 8596533761320000743
+    second: CompassGold_19
+  - first:
+      213: 968992375550375118
+    second: CompassGold_20
+  - first:
+      213: 7683620721227918095
+    second: CompassGold_21
+  - first:
+      213: 7625899649864922550
+    second: CompassGold_22
+  - first:
+      213: 3608438933243678385
+    second: CompassGold_23
+  - first:
+      213: -1742933501766942620
+    second: CompassGold_24
+  - first:
+      213: -494749849602608464
+    second: CompassGold_25
+  - first:
+      213: 2523129833809828945
+    second: CompassGold_26
+  - first:
+      213: 8036245385973730996
+    second: CompassGold_27
+  - first:
+      213: 8339035410295215335
+    second: CompassGold_28
+  - first:
+      213: 2221036222095692596
+    second: CompassGold_29
+  - first:
+      213: -678235315633648826
+    second: CompassGold_30
+  - first:
+      213: -2679044469179790406
+    second: CompassGold_31
+  - first:
+      213: 7333410302685319844
+    second: CompassGold_32
+  - first:
+      213: -8143170310703505892
+    second: CompassGold_33
+  - first:
+      213: -4178172558220334613
+    second: CompassGold_34
+  - first:
+      213: -4343960639967170374
+    second: CompassGold_35
+  - first:
+      213: -5655171821404966363
+    second: CompassGold_36
+  - first:
+      213: 4672170387298985580
+    second: CompassGold_37
+  - first:
+      213: -622475996671725786
+    second: CompassGold_38
+  - first:
+      213: 2583361310979885548
+    second: CompassGold_39
+  - first:
+      213: 6080118277059888215
+    second: CompassGold_40
+  - first:
+      213: 9145384472809524953
+    second: CompassGold_41
+  - first:
+      213: 7468881842436051912
+    second: CompassGold_42
+  - first:
+      213: 7719342804040317830
+    second: CompassGold_43
+  - first:
+      213: -9019389343169608180
+    second: CompassGold_44
+  - first:
+      213: 4382807577169503249
+    second: CompassGold_45
+  - first:
+      213: 2648867474870396098
+    second: CompassGold_46
+  - first:
+      213: 719237453988118166
+    second: CompassGold_47
+  - first:
+      213: -557736675630529944
+    second: CompassGold_48
+  - first:
+      213: 4035498849344708033
+    second: CompassGold_49
+  - first:
+      213: -2180551456249609433
+    second: CompassGold_50
+  - first:
+      213: -6958896225955886982
+    second: CompassGold_51
+  - first:
+      213: 6468093120271632094
+    second: CompassGold_52
+  - first:
+      213: -5082110536971829903
+    second: CompassGold_53
+  - first:
+      213: 4890097642750893069
+    second: CompassGold_54
+  - first:
+      213: 7028473097686404625
+    second: CompassGold_55
+  - first:
+      213: -1176673660272837047
+    second: CompassGold_56
+  - first:
+      213: -4749432332468330421
+    second: CompassGold_57
+  - first:
+      213: 4059289784084727377
+    second: CompassGold_58
+  - first:
+      213: -7048487692117045038
+    second: CompassGold_59
+  - first:
+      213: 3599209343613052670
+    second: CompassGold_60
+  - first:
+      213: -3568199972185824154
+    second: CompassGold_61
+  - first:
+      213: 7012296888665443717
+    second: CompassGold_62
+  - first:
+      213: 2170002802216030498
+    second: CompassGold_63
+  - first:
+      213: 8938678791950166918
+    second: CompassGold_64
+  - first:
+      213: 6612936925674288419
+    second: CompassGold_65
+  - first:
+      213: 576310813475606982
+    second: CompassGold_66
+  - first:
+      213: 6255144018808763306
+    second: CompassGold_67
+  - first:
+      213: 444429560196318277
+    second: CompassGold_68
+  - first:
+      213: -3171304967866605813
+    second: CompassGold_69
+  - first:
+      213: 7192042098295022038
+    second: CompassGold_70
+  - first:
+      213: -5216782512145497750
+    second: CompassGold_71
+  - first:
+      213: -2815118622645348501
+    second: CompassGold_72
+  - first:
+      213: -435199131029685997
+    second: CompassGold_73
+  - first:
+      213: -1944565728815519217
+    second: CompassGold_74
+  - first:
+      213: 7680352362905467711
+    second: CompassGold_75
+  - first:
+      213: 9070747943027616078
+    second: CompassGold_76
+  - first:
+      213: 5379811201658569530
+    second: CompassGold_77
+  - first:
+      213: 2625909003814516462
+    second: CompassGold_78
+  - first:
+      213: 6018504893383347134
+    second: CompassGold_79
+  - first:
+      213: 7653507608595363372
+    second: CompassGold_80
+  - first:
+      213: -563789853140810437
+    second: CompassGold_81
+  - first:
+      213: 40816649099533033
+    second: CompassGold_82
+  - first:
+      213: 5352970628620931214
+    second: CompassGold_83
+  - first:
+      213: 360249835533453369
+    second: CompassGold_84
+  - first:
+      213: 1255718041565372405
+    second: CompassGold_85
+  - first:
+      213: -2184287424535551600
+    second: CompassGold_86
+  - first:
+      213: -5889447237059627105
+    second: CompassGold_87
+  - first:
+      213: -8257278050359463584
+    second: CompassGold_88
+  - first:
+      213: 3999696001830237857
+    second: CompassGold_89
+  - first:
+      213: 8155257230875259545
+    second: CompassGold_90
+  - first:
+      213: -6166140582934972211
+    second: CompassGold_91
+  - first:
+      213: 8415810471910104071
+    second: CompassGold_92
+  - first:
+      213: 1999348009629743276
+    second: CompassGold_93
+  - first:
+      213: 5632276774373565900
+    second: CompassGold_94
+  - first:
+      213: -1781321177871113860
+    second: CompassGold_95
+  - first:
+      213: 717845446024053947
+    second: CompassGold_96
+  - first:
+      213: -7768286226463352238
+    second: CompassGold_97
+  - first:
+      213: 4873327072712880805
+    second: CompassGold_98
+  - first:
+      213: -2439774259826594199
+    second: CompassGold_99
+  - first:
+      213: 7315101566901088311
+    second: CompassGold_100
+  - first:
+      213: -5098038318079617352
+    second: CompassGold_101
+  - first:
+      213: -1586476773288179983
+    second: CompassGold_102
+  - first:
+      213: -577137511827044892
+    second: CompassGold_103
+  - first:
+      213: -5221183643898872311
+    second: CompassGold_104
+  - first:
+      213: 1085749067351142932
+    second: CompassGold_105
+  - first:
+      213: 1505319761226661008
+    second: CompassGold_106
+  - first:
+      213: -915208551143938100
+    second: CompassGold_107
+  - first:
+      213: 2422183829119319102
+    second: CompassGold_108
+  - first:
+      213: -5026825026074686611
+    second: CompassGold_109
+  - first:
+      213: -8940099822484372219
+    second: CompassGold_110
+  - first:
+      213: 8392464003447594717
+    second: CompassGold_111
+  - first:
+      213: 3878965372497974814
+    second: CompassGold_112
+  - first:
+      213: -3161220767485460243
+    second: CompassGold_113
+  - first:
+      213: 801680547389367340
+    second: CompassGold_114
+  - first:
+      213: 6721762518231530462
+    second: CompassGold_115
+  - first:
+      213: -3396047042238531705
+    second: CompassGold_116
+  - first:
+      213: 6863656546790188466
+    second: CompassGold_117
+  - first:
+      213: -1603822212993878009
+    second: CompassGold_118
+  - first:
+      213: -3185252125234292489
+    second: CompassGold_119
+  - first:
+      213: 8880956556537026706
+    second: CompassGold_120
+  - first:
+      213: -267580254547124068
+    second: CompassGold_121
+  - first:
+      213: 8028538126415230910
+    second: CompassGold_122
+  - first:
+      213: -5701996647551611157
+    second: CompassGold_123
+  - first:
+      213: 7155151001572935525
+    second: CompassGold_124
+  - first:
+      213: 3773969739228393997
+    second: CompassGold_125
+  - first:
+      213: -1023218893891288126
+    second: CompassGold_126
+  - first:
+      213: -9002967023713573833
+    second: CompassGold_127
+  - first:
+      213: -8927207117549788691
+    second: CompassGold_128
+  - first:
+      213: 5835769518785953029
+    second: CompassGold_129
+  - first:
+      213: -8480120219557516593
+    second: CompassGold_130
+  - first:
+      213: 2101680761601522241
+    second: CompassGold_131
+  - first:
+      213: 7903905214718182454
+    second: CompassGold_132
+  - first:
+      213: 4800190835881975163
+    second: CompassGold_133
+  - first:
+      213: 3469067878471603164
+    second: CompassGold_134
+  - first:
+      213: -6483702085119872936
+    second: CompassGold_135
+  - first:
+      213: 6313727205850797532
+    second: CompassGold_136
+  - first:
+      213: 1056628895161921178
+    second: CompassGold_137
+  - first:
+      213: -1937282673088150143
+    second: CompassGold_138
+  - first:
+      213: 332713425358214439
+    second: CompassGold_139
+  - first:
+      213: -5501334855753170651
+    second: CompassGold_140
+  - first:
+      213: -7176632478257286048
+    second: CompassGold_141
+  - first:
+      213: 1090857185326754882
+    second: CompassGold_142
+  - first:
+      213: 4302115082770161151
+    second: CompassGold_143
+  - first:
+      213: 6736657287807330422
+    second: CompassGold_144
+  - first:
+      213: -4213884150479894102
+    second: CompassGold_145
+  - first:
+      213: 1295777001001519709
+    second: CompassGold_146
+  - first:
+      213: -1820398341131645561
+    second: CompassGold_147
+  - first:
+      213: 8135759339093309824
+    second: CompassGold_148
+  - first:
+      213: 7162610530211606705
+    second: CompassGold_149
+  - first:
+      213: 6924592949089143998
+    second: CompassGold_150
+  - first:
+      213: 8768854331585251150
+    second: CompassGold_151
+  - first:
+      213: -9068810071449675263
+    second: CompassGold_152
+  - first:
+      213: -7475130667888023723
+    second: CompassGold_153
+  - first:
+      213: 2399984983602632627
+    second: CompassGold_154
+  - first:
+      213: 4031066348378246488
+    second: CompassGold_155
+  - first:
+      213: -6577746711883152955
+    second: CompassGold_156
+  - first:
+      213: -6391581016314799411
+    second: CompassGold_157
+  - first:
+      213: 3491370173243407572
+    second: CompassGold_158
+  - first:
+      213: -3143225675526630738
+    second: CompassGold_159
+  - first:
+      213: 381425734182539746
+    second: CompassGold_160
+  - first:
+      213: 100646607297066889
+    second: CompassGold_161
+  - first:
+      213: 1848017756481794103
+    second: CompassGold_162
+  - first:
+      213: -1681490318638041249
+    second: CompassGold_163
+  - first:
+      213: 3526348833831563027
+    second: CompassGold_164
+  - first:
+      213: 8920196468731003965
+    second: CompassGold_165
+  - first:
+      213: 4802348598659557233
+    second: CompassGold_166
+  - first:
+      213: 1032783348203345004
+    second: CompassGold_167
+  - first:
+      213: -6015129636155863459
+    second: CompassGold_168
+  - first:
+      213: 5939346200467904246
+    second: CompassGold_169
+  - first:
+      213: -8971544708093269571
+    second: CompassGold_170
+  - first:
+      213: -7062584828563794999
+    second: CompassGold_171
+  - first:
+      213: -4820477699565317226
+    second: CompassGold_172
+  - first:
+      213: -5492372836547298682
+    second: CompassGold_173
+  - first:
+      213: 5515481542714418610
+    second: CompassGold_174
+  - first:
+      213: 8500457202893354359
+    second: CompassGold_175
+  - first:
+      213: 6127582931820553541
+    second: CompassGold_176
+  - first:
+      213: 4065912889422479671
+    second: CompassGold_177
+  - first:
+      213: -1864597980443916272
+    second: CompassGold_178
+  - first:
+      213: -3530231036274852614
+    second: CompassGold_179
+  - first:
+      213: -6787709136567529354
+    second: CompassGold_180
+  - first:
+      213: 8459512997868077187
+    second: CompassGold_181
+  - first:
+      213: -5596341100018235024
+    second: CompassGold_182
+  - first:
+      213: -441355970085990713
+    second: CompassGold_183
+  - first:
+      213: 455779191253191665
+    second: CompassGold_184
+  - first:
+      213: 243549236978049540
+    second: CompassGold_185
+  - first:
+      213: 2826538615289666099
+    second: CompassGold_186
+  - first:
+      213: 3413337279682246249
+    second: CompassGold_187
+  - first:
+      213: -8610389188690104102
+    second: CompassGold_188
+  - first:
+      213: 9057830377811203425
+    second: CompassGold_189
+  - first:
+      213: -2038885270838733879
+    second: CompassGold_190
+  - first:
+      213: 8816818257382147403
+    second: CompassGold_191
+  - first:
+      213: -4436151769897447203
+    second: CompassGold_192
+  - first:
+      213: -859138689853756108
+    second: CompassGold_193
+  - first:
+      213: -605315660155152897
+    second: CompassGold_194
+  - first:
+      213: -9003689337320412129
+    second: CompassGold_195
+  - first:
+      213: -1030638078586416307
+    second: CompassGold_196
+  - first:
+      213: 8640597420711985185
+    second: CompassGold_197
+  - first:
+      213: 85361301940427307
+    second: CompassGold_198
+  - first:
+      213: -5087442842387810730
+    second: CompassGold_199
+  - first:
+      213: -3971945767219268208
+    second: CompassGold_200
+  - first:
+      213: -3842785005341005145
+    second: CompassGold_201
+  - first:
+      213: 987278778247638711
+    second: CompassGold_202
+  - first:
+      213: 100615228162764325
+    second: CompassGold_203
+  - first:
+      213: -6984109841228771821
+    second: CompassGold_204
+  - first:
+      213: 1861653824147995850
+    second: CompassGold_205
+  - first:
+      213: 8048850668082072340
+    second: CompassGold_206
+  - first:
+      213: 3549784616276669084
+    second: CompassGold_207
+  - first:
+      213: -6352729434391224591
+    second: CompassGold_208
+  - first:
+      213: 2227713474085091740
+    second: CompassGold_209
+  - first:
+      213: -4550904132299600638
+    second: CompassGold_210
+  - first:
+      213: 230552115096507639
+    second: CompassGold_211
+  - first:
+      213: -7051217567649868555
+    second: CompassGold_212
+  - first:
+      213: 7329931774859656275
+    second: CompassGold_213
+  - first:
+      213: 6435625560630959098
+    second: CompassGold_214
+  - first:
+      213: 6468543539558169097
+    second: CompassGold_215
+  - first:
+      213: -6221219498642949769
+    second: CompassGold_216
+  - first:
+      213: -3568051492724185805
+    second: CompassGold_217
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CompassGold_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccba4170efa7ff090800000000000000
+      internalID: -7998539181727634484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cee625d0ee13c90800000000000000
+      internalID: -7191705388948984759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdff3899b91eddbf0800000000000000
+      internalID: -297833941924839461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0318219884a7b0b30800000000000000
+      internalID: 4254628724937490736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afb20acee0cd9500800000000000000
+      internalID: 404691673357139879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53fdc4c111d82180800000000000000
+      internalID: -9139825569501940897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88389e9b7cc61a70800000000000000
+      internalID: 8797443753428662414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97093f468c8b34150800000000000000
+      internalID: 5855727111338430585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 3
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f3af99bfb2fd8b0800000000000000
+      internalID: -5125329491304235164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740cd67bb703fc2c0800000000000000
+      internalID: -4409252202255892409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457fdf5c73589de80800000000000000
+      internalID: -8153339175786121388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837a3de8c26e2e7b0800000000000000
+      internalID: -5196337940982945992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 3
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3608872efa005ec50800000000000000
+      internalID: 6693757176574935139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096dea308269c7500800000000000000
+      internalID: 395355965906409104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc51e112fa545e10800000000000000
+      internalID: 2185471714910100723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5957ccd22d3d3a730800000000000000
+      internalID: 4009280992954840469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1db0674348332a70800000000000000
+      internalID: 8800939958423567643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099bf957110733880800000000000000
+      internalID: -8632432840448951920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40298bfaa2d5b040800000000000000
+      internalID: 4662864621018357837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec9127d8e50d4770800000000000000
+      internalID: 8596533761320000743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_20
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4fdbe7e6d827d00800000000000000
+      internalID: 968992375550375118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bee9d1654b1aa60800000000000000
+      internalID: 7683620721227918095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 3
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b579fae353a4d960800000000000000
+      internalID: 7625899649864922550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_23
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1becda96710c31230800000000000000
+      internalID: 3608438933243678385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_24
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460cd00f63bdfc7e0800000000000000
+      internalID: -1742933501766942620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b232c112ab4229f0800000000000000
+      internalID: -494749849602608464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cdc6a3735f30320800000000000000
+      internalID: 2523129833809828945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_27
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be06d6c99a768f60800000000000000
+      internalID: 8036245385973730996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_28
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4dc0806843ab370800000000000000
+      internalID: 8339035410295215335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_29
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4331a4b2da4b2de10800000000000000
+      internalID: 2221036222095692596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b0889e29c6696f0800000000000000
+      internalID: -678235315633648826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_31
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 3
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb401ddf3f12dad0800000000000000
+      internalID: -2679044469179790406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_32
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a29fb3f0d185c560800000000000000
+      internalID: 7333410302685319844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_33
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e920d2fb5adfe80800000000000000
+      internalID: -8143170310703505892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_34
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9edf8f1362406c0800000000000000
+      internalID: -4178172558220334613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_35
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab07a7030d627b3c0800000000000000
+      internalID: -4343960639967170374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_36
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 3
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522bb59d03bc481b0800000000000000
+      internalID: -5655171821404966363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_37
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c662e098632e6d040800000000000000
+      internalID: 4672170387298985580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_38
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fac2901658c57f0800000000000000
+      internalID: -622475996671725786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_39
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce98173dc61f9d320800000000000000
+      internalID: 2583361310979885548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_40
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754c380fb5be06450800000000000000
+      internalID: 6080118277059888215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de4f2449beeaee70800000000000000
+      internalID: 9145384472809524953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_42
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c314cfb67cc6a760800000000000000
+      internalID: 7468881842436051912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_43
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 3
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b7a46a16d902b60800000000000000
+      internalID: 7719342804040317830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_44
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c068e6ddd21b4d280800000000000000
+      internalID: -9019389343169608180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_45
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1142414354cd2dc30800000000000000
+      internalID: 4382807577169503249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_46
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c46cb02feaa2c420800000000000000
+      internalID: 2648867474870396098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e3e1a57ae3bf900800000000000000
+      internalID: 719237453988118166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_48
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862c5d2d2758248f0800000000000000
+      internalID: -557736675630529944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_49
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd50be82d8f00830800000000000000
+      internalID: 4035498849344708033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_50
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72308cbe0002db1e0800000000000000
+      internalID: -2180551456249609433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_51
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78c71790c80d6f90800000000000000
+      internalID: -6958896225955886982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_52
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed640f76c6843c950800000000000000
+      internalID: 6468093120271632094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_53
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d368e8467b879b0800000000000000
+      internalID: -5082110536971829903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_54
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c5421b5ed1dd340800000000000000
+      internalID: 4890097642750893069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_55
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11eccfc3b072a8160800000000000000
+      internalID: 7028473097686404625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_56
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ef0ee4a8d9bafe0800000000000000
+      internalID: -1176673660272837047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_57
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40687a0570a61eb0800000000000000
+      internalID: -4749432332468330421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_58
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1560eb43d8e755830800000000000000
+      internalID: 4059289784084727377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d096abd9cdbe2e90800000000000000
+      internalID: -7048487692117045038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_60
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6a25e14d5f2f130800000000000000
+      internalID: 3599209343613052670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_61
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6642e4ac7053b7ec0800000000000000
+      internalID: -3568199972185824154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_62
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d0b741edea05160800000000000000
+      internalID: 7012296888665443717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_63
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 4
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22150bb2d066d1e10800000000000000
+      internalID: 2170002802216030498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_64
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 10
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68be18b80019c0c70800000000000000
+      internalID: 8938678791950166918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_65
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32531e8d81fd5cb50800000000000000
+      internalID: 6612936925674288419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_66
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c11e65a1a77ff700800000000000000
+      internalID: 576310813475606982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_67
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3710c085cbec650800000000000000
+      internalID: 6255144018808763306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_68
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5444f2f845eea2600800000000000000
+      internalID: 444429560196318277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_69
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f11eb1fe24df3d0800000000000000
+      internalID: -3171304967866605813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_70
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1a78eee244fc360800000000000000
+      internalID: 7192042098295022038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_71
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a610915e1f34a97b0800000000000000
+      internalID: -5216782512145497750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_72
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 10
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6713a02780bee8d0800000000000000
+      internalID: -2815118622645348501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_73
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 3
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319ba6432bcd5f9f0800000000000000
+      internalID: -435199131029685997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_74
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a6d8bb5c38305e0800000000000000
+      internalID: -1944565728815519217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_75
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 2
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bffc428c7169a60800000000000000
+      internalID: 7680352362905467711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_76
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 9
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49244ff135c1ed70800000000000000
+      internalID: 9070747943027616078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_77
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 5
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33c681d8cde8aa40800000000000000
+      internalID: 5379811201658569530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_78
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee63dd8835a117420800000000000000
+      internalID: 2625909003814516462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_79
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb80192056068350800000000000000
+      internalID: 6018504893383347134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_80
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c267318be98b63a60800000000000000
+      internalID: 7653507608595363372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_81
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35829b9d140d28f0800000000000000
+      internalID: -563789853140810437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_82
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eadf7ea682019000800000000000000
+      internalID: 40816649099533033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_83
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 4
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80dc0cec62994a40800000000000000
+      internalID: 5352970628620931214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_84
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 4
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9384d55115ddff400800000000000000
+      internalID: 360249835533453369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_85
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 3
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff9d8dd7e43d6110800000000000000
+      internalID: 1255718041565372405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_86
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091a435092adfa1e0800000000000000
+      internalID: -2184287424535551600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_87
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 3
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97b7a701fa744ea0800000000000000
+      internalID: -5889447237059627105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_88
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 3
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061b1b4bc51486d80800000000000000
+      internalID: -8257278050359463584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_89
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 3
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a634a68256c18730800000000000000
+      internalID: 3999696001830237857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_90
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 3
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992714a3e3b4d2170800000000000000
+      internalID: 8155257230875259545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_91
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 3
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc87a073fc77d6aa0800000000000000
+      internalID: -6166140582934972211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_92
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 3
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cd63b0907fac470800000000000000
+      internalID: 8415810471910104071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_93
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 3
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca87d58fb6c1fbb10800000000000000
+      internalID: 1999348009629743276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_94
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5283d92edd92e40800000000000000
+      internalID: 5632276774373565900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_95
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71ac1a93d97747e0800000000000000
+      internalID: -1781321177871113860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_96
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb445ed31ac46f900800000000000000
+      internalID: 717845446024053947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_97
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a971ec5d0813490800000000000000
+      internalID: -7768286226463352238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_98
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a27853172981a340800000000000000
+      internalID: 4873327072712880805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_99
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 3
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ee4e6bc3e242ed0800000000000000
+      internalID: -2439774259826594199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_100
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 3
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730fa073e16748560800000000000000
+      internalID: 7315101566901088311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_101
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 3
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6d88709212049b0800000000000000
+      internalID: -5098038318079617352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_102
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 3
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f600cbb7c3bbf9e0800000000000000
+      internalID: -1586476773288179983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_103
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e50ff4ad789df7f0800000000000000
+      internalID: -577137511827044892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_104
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 3
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ef35e8321aa87b0800000000000000
+      internalID: -5221183643898872311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_105
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4123da2360b511f00800000000000000
+      internalID: 1085749067351142932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_106
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c7a49e858f3e410800000000000000
+      internalID: 1505319761226661008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_107
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc76aa5fba68c43f0800000000000000
+      internalID: -915208551143938100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_108
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c3a5bfb535d9120800000000000000
+      internalID: 2422183829119319102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_109
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b46c4a5412d3ab0800000000000000
+      internalID: -5026825026074686611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_110
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505494004926ee380800000000000000
+      internalID: -8940099822484372219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_111
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 3
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde1fb3cb85087470800000000000000
+      internalID: 8392464003447594717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_112
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1658c3647ad4d530800000000000000
+      internalID: 3878965372497974814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_113
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de00179f5761124d0800000000000000
+      internalID: -3161220767485460243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_114
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24eb7ad534202b00800000000000000
+      internalID: 801680547389367340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_115
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbb9bb956f784d50800000000000000
+      internalID: 6721762518231530462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_116
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 3
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7873bd64531ded0d0800000000000000
+      internalID: -3396047042238531705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_117
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5a6bb934b904f50800000000000000
+      internalID: 6863656546790188466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_118
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7087e97d1341eb9e0800000000000000
+      internalID: -1603822212993878009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_119
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f81a5b7116bbc3d0800000000000000
+      internalID: -3185252125234292489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_120
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298d0125fee7f3b70800000000000000
+      internalID: 8880956556537026706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_121
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c906fca1d2d594cf0800000000000000
+      internalID: -267580254547124068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_122
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7f8a293e81b6f60800000000000000
+      internalID: 8028538126415230910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_123
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 3
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beec73072407ed0b0800000000000000
+      internalID: -5701996647551611157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_124
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 3
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56709032de33c4360800000000000000
+      internalID: 7155151001572935525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_125
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0238c38b75df5430800000000000000
+      internalID: 3773969739228393997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_126
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3442656dbccc1f0800000000000000
+      internalID: -1023218893891288126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_127
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7342ff211390f0380800000000000000
+      internalID: -9002967023713573833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_128
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de12b1acc603c1480800000000000000
+      internalID: -8927207117549788691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_129
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50df9464571dcf050800000000000000
+      internalID: 5835769518785953029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_130
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 3
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaaaa4079f805a80800000000000000
+      internalID: -8480120219557516593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_131
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 3
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14af78a748baa2d10800000000000000
+      internalID: 2101680761601522241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_132
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 3
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63482a58aef40bd60800000000000000
+      internalID: 7903905214718182454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_133
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 3
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d94daf124bd9240800000000000000
+      internalID: 4800190835881975163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_134
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 3
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd394060bda942030800000000000000
+      internalID: 3469067878471603164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_135
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85078f24e434506a0800000000000000
+      internalID: -6483702085119872936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_136
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5d471317dde9750800000000000000
+      internalID: 6313727205850797532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_137
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e2a83c166e9ae00800000000000000
+      internalID: 1056628895161921178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_138
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185cf094ca36d15e0800000000000000
+      internalID: -1937282673088150143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_139
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725da7af8190e9400800000000000000
+      internalID: 332713425358214439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_140
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5218b54981557a3b0800000000000000
+      internalID: -5501334855753170651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_141
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06471f1d8ca776c90800000000000000
+      internalID: -7176632478257286048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_142
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 3
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c651894d0832f00800000000000000
+      internalID: 1090857185326754882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_143
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd9d5bcfde24bb30800000000000000
+      internalID: 4302115082770161151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_144
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6786d456c1a6d7d50800000000000000
+      internalID: 6736657287807330422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_145
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa94ff5f0b64585c0800000000000000
+      internalID: -4213884150479894102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_146
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a01dc21568bf110800000000000000
+      internalID: 1295777001001519709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_147
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d43278a55acb6e0800000000000000
+      internalID: -1820398341131645561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_148
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 0
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08939b8830608e070800000000000000
+      internalID: 8135759339093309824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_149
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b03cbdf354b66360800000000000000
+      internalID: 7162610530211606705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_150
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc02a06998191060800000000000000
+      internalID: 6924592949089143998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_151
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 0
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47c8412e8a31b970800000000000000
+      internalID: 8768854331585251150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_152
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 0
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ad1c3e94d152280800000000000000
+      internalID: -9068810071449675263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_153
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557e7e23340034890800000000000000
+      internalID: -7475130667888023723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_154
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b718ed70a57e4120800000000000000
+      internalID: 2399984983602632627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_155
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dcd118c7931f730800000000000000
+      internalID: 4031066348378246488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_156
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c106b7473627b4a0800000000000000
+      internalID: -6577746711883152955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_157
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca1d610eea8c47a0800000000000000
+      internalID: -6391581016314799411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_158
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc319baca6d37030800000000000000
+      internalID: 3491370173243407572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_159
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 3
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea21951d6e40164d0800000000000000
+      internalID: -3143225675526630738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_160
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e194223fa81b4500800000000000000
+      internalID: 381425734182539746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_161
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 3
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9873acb5e81956100800000000000000
+      internalID: 100646607297066889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_162
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 3
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73036b9bb5a75a910800000000000000
+      internalID: 1848017756481794103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_163
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f573250d6752aa8e0800000000000000
+      internalID: -1681490318638041249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_164
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 3
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fa4aab49b10f030800000000000000
+      internalID: 3526348833831563027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_165
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 3
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34c7655d67eacb70800000000000000
+      internalID: 8920196468731003965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_166
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177a2b64b9e55a240800000000000000
+      internalID: 4802348598659557233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_167
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c645997bbfe255e00800000000000000
+      internalID: 1032783348203345004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_168
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e41072777f58ca0800000000000000
+      internalID: -6015129636155863459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_169
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f694fcb6ebcc6250800000000000000
+      internalID: 5939346200467904246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_170
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9a09b0f9bae7380800000000000000
+      internalID: -8971544708093269571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_171
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c354618488acfd90800000000000000
+      internalID: -7062584828563794999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_172
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69397bd72193a1db0800000000000000
+      internalID: -4820477699565317226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_173
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68af797410c27c3b0800000000000000
+      internalID: -5492372836547298682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_174
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b567b6ad3dea8c40800000000000000
+      internalID: 5515481542714418610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_175
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7757ed6e9c0b7f570800000000000000
+      internalID: 8500457202893354359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_176
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54529ee063c890550800000000000000
+      internalID: 6127582931820553541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_177
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 3
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73185b51b360d6830800000000000000
+      internalID: 4065912889422479671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_178
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018cabe040e9f16e0800000000000000
+      internalID: -1864597980443916272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_179
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 3
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc37c39399120fc0800000000000000
+      internalID: -3530231036274852614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_180
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 3
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670183cc0863dc1a0800000000000000
+      internalID: -6787709136567529354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_181
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3800aba404a366570800000000000000
+      internalID: 8459512997868077187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_182
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0798e739b6dc552b0800000000000000
+      internalID: -5596341100018235024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_183
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 3
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cec687651dffd9f0800000000000000
+      internalID: -441355970085990713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_184
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 3
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb49a672c0435600800000000000000
+      internalID: 455779191253191665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_185
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402e46b9db2416300800000000000000
+      internalID: 243549236978049540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_186
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ad34c15e1e93720800000000000000
+      internalID: 2826538615289666099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_187
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966fe06db2c9e5f20800000000000000
+      internalID: 3413337279682246249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_188
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0334617a0c18880800000000000000
+      internalID: -8610389188690104102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_189
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165dd29fcb0e3bd70800000000000000
+      internalID: 9057830377811203425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_190
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c391ed06ac64b3e0800000000000000
+      internalID: -2038885270838733879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_191
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b450178dd71ab5a70800000000000000
+      internalID: 8816818257382147403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_192
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 3
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0da81187f9f62c0800000000000000
+      internalID: -4436151769897447203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_193
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43de87ad9e9b314f0800000000000000
+      internalID: -859138689853756108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_194
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5987b3d9c7997f0800000000000000
+      internalID: -605315660155152897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_195
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 3
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c6b0550487c0380800000000000000
+      internalID: -9003689337320412129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_196
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d439dd9c02072b1f0800000000000000
+      internalID: -1030638078586416307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_197
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120c1b4039199e770800000000000000
+      internalID: 8640597420711985185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_198
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a59bfd6a34f2100800000000000000
+      internalID: 85361301940427307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_199
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 3
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656fe5470b5c569b0800000000000000
+      internalID: -5087442842387810730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_200
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09577c57e50d0e8c0800000000000000
+      internalID: -3971945767219268208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_201
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 3
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaa378c56fabaac0800000000000000
+      internalID: -3842785005341005145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_202
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 0
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be6bb761d483bd00800000000000000
+      internalID: 987278778247638711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_203
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ee2a55405756100800000000000000
+      internalID: 100615228162764325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_204
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ecf315a15731f90800000000000000
+      internalID: -6984109841228771821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_205
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accb6132a4ce5d910800000000000000
+      internalID: 1861653824147995850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_206
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b8239b90343bf60800000000000000
+      internalID: 8048850668082072340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_207
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92315a0d4e534130800000000000000
+      internalID: 3549784616276669084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_208
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe51f4dc3296d7a0800000000000000
+      internalID: -6352729434391224591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_209
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99713c0a9d6aee10800000000000000
+      internalID: 2227713474085091740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_210
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 3
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dcc6badc0f7d0c0800000000000000
+      internalID: -4550904132299600638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_211
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4da8a5de5133300800000000000000
+      internalID: 230552115096507639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_212
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 3
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f45c3e2bfa052e90800000000000000
+      internalID: -7051217567649868555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_213
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 3
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cbb541d1629b560800000000000000
+      internalID: 7329931774859656275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_214
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb15d8995fef4950800000000000000
+      internalID: 6435625560630959098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_215
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 3
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a3381d312e4c950800000000000000
+      internalID: 6468543539558169097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_216
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77937a1d3d9c9a9a0800000000000000
+      internalID: -6221219498642949769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompassGold_217
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3356fdb521cbb7ec0800000000000000
+      internalID: -3568051492724185805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
