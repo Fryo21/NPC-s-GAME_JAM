@@ -16,3 +16,4 @@ MonoBehaviour:
   npcSprite: {fileID: 0}
   nPCClass: 3
   npcSubClass: 2
+  npcAnimatorController: {fileID: 9100000, guid: 8f42809d52902a84d830452b85a4b26f, type: 2}

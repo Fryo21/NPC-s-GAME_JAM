@@ -1,23 +1,23 @@
 using UnityEngine;
 
-public class NpcSelection : MonoBehaviour
+public class NPCSelectable : MonoBehaviour
 {
-    public void OnMouseDown()
+    private NPCDataHolder dataHolder;
+
+    private void Start()
     {
-        // Check if mouse is selected
-        Debug.Log("Mouse clicked on NPC");
-        this.name = this.name.Replace("(Clone)", "").Trim();
-        GameManager.Instance.ConfirmSelection(this.gameObject, this.gameObject.name);
+        dataHolder = GetComponent<NPCDataHolder>();
     }
-    public void OnYesClicked()
+
+    private void OnMouseDown()
     {
-        Debug.Log("Yes clicked");
-        this.name = this.name.Replace("(Clone)", "").Trim();
-        GameManager.Instance.ConfirmSelection(this.gameObject, this.gameObject.name);
-    }
-    public void OnNoClicked()
-    {
-        Debug.Log("No clicked");
+        if (GameManager.Instance != null && RoundManager.Instance != null)
+        {
+            // Only allow selection during playing state
+            if (RoundManager.Instance.CurrentState == GameState.Playing)
+            {
+                GameManager.Instance.CheckNPCSelection(gameObject);
+            }
+        }
     }
 }
-

@@ -2,5 +2,5 @@ using UnityEngine;
 
 public class NPCDataHolder : MonoBehaviour
 {
-    public NPCData nPCClass;
+    public NPCData nPCData;
 }

@@ -2119,7 +2119,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 30
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3772,23 +3772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f44848400994cc2498d33f922dd7f027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcPrefabs:
-  - {fileID: 6197278421282812343, guid: 7d4ce569068ce4341aa98ed4387c9db5, type: 3}
-  - {fileID: 7579777454574406861, guid: 5aeab2b907869e74889a835356a4d83d, type: 3}
-  - {fileID: 83001592932943003, guid: 31bceaf67567c6549a4f4497eafd779e, type: 3}
-  - {fileID: 6232349519562125862, guid: 7d63b354ad67c704db5b51acea8f084a, type: 3}
-  - {fileID: 6405458979568471288, guid: 7128a484af7d8ef4f9d771938eb0b878, type: 3}
-  - {fileID: 5934102456525003532, guid: 029e0327cefa3994fb680eaafcd650db, type: 3}
-  - {fileID: 513162619265563970, guid: 840eaf1d7d8510e4598b91ade966ef3d, type: 3}
-  - {fileID: 1991317956712536148, guid: fbbd1c4473a9909428587a48f76e5675, type: 3}
-  - {fileID: 7841941040554985070, guid: d4d1a34bb5dfd4540a1f8426b2a252b0, type: 3}
-  - {fileID: 2012769638699966, guid: 261079a802149a243ad0aa9b33b8ad2a, type: 3}
-  npcDataList:
-  - {fileID: 11400000, guid: a7ab06872df75e4499fd0db4cdffbaf8, type: 2}
-  - {fileID: 11400000, guid: b9f55057d0e64c04396e0890f40105f3, type: 2}
-  - {fileID: 11400000, guid: d27c31f44bc038f4d9b693e0820339dc, type: 2}
-  - {fileID: 11400000, guid: c1a66754cadf10547844af375cc5b4d7, type: 2}
-  - {fileID: 11400000, guid: 8de543a123f60d942b0c67343763b28c, type: 2}
+  npcPrefab: {fileID: 6197278421282812343, guid: 75f8e92d1e5b0b64eac544c014955752, type: 3}
   spawnPoints:
   - {fileID: 1515470214}
   - {fileID: 1927522417}
@@ -3821,9 +3805,27 @@ MonoBehaviour:
   - {fileID: 245094134}
   - {fileID: 1470519724}
   - {fileID: 1008337570}
-  criminalsToFind: 5
-  totalCriminalsToFind: 10
-  wantedCriminals: []
+  allNPCDataAssets:
+  - {fileID: 11400000, guid: 48fc67d0ac2f83e43aa114ec69d1807c, type: 2}
+  - {fileID: 11400000, guid: a7ab06872df75e4499fd0db4cdffbaf8, type: 2}
+  - {fileID: 11400000, guid: c1a66754cadf10547844af375cc5b4d7, type: 2}
+  - {fileID: 11400000, guid: 215d38525f309d64d915907136137276, type: 2}
+  - {fileID: 11400000, guid: 5111a9fe0a9198948aad0c027fe68f78, type: 2}
+  - {fileID: 11400000, guid: 07050604d9064ac4eada2f29ffd0cbe0, type: 2}
+  - {fileID: 11400000, guid: 8de543a123f60d942b0c67343763b28c, type: 2}
+  - {fileID: 11400000, guid: 07006516585057e4a92ed5da00a70060, type: 2}
+  - {fileID: 11400000, guid: 458115226919aec4a8d68aee57bb3b22, type: 2}
+  - {fileID: 11400000, guid: 9db7164c71fc18c48bd0f5649f1d5db3, type: 2}
+  - {fileID: 11400000, guid: b9f55057d0e64c04396e0890f40105f3, type: 2}
+  - {fileID: 11400000, guid: 4c12523de864a4948b3f01781293a972, type: 2}
+  - {fileID: 11400000, guid: fd40d4e31269a6843824003c37035367, type: 2}
+  - {fileID: 11400000, guid: a935bbfe19ca53f4e9deb5e0e875c199, type: 2}
+  - {fileID: 11400000, guid: d27c31f44bc038f4d9b693e0820339dc, type: 2}
+  npcSpawnCount: 30
+  wantedListManager: {fileID: 1401551733}
+  roundManager: {fileID: 710810330}
+  moneyForCorrectArrest: 50
+  penaltyForWrongArrest: 30
 --- !u!4 &1127855608
 Transform:
   m_ObjectHideFlags: 0
@@ -4162,7 +4164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -16.314919, y: 0}
+  m_AnchoredPosition: {x: -16.314941, y: 0}
   m_SizeDelta: {x: -132.63016, y: -100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162420888
@@ -4954,6 +4956,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371738385}
   m_CullTransparentMesh: 1
+--- !u!1 &1401551731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1401551732}
+  - component: {fileID: 1401551733}
+  m_Layer: 0
+  m_Name: WantedListManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1401551732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401551731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1740740421}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1401551733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401551731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a1d24474dfd3b478a4fe572dd90d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseWantedCount: 3
+  wantedCountIncreasePerRound: 2
+  showDebugMessages: 1
+  currentWantedList: []
 --- !u!1 &1424705870
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,6 +5748,7 @@ Transform:
   - {fileID: 710810331}
   - {fileID: 800090492}
   - {fileID: 1127855608}
+  - {fileID: 1401551732}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1821044615
@@ -6615,7 +6666,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.15
+  m_fontSize: 30
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

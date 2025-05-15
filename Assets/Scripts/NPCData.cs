@@ -22,5 +22,9 @@ public enum NPCClass
     D,
     E,
     F,
+    G,
+    H,
+    I,
+    J
 
 }
