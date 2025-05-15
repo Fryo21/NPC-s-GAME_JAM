@@ -1947,7 +1947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxRounds: 5
-  roundDuration: 30
+  roundDuration: 15
   interludeDuration: 10
   quotaPercentage: 0.33
 --- !u!4 &961453247
