@@ -43,6 +43,9 @@ public class NpcWanderer : MonoBehaviour
 
         // Get initial wander point
         FindNewWanderTarget();
+
+        // Initialize animation state
+        UpdateIdleState();
     }
 
     private void Update()
@@ -57,6 +60,7 @@ public class NpcWanderer : MonoBehaviour
                 isPaused = false;
                 aiPath.canMove = true;
                 FindNewWanderTarget();
+                UpdateIdleState();
             }
             return;
         }
@@ -187,6 +191,9 @@ public class NpcWanderer : MonoBehaviour
         isPaused = true;
         pauseTimer = Random.Range(pauseTimeMin, pauseTimeMax);
         aiPath.canMove = false;
+
+        // Update idle state when pausing
+        UpdateIdleState();
     }
 
     private void UpdateAnimation()
@@ -211,10 +218,20 @@ public class NpcWanderer : MonoBehaviour
         }
     }
 
+    private void UpdateIdleState()
+    {
+        if (animator == null) return;
+
+        // Set isIdle parameter based on movement state
+        bool isIdle = isPaused || !aiPath.canMove || aiPath.velocity.magnitude < 0.1f;
+        animator.SetBool("IsIdle", isIdle);
+    }
+
     // Public method to stop wandering (for external systems)
     public void StopWandering()
     {
         aiPath.canMove = false;
+        UpdateIdleState();
     }
 
     // Public method to resume wandering (for external systems)
@@ -224,6 +241,7 @@ public class NpcWanderer : MonoBehaviour
 
         aiPath.canMove = true;
         FindNewWanderTarget();
+        UpdateIdleState();
     }
 
     // private void OnDrawGizmos()
