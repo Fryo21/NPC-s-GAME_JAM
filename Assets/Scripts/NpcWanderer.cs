@@ -1,49 +1,86 @@
-using System.Collections;
-using System.Runtime.InteropServices.WindowsRuntime;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using Pathfinding;
 
+[RequireComponent(typeof(Seeker))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class NpcWanderer : MonoBehaviour
 {
-    public float wandererSpeed = 3f;
-    public float wandererRadius = 5f;
-    public float minWandererWaitTime = 1f;
-    public float maxWandererWaitTime = 2f;
+    // A* Pathfinding components
+    private Seeker seeker;
+    private Rigidbody2D rb;
+    private Path path;
 
-    public float wandererAvoidanceRadius = 1f;
-    public float wandererAvoidanceStrength = 1f;
+    // Animation components
+    [Header("Animation")]
+    [SerializeField] private Animator animator;
+    private SpriteRenderer spriteRenderer;
 
-    public BoxCollider2D boundaryBox;
+    // Wandering settings
+    [Header("Wandering Settings")]
+    [SerializeField] private float wanderRadius = 10f;        // How far to wander from start position
+    [SerializeField] private float minWanderDistance = 3f;    // Minimum distance for a new point
+    [SerializeField] private float nextWaypointDistance = 1f; // When to consider a waypoint reached
+    [SerializeField] private BoxCollider2D boundaryBox;       // Optional boundary constraint
+
+    [Header("Movement Settings")]
+    [SerializeField] private float speed = 2f;                // Movement speed
+
+    [Header("Avoidance Settings")]
+    [SerializeField] private float wandererAvoidanceRadius = 1f;
+    [SerializeField] private float wandererAvoidanceStrength = 1f;
+
+    [Header("Timing Settings")]
+    [SerializeField] private float repathRate = 0.5f;         // How often to recalculate path
+    [SerializeField] private float pauseTimeMin = 1f;         // Minimum time to pause at destination
+    [SerializeField] private float pauseTimeMax = 3f;         // Maximum time to pause at destination
+
+    // State variables
+    private Vector3 startPosition;
+    private Vector3 targetPosition;
+    private int currentWaypoint = 0;
+    private bool reachedEndOfPath = false;
+    private bool isWandering = true;
+    private bool isPaused = false;
+    private float pauseTimer = 0f;
+    private float pathUpdateTimer = 0f;
     private Bounds boundaryBounds;
 
     private Vector2 wanderingPoint;
     private bool isWandering;
-
-    public Animator animator;
-    private SpriteRenderer spriteRenderer;
     void Start()
     {
         boundaryBounds = boundaryBox.bounds;
         PickDirection();
     }
-
-    private void Awake()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
     void Update()
     {
-        if (isWandering) { return; }
+        // Get components
+        seeker = GetComponent<Seeker>();
+        rb = GetComponent<Rigidbody2D>();
 
-        Vector2 direction = (wanderingPoint - (Vector2)transform.position).normalized;      
-        
-        Vector2 avoidance = Vector2.zero;
+        // Store starting position
+        startPosition = transform.position;
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, wandererAvoidanceRadius);
-
-        foreach (Collider2D hit in hits)
+        // Set up boundary if provided
+        if (boundaryBox != null)
         {
-            if (hit.gameObject != gameObject && hit.CompareTag("NPC_Wanderer"))
+            boundaryBounds = boundaryBox.bounds;
+        }
+
+        // Calculate initial target position
+        CalculateNewWanderTarget();
+
+        // Start pathfinding
+        CalculatePath();
+    }
+
+    private void Update()
+    {
+        // Handle pause at destination
+        if (isPaused)
+        {
+            pauseTimer -= Time.deltaTime;
+            if (pauseTimer <= 0)
             {
                 Vector2 change = (Vector2)transform.position - (Vector2)hit.transform.position;
 
@@ -52,28 +89,6 @@ public class NpcWanderer : MonoBehaviour
         }
 
         Vector2 finalDirertion = (direction + avoidance * wandererAvoidanceStrength).normalized;
-
-        //animation
-        animator.SetFloat("VelocityX", Mathf.Abs(finalDirertion.x));
-        animator.SetFloat("VelocityY", finalDirertion.y);
-
-        if (finalDirertion.y <= 0.3f)
-        {
-            animator.SetBool("IsSideways", true);
-        } else
-        {
-            animator.SetBool("IsSideways", false);
-        }
-
-        if (finalDirertion.x >= 0.1)
-        {
-            spriteRenderer.flipX = false;
-
-        } else if (finalDirertion.x < 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-
 
         Vector2 nextPosition = (Vector2)transform.position + (Vector2)finalDirertion * wandererSpeed * Time.deltaTime;
 
@@ -84,46 +99,141 @@ public class NpcWanderer : MonoBehaviour
             return;
         }
 
-        transform.position = nextPosition;
-
-        if (Vector2.Distance(transform.position, wanderingPoint) < 0.1f)
+        // Check if we've reached the end of the path
+        if (currentWaypoint >= path.vectorPath.Count)
         {
-            StartCoroutine(WaitAndMove());
+            reachedEndOfPath = true;
+            StartPause();
+            return;
+        }
+        else
+        {
+            reachedEndOfPath = false;
+        }
+
+        // Direction to the next waypoint
+        Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
+
+        // Check boundary constraint if available
+        if (boundaryBox != null)
+        {
+            Vector2 nextPosition = rb.position + direction * speed * Time.fixedDeltaTime;
+            if (!boundaryBounds.Contains(nextPosition))
+            {
+                // If we're going to hit the boundary, redirect toward center
+                Vector2 directionToCenter = ((Vector2)boundaryBounds.center - rb.position).normalized;
+                Vector2 randomOffset = Random.insideUnitCircle.normalized * 0.5f;
+                direction = (directionToCenter + randomOffset).normalized;
+
+                // Recalculate target position away from boundary
+                targetPosition = ClampToBounds((Vector2)transform.position + direction * wanderRadius);
+                CalculatePath();
+            }
+        }
+
+        // Apply movement
+        Vector2 force = direction * speed;
+        rb.velocity = force;
+
+        // Check if we're close enough to the current waypoint
+        float distanceToWaypoint = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
+        if (distanceToWaypoint < nextWaypointDistance)
+        {
+            currentWaypoint++;
         }
     }
-    void PickDirection()
+
+
+
+    private void UpdateAnimation()
     {
-        Vector2 ranDir = Random.insideUnitCircle * wandererRadius;
+        if (animator != null)
+        {
+            // Use velocity for animation parameters
+            Vector2 velocity = rb.velocity;
 
-        wanderingPoint = (Vector2)transform.position + ranDir;
+            // Update animator parameters
+            animator.SetFloat("VelocityX", Mathf.Abs(velocity.x));
+            animator.SetFloat("VelocityY", velocity.y);
+
+            // Set sideways animation flag based on vertical movement
+            if (velocity.y <= 0.3f)
+            {
+                animator.SetBool("IsSideways", true);
+            }
+            else
+            {
+                animator.SetBool("IsSideways", false);
+            }
+
+            // Flip sprite based on horizontal movement direction
+            if (velocity.x >= 0.1f)
+            {
+                spriteRenderer.flipX = false;
+            }
+            else if (velocity.x < 0)
+            {
+                spriteRenderer.flipX = true;
+            }
+        }
     }
-    IEnumerator WaitAndMove()
+
+    private void CalculatePath()
     {
-        float wandererWaitTime = Random.Range(minWandererWaitTime, maxWandererWaitTime);
-
-        isWandering = true;
-
-        yield return new WaitForSeconds(wandererWaitTime);
-
-        PickDirection();
-
-        isWandering = false;
+        if (seeker.IsDone())
+        {
+            seeker.StartPath(transform.position, targetPosition, OnPathComplete);
+        }
     }
-    private void PickDirectionAwayFromBoundary()
+
+    private void OnPathComplete(Path p)
     {
-        Vector2 directionToCenter = (Vector2)boundaryBounds.center - (Vector2)transform.position;
-        
-        Vector2 randomOffset = Random.insideUnitCircle.normalized * 0.5f; 
-       
-        wanderingPoint = (Vector2)transform.position + (directionToCenter + randomOffset).normalized * wandererRadius;
+        if (!p.error)
+        {
+            path = p;
+            currentWaypoint = 0;
+        }
+        else
+        {
+            Debug.LogWarning("Path error: " + p.errorLog);
 
-        wanderingPoint = ClampToBounds(wanderingPoint);
+            // If path failed, try a new target after a short delay
+            Invoke("CalculateNewWanderTarget", 1f);
+        }
     }
+
+    private void CalculateNewWanderTarget()
+    {
+        // Try to find a valid point that's not too close
+        int attempts = 0;
+        Vector3 newTarget;
+
+        do
+        {
+            // Get random point within circle
+            Vector2 randomDirection = Random.insideUnitCircle * wanderRadius;
+            newTarget = startPosition + new Vector3(randomDirection.x, randomDirection.y, 0);
+            attempts++;
+
+            // Clamp to boundary if we have one
+            if (boundaryBox != null)
+            {
+                newTarget = ClampToBounds(newTarget);
+            }
+        }
+        while (Vector3.Distance(transform.position, newTarget) < minWanderDistance && attempts < 10);
+
+        targetPosition = newTarget;
+    }
+
     private Vector2 ClampToBounds(Vector2 point)
     {
+        if (boundaryBox == null) return point;
+
         float clampedX = Mathf.Clamp(point.x, boundaryBounds.min.x + 0.5f, boundaryBounds.max.x - 0.5f);
         float clampedY = Mathf.Clamp(point.y, boundaryBounds.min.y + 0.5f, boundaryBounds.max.y - 0.5f);
 
         return new Vector2(clampedX, clampedY);
     }
+
 }
