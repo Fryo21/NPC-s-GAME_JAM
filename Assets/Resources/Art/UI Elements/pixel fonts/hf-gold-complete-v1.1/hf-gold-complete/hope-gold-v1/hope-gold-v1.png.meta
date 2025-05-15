@@ -1,0 +1,5466 @@
+fileFormatVersion: 2
+guid: aebe0086b81db0a4f88da706def51b20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3581417246132551619
+    second: hope-gold-v1_0
+  - first:
+      213: 8911043685769188610
+    second: hope-gold-v1_1
+  - first:
+      213: -2973753718134429756
+    second: hope-gold-v1_2
+  - first:
+      213: 7663558207689328733
+    second: hope-gold-v1_3
+  - first:
+      213: 3728190107996049256
+    second: hope-gold-v1_4
+  - first:
+      213: -3638596575426311680
+    second: hope-gold-v1_5
+  - first:
+      213: 1721951606993401035
+    second: hope-gold-v1_6
+  - first:
+      213: 1425292418236296600
+    second: hope-gold-v1_7
+  - first:
+      213: -5834880517848636519
+    second: hope-gold-v1_8
+  - first:
+      213: -1186744996168373564
+    second: hope-gold-v1_9
+  - first:
+      213: 1918696534006811677
+    second: hope-gold-v1_10
+  - first:
+      213: 3044224322536759337
+    second: hope-gold-v1_11
+  - first:
+      213: -2993130541659446820
+    second: hope-gold-v1_12
+  - first:
+      213: 5102498436224128023
+    second: hope-gold-v1_13
+  - first:
+      213: 2877345915239619897
+    second: hope-gold-v1_14
+  - first:
+      213: -643351643754778803
+    second: hope-gold-v1_15
+  - first:
+      213: -1888956950363894144
+    second: hope-gold-v1_16
+  - first:
+      213: 4953422150426064830
+    second: hope-gold-v1_17
+  - first:
+      213: -64563488171530915
+    second: hope-gold-v1_18
+  - first:
+      213: -3840879761071806357
+    second: hope-gold-v1_19
+  - first:
+      213: 7936400154320011789
+    second: hope-gold-v1_20
+  - first:
+      213: 8879585815563888871
+    second: hope-gold-v1_21
+  - first:
+      213: 4087029909576399247
+    second: hope-gold-v1_22
+  - first:
+      213: -696906687012986487
+    second: hope-gold-v1_23
+  - first:
+      213: -5270966311214769974
+    second: hope-gold-v1_24
+  - first:
+      213: -8440153836835017262
+    second: hope-gold-v1_25
+  - first:
+      213: 1069157737940972534
+    second: hope-gold-v1_26
+  - first:
+      213: 5262841035876817633
+    second: hope-gold-v1_27
+  - first:
+      213: -2799376507746724525
+    second: hope-gold-v1_28
+  - first:
+      213: -5596883813436095909
+    second: hope-gold-v1_29
+  - first:
+      213: -3656630682624860096
+    second: hope-gold-v1_30
+  - first:
+      213: -5475683046646429490
+    second: hope-gold-v1_31
+  - first:
+      213: -3184436352384353765
+    second: hope-gold-v1_32
+  - first:
+      213: 1891499761643564783
+    second: hope-gold-v1_33
+  - first:
+      213: -9075213805445382257
+    second: hope-gold-v1_34
+  - first:
+      213: -8541838868416588893
+    second: hope-gold-v1_35
+  - first:
+      213: -8659656583343802257
+    second: hope-gold-v1_36
+  - first:
+      213: 4326614662958973395
+    second: hope-gold-v1_37
+  - first:
+      213: 7591002382041084264
+    second: hope-gold-v1_38
+  - first:
+      213: -4475978988689765637
+    second: hope-gold-v1_39
+  - first:
+      213: -2873389741444591255
+    second: hope-gold-v1_40
+  - first:
+      213: -8102843071462985606
+    second: hope-gold-v1_41
+  - first:
+      213: 195118870764028050
+    second: hope-gold-v1_42
+  - first:
+      213: -742215340419522496
+    second: hope-gold-v1_43
+  - first:
+      213: -1605755242259370316
+    second: hope-gold-v1_44
+  - first:
+      213: -2477874919471779109
+    second: hope-gold-v1_45
+  - first:
+      213: 3444876000163737543
+    second: hope-gold-v1_46
+  - first:
+      213: -2601126370911211126
+    second: hope-gold-v1_47
+  - first:
+      213: 6526630602772901651
+    second: hope-gold-v1_48
+  - first:
+      213: 2470133340179032055
+    second: hope-gold-v1_49
+  - first:
+      213: 2135545554948787805
+    second: hope-gold-v1_50
+  - first:
+      213: 7335593147877497247
+    second: hope-gold-v1_51
+  - first:
+      213: -9116986348886967655
+    second: hope-gold-v1_52
+  - first:
+      213: 6124605908806688020
+    second: hope-gold-v1_53
+  - first:
+      213: 1952069536911937755
+    second: hope-gold-v1_54
+  - first:
+      213: 5562490432275057357
+    second: hope-gold-v1_55
+  - first:
+      213: -8337659466241529319
+    second: hope-gold-v1_56
+  - first:
+      213: -438576331337251499
+    second: hope-gold-v1_57
+  - first:
+      213: -6009944384245090925
+    second: hope-gold-v1_58
+  - first:
+      213: 7679362573626061049
+    second: hope-gold-v1_59
+  - first:
+      213: -5314102699347606548
+    second: hope-gold-v1_60
+  - first:
+      213: 7380363031059772639
+    second: hope-gold-v1_61
+  - first:
+      213: 3894497455094103483
+    second: hope-gold-v1_62
+  - first:
+      213: -298955638613173535
+    second: hope-gold-v1_63
+  - first:
+      213: 1712483300897269196
+    second: hope-gold-v1_64
+  - first:
+      213: -4447189740621529049
+    second: hope-gold-v1_65
+  - first:
+      213: 1626040285134680245
+    second: hope-gold-v1_66
+  - first:
+      213: -529757354572568951
+    second: hope-gold-v1_67
+  - first:
+      213: 3573777679841054169
+    second: hope-gold-v1_68
+  - first:
+      213: -2614448013345262639
+    second: hope-gold-v1_69
+  - first:
+      213: 5438532695815028816
+    second: hope-gold-v1_70
+  - first:
+      213: -7001830227020859242
+    second: hope-gold-v1_71
+  - first:
+      213: 5637076912378570996
+    second: hope-gold-v1_72
+  - first:
+      213: 5838006604703473232
+    second: hope-gold-v1_73
+  - first:
+      213: 2760690468178739956
+    second: hope-gold-v1_74
+  - first:
+      213: 1621612989612407125
+    second: hope-gold-v1_75
+  - first:
+      213: 3871925229406890408
+    second: hope-gold-v1_76
+  - first:
+      213: -1543388117805731268
+    second: hope-gold-v1_77
+  - first:
+      213: 3107857260941373986
+    second: hope-gold-v1_78
+  - first:
+      213: 5269093220989196452
+    second: hope-gold-v1_79
+  - first:
+      213: 142936793283299283
+    second: hope-gold-v1_80
+  - first:
+      213: 9152301403338847990
+    second: hope-gold-v1_81
+  - first:
+      213: -2903385416595110404
+    second: hope-gold-v1_82
+  - first:
+      213: -1513274153092185755
+    second: hope-gold-v1_83
+  - first:
+      213: 4759170737312461873
+    second: hope-gold-v1_84
+  - first:
+      213: -2779442708492377516
+    second: hope-gold-v1_85
+  - first:
+      213: -2463524595396218257
+    second: hope-gold-v1_86
+  - first:
+      213: -3817294384340520748
+    second: hope-gold-v1_87
+  - first:
+      213: 2006805346812435298
+    second: hope-gold-v1_88
+  - first:
+      213: -1582815991987101045
+    second: hope-gold-v1_89
+  - first:
+      213: 5745897255459817030
+    second: hope-gold-v1_90
+  - first:
+      213: 2423664744679366822
+    second: hope-gold-v1_91
+  - first:
+      213: -4701247196380672422
+    second: hope-gold-v1_92
+  - first:
+      213: -8634058726127305878
+    second: hope-gold-v1_93
+  - first:
+      213: 3841901943537913779
+    second: hope-gold-v1_94
+  - first:
+      213: -4591067152471658336
+    second: hope-gold-v1_95
+  - first:
+      213: -6288653585324272184
+    second: hope-gold-v1_96
+  - first:
+      213: -3483467143167406979
+    second: hope-gold-v1_97
+  - first:
+      213: -2287064688545503
+    second: hope-gold-v1_98
+  - first:
+      213: 2237784611260689907
+    second: hope-gold-v1_99
+  - first:
+      213: -8954250968062156065
+    second: hope-gold-v1_100
+  - first:
+      213: 3576994296609334166
+    second: hope-gold-v1_101
+  - first:
+      213: -6799698699829734011
+    second: hope-gold-v1_102
+  - first:
+      213: -8023785118437546733
+    second: hope-gold-v1_103
+  - first:
+      213: -6237135385064025752
+    second: hope-gold-v1_104
+  - first:
+      213: 2517209357734203492
+    second: hope-gold-v1_105
+  - first:
+      213: 6120222144321403759
+    second: hope-gold-v1_106
+  - first:
+      213: 2895913869698024386
+    second: hope-gold-v1_107
+  - first:
+      213: -4933661677218230811
+    second: hope-gold-v1_108
+  - first:
+      213: -692973566974540327
+    second: hope-gold-v1_109
+  - first:
+      213: 343937287870380888
+    second: hope-gold-v1_110
+  - first:
+      213: -7628343055422897651
+    second: hope-gold-v1_111
+  - first:
+      213: -9202529039486826216
+    second: hope-gold-v1_112
+  - first:
+      213: -6958339057262274841
+    second: hope-gold-v1_113
+  - first:
+      213: 4322096633444288733
+    second: hope-gold-v1_114
+  - first:
+      213: 575286386076041837
+    second: hope-gold-v1_115
+  - first:
+      213: 3824744077048170541
+    second: hope-gold-v1_116
+  - first:
+      213: -8598220459545970554
+    second: hope-gold-v1_117
+  - first:
+      213: -7202928697486934465
+    second: hope-gold-v1_118
+  - first:
+      213: 7619256712178153999
+    second: hope-gold-v1_119
+  - first:
+      213: -4213559267184040949
+    second: hope-gold-v1_120
+  - first:
+      213: -2462776043120037481
+    second: hope-gold-v1_121
+  - first:
+      213: -5956690231894620708
+    second: hope-gold-v1_122
+  - first:
+      213: -4682147393969571247
+    second: hope-gold-v1_123
+  - first:
+      213: 4065313251738226322
+    second: hope-gold-v1_124
+  - first:
+      213: 2126488737792490642
+    second: hope-gold-v1_125
+  - first:
+      213: -2743723945850156092
+    second: hope-gold-v1_126
+  - first:
+      213: 7068063022424607456
+    second: hope-gold-v1_127
+  - first:
+      213: 6282964755606777929
+    second: hope-gold-v1_128
+  - first:
+      213: -4830679486511085746
+    second: hope-gold-v1_129
+  - first:
+      213: 7871992834617278260
+    second: hope-gold-v1_130
+  - first:
+      213: -1124606839326496472
+    second: hope-gold-v1_131
+  - first:
+      213: 605970612636802706
+    second: hope-gold-v1_132
+  - first:
+      213: 8560903859311942586
+    second: hope-gold-v1_133
+  - first:
+      213: 4637391489267932841
+    second: hope-gold-v1_134
+  - first:
+      213: 2473748461093567740
+    second: hope-gold-v1_135
+  - first:
+      213: -1536748090099067582
+    second: hope-gold-v1_136
+  - first:
+      213: -3827437676608669224
+    second: hope-gold-v1_137
+  - first:
+      213: 8651440691458289353
+    second: hope-gold-v1_138
+  - first:
+      213: 876271538759324184
+    second: hope-gold-v1_139
+  - first:
+      213: 341886559081900575
+    second: hope-gold-v1_140
+  - first:
+      213: -8686301827222953846
+    second: hope-gold-v1_141
+  - first:
+      213: 7176188695546020300
+    second: hope-gold-v1_142
+  - first:
+      213: 6681994229319061675
+    second: hope-gold-v1_143
+  - first:
+      213: -7032006109287057435
+    second: hope-gold-v1_144
+  - first:
+      213: 7572810689872515699
+    second: hope-gold-v1_145
+  - first:
+      213: 2101734489520047847
+    second: hope-gold-v1_146
+  - first:
+      213: 8993838028854756038
+    second: hope-gold-v1_147
+  - first:
+      213: 4050939737460552484
+    second: hope-gold-v1_148
+  - first:
+      213: -769851689065580612
+    second: hope-gold-v1_149
+  - first:
+      213: -6994069164957181909
+    second: hope-gold-v1_150
+  - first:
+      213: -4334021377762748678
+    second: hope-gold-v1_151
+  - first:
+      213: -8989127865303281228
+    second: hope-gold-v1_152
+  - first:
+      213: -5780933902517717711
+    second: hope-gold-v1_153
+  - first:
+      213: -3784356050882617121
+    second: hope-gold-v1_154
+  - first:
+      213: -5660424438899206008
+    second: hope-gold-v1_155
+  - first:
+      213: -7765781196411172104
+    second: hope-gold-v1_156
+  - first:
+      213: 6562522850629515408
+    second: hope-gold-v1_157
+  - first:
+      213: 3906404941959839861
+    second: hope-gold-v1_158
+  - first:
+      213: 4760182024547950684
+    second: hope-gold-v1_159
+  - first:
+      213: -1863656178155934708
+    second: hope-gold-v1_160
+  - first:
+      213: 8453525381854464953
+    second: hope-gold-v1_161
+  - first:
+      213: 4667267515633907274
+    second: hope-gold-v1_162
+  - first:
+      213: -225206642244762274
+    second: hope-gold-v1_163
+  - first:
+      213: -8453197146820753936
+    second: hope-gold-v1_164
+  - first:
+      213: -7698435100470256592
+    second: hope-gold-v1_165
+  - first:
+      213: 9211834102332304808
+    second: hope-gold-v1_166
+  - first:
+      213: 5690777894586012265
+    second: hope-gold-v1_167
+  - first:
+      213: -2827510032306783159
+    second: hope-gold-v1_168
+  - first:
+      213: -7349976318534869642
+    second: hope-gold-v1_169
+  - first:
+      213: 4880222632989228031
+    second: hope-gold-v1_170
+  - first:
+      213: -7595239011966334538
+    second: hope-gold-v1_171
+  - first:
+      213: 1178511539406653914
+    second: hope-gold-v1_172
+  - first:
+      213: 4630022243990262705
+    second: hope-gold-v1_173
+  - first:
+      213: -2174760328638386631
+    second: hope-gold-v1_174
+  - first:
+      213: 5651370190369779107
+    second: hope-gold-v1_175
+  - first:
+      213: -3011610432915981844
+    second: hope-gold-v1_176
+  - first:
+      213: 7720489608866505601
+    second: hope-gold-v1_177
+  - first:
+      213: -5858954357374070911
+    second: hope-gold-v1_178
+  - first:
+      213: 6991726242406352841
+    second: hope-gold-v1_179
+  - first:
+      213: -7763388490002867543
+    second: hope-gold-v1_180
+  - first:
+      213: 3459233037718371543
+    second: hope-gold-v1_181
+  - first:
+      213: 3956809277923833837
+    second: hope-gold-v1_182
+  - first:
+      213: 6599453684675094672
+    second: hope-gold-v1_183
+  - first:
+      213: 1077828652101011066
+    second: hope-gold-v1_184
+  - first:
+      213: 6037252824598943685
+    second: hope-gold-v1_185
+  - first:
+      213: 4497276399495658389
+    second: hope-gold-v1_186
+  - first:
+      213: -1150819028413586765
+    second: hope-gold-v1_187
+  - first:
+      213: -6188095764569117799
+    second: hope-gold-v1_188
+  - first:
+      213: -7555444424748055725
+    second: hope-gold-v1_189
+  - first:
+      213: 4957576183961964098
+    second: hope-gold-v1_190
+  - first:
+      213: 5503884509307955361
+    second: hope-gold-v1_191
+  - first:
+      213: 5916336699200803671
+    second: hope-gold-v1_192
+  - first:
+      213: 8172800689346414096
+    second: hope-gold-v1_193
+  - first:
+      213: 6978197878832267353
+    second: hope-gold-v1_194
+  - first:
+      213: -6080283074003872161
+    second: hope-gold-v1_195
+  - first:
+      213: -4324713096672877851
+    second: hope-gold-v1_196
+  - first:
+      213: -7837722348011287169
+    second: hope-gold-v1_197
+  - first:
+      213: 7748274618957923762
+    second: hope-gold-v1_198
+  - first:
+      213: 3899843617401550370
+    second: hope-gold-v1_199
+  - first:
+      213: -4119963783348206264
+    second: hope-gold-v1_200
+  - first:
+      213: -903204945668594244
+    second: hope-gold-v1_201
+  - first:
+      213: 157170410100141252
+    second: hope-gold-v1_202
+  - first:
+      213: -3603978356656004440
+    second: hope-gold-v1_203
+  - first:
+      213: 5558475299111962296
+    second: hope-gold-v1_204
+  - first:
+      213: -8201725768217134257
+    second: hope-gold-v1_205
+  - first:
+      213: -4047248434094299490
+    second: hope-gold-v1_206
+  - first:
+      213: -5239860257450840125
+    second: hope-gold-v1_207
+  - first:
+      213: -5464356438759797353
+    second: hope-gold-v1_208
+  - first:
+      213: 4235217293979187937
+    second: hope-gold-v1_209
+  - first:
+      213: 7012247749320916904
+    second: hope-gold-v1_210
+  - first:
+      213: -8215545457976573464
+    second: hope-gold-v1_211
+  - first:
+      213: 8357786353203808497
+    second: hope-gold-v1_212
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hope-gold-v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf303c9200c3b130800000000000000
+      internalID: 3581417246132551619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205924cf4036aab70800000000000000
+      internalID: 8911043685769188610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7a91dbfba1bb6d0800000000000000
+      internalID: -2973753718134429756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d580adc269d6a5a60800000000000000
+      internalID: 7663558207689328733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fca3286213db330800000000000000
+      internalID: 3728190107996049256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a03c851bb118dc0800000000000000
+      internalID: -3638596575426311680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4314ffcd995e710800000000000000
+      internalID: 1721951606993401035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d280227e7a7c310800000000000000
+      internalID: 1425292418236296600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993e8c26517560fa0800000000000000
+      internalID: -5834880517848636519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca6960b6b5d78fe0800000000000000
+      internalID: -1186744996168373564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ccf3df45490aa10800000000000000
+      internalID: 1918696534006811677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920686174e14f3a20800000000000000
+      internalID: 3044224322536759337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1240271a34676d0800000000000000
+      internalID: -2993130541659446820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71410262b47bfc640800000000000000
+      internalID: 5102498436224128023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d57c57dd26ee720800000000000000
+      internalID: 2877345915239619897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f2550b61b5217f0800000000000000
+      internalID: -643351643754778803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e0e8969a319c5e0800000000000000
+      internalID: -1888956950363894144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb772b293371eb440800000000000000
+      internalID: 4953422150426064830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_18
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55631e79df9a1ff0800000000000000
+      internalID: -64563488171530915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_19
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68e358053472bac0800000000000000
+      internalID: -3840879761071806357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02899934e1c32e60800000000000000
+      internalID: 7936400154320011789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e86841d040aa3b70800000000000000
+      internalID: 8879585815563888871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89b2ba7c0c08b830800000000000000
+      internalID: 4087029909576399247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_23
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9812ffe7f071456f0800000000000000
+      internalID: -696906687012986487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac81ef41114c9d6b0800000000000000
+      internalID: -5270966311214769974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_25
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd6cc1adcc8eda80800000000000000
+      internalID: -8440153836835017262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_26
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3f4da4c4966de00800000000000000
+      internalID: 1069157737940972534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea59c4d90e590940800000000000000
+      internalID: 5262841035876817633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_28
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355de2fd5ed9629d0800000000000000
+      internalID: -2799376507746724525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52020343dfd352b0800000000000000
+      internalID: -5596883813436095909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040e95f84c9014dc0800000000000000
+      internalID: -3656630682624860096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_31
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8c20ec7477204b0800000000000000
+      internalID: -5475683046646429490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_32
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a3a46620c9ec3d0800000000000000
+      internalID: -3184436352384353765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_33
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee2089f205ff3a10800000000000000
+      internalID: 1891499761643564783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_34
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ff4b1602d5e0280800000000000000
+      internalID: -9075213805445382257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_35
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a397674eca457980800000000000000
+      internalID: -8541838868416588893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_36
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f687be0e738b2d780800000000000000
+      internalID: -8659656583343802257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_37
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d18aa1dc193b0c30800000000000000
+      internalID: 4326614662958973395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_38
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861f3b69278a85960800000000000000
+      internalID: 7591002382041084264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfac80513d022e1c0800000000000000
+      internalID: -4475978988689765637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_40
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96191f7014baf18d0800000000000000
+      internalID: -2873389741444591255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70b6be382bec8f80800000000000000
+      internalID: -8102843071462985606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_42
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2908dd4449335b200800000000000000
+      internalID: 195118870764028050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_43
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040e27f841f13b5f0800000000000000
+      internalID: -742215340419522496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_44
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bea8e46d1637b9e0800000000000000
+      internalID: -1605755242259370316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_45
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2f80b93e1dc9dd0800000000000000
+      internalID: -2477874919471779109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_46
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf270d6878aecf20800000000000000
+      internalID: 3444876000163737543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_47
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81bfe5d851f6ebd0800000000000000
+      internalID: -2601126370911211126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_48
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fe87224ff339a50800000000000000
+      internalID: 6526630602772901651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_49
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f768318f2da74220800000000000000
+      internalID: 2470133340179032055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_50
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e036c1e5bf2ad10800000000000000
+      internalID: 2135545554948787805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_51
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9917043a134dc560800000000000000
+      internalID: 7335593147877497247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_52
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ab1843835f97180800000000000000
+      internalID: -9116986348886967655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_53
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d5eafdf98fef450800000000000000
+      internalID: 6124605908806688020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_54
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd05f7cb6e4271b10800000000000000
+      internalID: 1952069536911937755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_55
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca834aa39fe13d40800000000000000
+      internalID: 5562490432275057357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_56
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a2088e3eeaa4c80800000000000000
+      internalID: -8337659466241529319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_57
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555cfbb762dd9e9f0800000000000000
+      internalID: -438576331337251499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_58
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395b731bc63689ca0800000000000000
+      internalID: -6009944384245090925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_59
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0396ed293929a60800000000000000
+      internalID: 7679362573626061049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_60
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3017110c38046b0800000000000000
+      internalID: -5314102699347606548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_61
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd43ebbe2115c6660800000000000000
+      internalID: 7380363031059772639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_62
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdfb8d2dc80c0630800000000000000
+      internalID: 3894497455094103483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_63
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea9cdc3e65e9dbf0800000000000000
+      internalID: -298955638613173535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_64
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc525c13d76f3c710800000000000000
+      internalID: 1712483300897269196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_65
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7200e7d3e786842c0800000000000000
+      internalID: -4447189740621529049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_66
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b07de1360bd09610800000000000000
+      internalID: 1626040285134680245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_67
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9862d872e7ce5a8f0800000000000000
+      internalID: -529757354572568951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_68
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd45297ddb989130800000000000000
+      internalID: 3573777679841054169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_69
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d374d0426d97bbd0800000000000000
+      internalID: -2614448013345262639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_70
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05007691cac897b40800000000000000
+      internalID: 5438532695815028816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_71
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69834dc718084de90800000000000000
+      internalID: -7001830227020859242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_72
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f861e5d59bea3e40800000000000000
+      internalID: 5637076912378570996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_73
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e1cbd6314c40150800000000000000
+      internalID: 5838006604703473232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_74
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2c992aa51ff4620800000000000000
+      internalID: 2760690468178739956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_75
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559b1012c60218610800000000000000
+      internalID: 1621612989612407125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_76
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9aba75b77dbb530800000000000000
+      internalID: 3871925229406890408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_77
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3271af1fa8c49ae0800000000000000
+      internalID: -1543388117805731268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_78
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222770376b3512b20800000000000000
+      internalID: 3107857260941373986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_79
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8da7d1e549f1940800000000000000
+      internalID: 5269093220989196452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_80
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d70cf49140dbf100800000000000000
+      internalID: 142936793283299283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_81
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f63257a2a1830f70800000000000000
+      internalID: 9152301403338847990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_82
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf58ccda85a15b7d0800000000000000
+      internalID: -2903385416595110404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_83
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5610929ec25cffae0800000000000000
+      internalID: -1513274153092185755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_84
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13471f60298fb0240800000000000000
+      internalID: 4759170737312461873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_85
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45223ce259f6d69d0800000000000000
+      internalID: -2779442708492377516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_86
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6278fbce6dcfcdd0800000000000000
+      internalID: -2463524595396218257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_87
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d03a4a7bfe360bc0800000000000000
+      internalID: -3817294384340520748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_88
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b1c1694da99db10800000000000000
+      internalID: 2006805346812435298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_89
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 0
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b822dcccd35b80ae0800000000000000
+      internalID: -1582815991987101045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_90
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646039b5c178dbf40800000000000000
+      internalID: 5745897255459817030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_91
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a060418e3692a120800000000000000
+      internalID: 2423664744679366822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_92
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ecd6a4590d1ceb0800000000000000
+      internalID: -4701247196380672422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_93
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bf1537559ad2880800000000000000
+      internalID: -8634058726127305878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_94
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfc57e567d215530800000000000000
+      internalID: 3841901943537913779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_95
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a076f4dfb04940c0800000000000000
+      internalID: -4591067152471658336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_96
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5924302e63ab8a0800000000000000
+      internalID: -6288653585324272184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_97
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c03c8e61d38afc0800000000000000
+      internalID: -3483467143167406979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_98
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12139a14defd7fff0800000000000000
+      internalID: -2287064688545503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_99
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd67066f353e0f10800000000000000
+      internalID: 2237784611260689907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_100
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd225faaf2c1cb380800000000000000
+      internalID: -8954250968062156065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_101
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6936ffc6c5904a130800000000000000
+      internalID: 3576994296609334166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_102
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58596f01f0e92a1a0800000000000000
+      internalID: -6799698699829734011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_103
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315e67552f9c5a090800000000000000
+      internalID: -8023785118437546733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_104
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8615d3db96e3179a0800000000000000
+      internalID: -6237135385064025752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_105
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4605909f29ceee220800000000000000
+      internalID: 2517209357734203492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_106
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 2
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bb1ca2d956fe450800000000000000
+      internalID: 6120222144321403759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_107
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c34a7f325a503820800000000000000
+      internalID: 2895913869698024386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_108
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed037f18dc188bb0800000000000000
+      internalID: -4933661677218230811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_109
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d54fbd56301266f0800000000000000
+      internalID: -692973566974540327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_110
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b768c1429e5c400800000000000000
+      internalID: 343937287870380888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_111
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0243b4686ea22690800000000000000
+      internalID: -7628343055422897651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_112
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819cb2e789c0a4080800000000000000
+      internalID: -9202529039486826216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_113
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6d7298e730f6f90800000000000000
+      internalID: -6958339057262274841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_114
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8cb591dfb2bfb30800000000000000
+      internalID: 4322096633444288733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_115
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d624e2e8be3dbf700800000000000000
+      internalID: 575286386076041837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_116
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d284c354978341530800000000000000
+      internalID: 3824744077048170541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_117
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68834402c0cfca880800000000000000
+      internalID: -8598220459545970554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_118
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ef2db238e0a0c90800000000000000
+      internalID: -7202928697486934465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_119
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ab3e57c990db960800000000000000
+      internalID: 7619256712178153999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_120
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04a07fbb2e6685c0800000000000000
+      internalID: -4213559267184040949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_121
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791fc74bc3672ddd0800000000000000
+      internalID: -2462776043120037481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_122
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5c1e24bc5955da0800000000000000
+      internalID: -5956690231894620708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_123
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a3c6490cba50fb0800000000000000
+      internalID: -4682147393969571247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_124
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e8b8e0dd4ea6830800000000000000
+      internalID: 4065313251738226322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_125
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c7dfa8d3ec28d10800000000000000
+      internalID: 2126488737792490642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_126
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb4eddab955ce9d0800000000000000
+      internalID: -2743723945850156092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_127
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea41b5eeddc61260800000000000000
+      internalID: 7068063022424607456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_128
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940bd3a1823913750800000000000000
+      internalID: 6282964755606777929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_129
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e478dbed99af5fcb0800000000000000
+      internalID: -4830679486511085746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_130
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f78c586cfee3d60800000000000000
+      internalID: 7871992834617278260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_131
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82928fdb9089460f0800000000000000
+      internalID: -1124606839326496472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_132
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29eda86cf07d86800800000000000000
+      internalID: 605970612636802706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_133
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb1f82d3b07ec670800000000000000
+      internalID: 8560903859311942586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_134
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae1c325df25b5040800000000000000
+      internalID: 4637391489267932841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_135
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcb62f6e15845220800000000000000
+      internalID: 2473748461093567740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_136
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245926c01cf5caae0800000000000000
+      internalID: -1536748090099067582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_137
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d93bc536b532eac0800000000000000
+      internalID: -3827437676608669224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_138
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce2bb9b877101870800000000000000
+      internalID: 8651440691458289353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_139
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812d8826254292c00800000000000000
+      internalID: 876271538759324184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_140
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1aae8b9300aeb400800000000000000
+      internalID: 341886559081900575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_141
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80ac88928e047780800000000000000
+      internalID: -8686301827222953846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_142
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1c137f891f69360800000000000000
+      internalID: 7176188695546020300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_143
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0d5cd49563bbc50800000000000000
+      internalID: 6681994229319061675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_144
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7719563bb496e90800000000000000
+      internalID: -7032006109287057435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_145
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372d1213337081960800000000000000
+      internalID: 7572810689872515699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_146
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6870cf16cda2d10800000000000000
+      internalID: 2101734489520047847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_147
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 2
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2894d290880dc70800000000000000
+      internalID: 8993838028854756038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_148
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423b9d97a34d73830800000000000000
+      internalID: 4050939737460552484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_149
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7f287b7ffe055f0800000000000000
+      internalID: -769851689065580612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_150
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28d630962310fe90800000000000000
+      internalID: -6994069164957181909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_151
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6908105867ad3c0800000000000000
+      internalID: -4334021377762748678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_152
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1580c35d3304380800000000000000
+      internalID: -8989127865303281228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_153
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1353b6e8e3ff5cfa0800000000000000
+      internalID: -5780933902517717711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_154
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0aa8bd8344b7bc0800000000000000
+      internalID: -3784356050882617121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_155
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888197986f12271b0800000000000000
+      internalID: -5660424438899206008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_156
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa018095276a3490800000000000000
+      internalID: -7765781196411172104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_157
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098f72e43c3c21b50800000000000000
+      internalID: 6562522850629515408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_158
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570c8520996563630800000000000000
+      internalID: 3906404941959839861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_159
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50616fa4509f0240800000000000000
+      internalID: 4760182024547950684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_160
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cad8d7496f226e0800000000000000
+      internalID: -1863656178155934708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_161
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb0f2dcb84f05570800000000000000
+      internalID: 8453525381854464953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_162
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a463415c31775c040800000000000000
+      internalID: 4667267515633907274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_163
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5541f780c7efdcf0800000000000000
+      internalID: -225206642244762274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_164
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5476f5bf530ba80800000000000000
+      internalID: -8453197146820753936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_165
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c521e601aa92590800000000000000
+      internalID: -7698435100470256592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_166
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ada8574f4207df70800000000000000
+      internalID: 9211834102332304808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_167
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962d1761854b9fe40800000000000000
+      internalID: 5690777894586012265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_168
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c308d3b9aa2c8d0800000000000000
+      internalID: -2827510032306783159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_169
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d123aea73aff990800000000000000
+      internalID: -7349976318534869642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_170
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbf420d0a80ab340800000000000000
+      internalID: 4880222632989228031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_171
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9ce832c5a489690800000000000000
+      internalID: -7595239011966334538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_172
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad94806400aea5010800000000000000
+      internalID: 1178511539406653914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_173
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3523333b4214040800000000000000
+      internalID: 4630022243990262705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_174
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ea5e3e003b1d1e0800000000000000
+      internalID: -2174760328638386631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_175
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ade833fe33bd6e40800000000000000
+      internalID: 5651370190369779107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_176
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9be28744c9436d0800000000000000
+      internalID: -3011610432915981844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_177
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1832594f460b42b60800000000000000
+      internalID: 7720489608866505601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_178
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fcd75dd00d0bea0800000000000000
+      internalID: -5858954357374070911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_179
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7486549f9970160800000000000000
+      internalID: 6991726242406352841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_180
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aad500fc47e24490800000000000000
+      internalID: -7763388490002867543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_181
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcbf78be1aa10030800000000000000
+      internalID: 3459233037718371543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_182
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7be9ef21969e630800000000000000
+      internalID: 3956809277923833837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_183
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098a3ba2928f59b50800000000000000
+      internalID: 6599453684675094672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_184
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a760831d27735fe00800000000000000
+      internalID: 1077828652101011066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_185
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7917d0571a8c350800000000000000
+      internalID: 6037252824598943685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_186
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bbfa8ce09896e30800000000000000
+      internalID: 4497276399495658389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_187
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2e5a2e0387700f0800000000000000
+      internalID: -1150819028413586765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_188
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b22c420b77f1aa0800000000000000
+      internalID: -6188095764569117799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_189
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353cfae735ba52790800000000000000
+      internalID: -7555444424748055725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_190
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e4dffd549dcc440800000000000000
+      internalID: 4957576183961964098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_191
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a86316ecc9b16c40800000000000000
+      internalID: 5503884509307955361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_192
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753987fb1ec0b1250800000000000000
+      internalID: 5916336699200803671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_193
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0168f84fcee9b6170800000000000000
+      internalID: 8172800689346414096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_194
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9508e2caff987d060800000000000000
+      internalID: 6978197878832267353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_195
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56dd2842ce7e9ba0800000000000000
+      internalID: -6080283074003872161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_196
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e265551a588bf3c0800000000000000
+      internalID: -4324713096672877851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_197
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d85aeec01da3390800000000000000
+      internalID: -7837722348011287169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_198
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5892db6b6678b60800000000000000
+      internalID: 7748274618957923762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_199
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2263bc69b170f1630800000000000000
+      internalID: 3899843617401550370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_200
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8454e0e74c2f2d6c0800000000000000
+      internalID: -4119963783348206264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_201
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb52c0623eb2773f0800000000000000
+      internalID: -903204945668594244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_202
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cca83fb7a16e2200800000000000000
+      internalID: 157170410100141252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_203
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2a25187c81cfdc0800000000000000
+      internalID: -3603978356656004440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_204
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b60a50a5dba32d40800000000000000
+      internalID: 5558475299111962296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_205
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bff305edd9d2e80800000000000000
+      internalID: -8201725768217134257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_206
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96ad001ef845d7c0800000000000000
+      internalID: -4047248434094299490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_207
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfa4f99bd64847b0800000000000000
+      internalID: -5239860257450840125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_208
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d8a9535c4ba24b0800000000000000
+      internalID: -5464356438759797353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_209
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea783290b386ca30800000000000000
+      internalID: 4235217293979187937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_210
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af3e4fec22805160800000000000000
+      internalID: 7012247749320916904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_211
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e18b3d0fe48cfd80800000000000000
+      internalID: -8215545457976573464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hope-gold-v1_212
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f802532862dcf370800000000000000
+      internalID: 8357786353203808497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

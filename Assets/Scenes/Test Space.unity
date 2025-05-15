@@ -165,14 +165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &133770685
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -334,14 +329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &345045425
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -988,14 +978,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!1 &846097461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,14 +1102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &863277047
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1246,14 +1226,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &914138087
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1503,14 +1478,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &1082348763
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1760,14 +1730,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &1098288467
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1894,14 +1859,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &1201671006
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2107,14 +2067,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &1379418460
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2277,14 +2232,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &1477303719
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2406,14 +2356,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &1523913905
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2535,14 +2480,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &1582291085
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2674,14 +2614,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &1820525674
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2808,14 +2743,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &1919770478
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2942,14 +2872,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wandererSpeed: 10
-  wandererRadius: 5
-  minWandererWaitTime: 0
-  maxWandererWaitTime: 1
-  wandererAvoidanceRadius: 5
-  wandererAvoidanceStrength: 5
-  boundaryBox: {fileID: 2118008552}
-  animator: {fileID: 0}
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
 --- !u!135 &2015806890
 SphereCollider:
   m_ObjectHideFlags: 0

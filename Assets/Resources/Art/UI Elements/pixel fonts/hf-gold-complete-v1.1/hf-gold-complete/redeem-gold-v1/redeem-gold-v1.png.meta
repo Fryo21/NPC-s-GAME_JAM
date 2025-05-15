@@ -1,0 +1,5416 @@
+fileFormatVersion: 2
+guid: 2856bf427d909d643a498493c9dc8341
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5964647538599419916
+    second: redeem-gold-v1_0
+  - first:
+      213: -241904685475435529
+    second: redeem-gold-v1_1
+  - first:
+      213: -3667778686640829376
+    second: redeem-gold-v1_2
+  - first:
+      213: 2300545037316601394
+    second: redeem-gold-v1_3
+  - first:
+      213: 2539636164394803034
+    second: redeem-gold-v1_4
+  - first:
+      213: 4844324883324469225
+    second: redeem-gold-v1_5
+  - first:
+      213: 7037578437032661951
+    second: redeem-gold-v1_6
+  - first:
+      213: -2761236959480605614
+    second: redeem-gold-v1_7
+  - first:
+      213: 1833631933992441188
+    second: redeem-gold-v1_8
+  - first:
+      213: 1540551842914077874
+    second: redeem-gold-v1_9
+  - first:
+      213: -7642762843959281602
+    second: redeem-gold-v1_10
+  - first:
+      213: -3157468631321657977
+    second: redeem-gold-v1_11
+  - first:
+      213: -1720417883936930063
+    second: redeem-gold-v1_12
+  - first:
+      213: 6707703452700481691
+    second: redeem-gold-v1_13
+  - first:
+      213: 8727365075784530708
+    second: redeem-gold-v1_14
+  - first:
+      213: -5035673573859421028
+    second: redeem-gold-v1_15
+  - first:
+      213: -3046428304109659582
+    second: redeem-gold-v1_16
+  - first:
+      213: -5333702715017578347
+    second: redeem-gold-v1_17
+  - first:
+      213: 4661773353894535064
+    second: redeem-gold-v1_18
+  - first:
+      213: -5747170992914901629
+    second: redeem-gold-v1_19
+  - first:
+      213: -4012674623623459602
+    second: redeem-gold-v1_20
+  - first:
+      213: 5289974315592052839
+    second: redeem-gold-v1_21
+  - first:
+      213: 8934474196631582474
+    second: redeem-gold-v1_22
+  - first:
+      213: 2179269956800292431
+    second: redeem-gold-v1_23
+  - first:
+      213: 8569708451227202388
+    second: redeem-gold-v1_24
+  - first:
+      213: -5722388336748960928
+    second: redeem-gold-v1_25
+  - first:
+      213: 8832462403712415922
+    second: redeem-gold-v1_26
+  - first:
+      213: 7170785370504497520
+    second: redeem-gold-v1_27
+  - first:
+      213: -4844697420732846329
+    second: redeem-gold-v1_28
+  - first:
+      213: 2167225533582735142
+    second: redeem-gold-v1_29
+  - first:
+      213: -2409934066897121898
+    second: redeem-gold-v1_30
+  - first:
+      213: 2191666449891134187
+    second: redeem-gold-v1_31
+  - first:
+      213: -4618533683315151038
+    second: redeem-gold-v1_32
+  - first:
+      213: 4875546851188258473
+    second: redeem-gold-v1_33
+  - first:
+      213: -7273883243058174032
+    second: redeem-gold-v1_34
+  - first:
+      213: -2976280078102505855
+    second: redeem-gold-v1_35
+  - first:
+      213: -5744318796277375266
+    second: redeem-gold-v1_36
+  - first:
+      213: 4408918137832655138
+    second: redeem-gold-v1_37
+  - first:
+      213: 5931567846471779260
+    second: redeem-gold-v1_38
+  - first:
+      213: -7994874982595683399
+    second: redeem-gold-v1_39
+  - first:
+      213: -4907056942899819262
+    second: redeem-gold-v1_40
+  - first:
+      213: -2308991940346384634
+    second: redeem-gold-v1_41
+  - first:
+      213: 6752771804481135440
+    second: redeem-gold-v1_42
+  - first:
+      213: 5152034548510306900
+    second: redeem-gold-v1_43
+  - first:
+      213: 7937150194592222157
+    second: redeem-gold-v1_44
+  - first:
+      213: -3137673773846580024
+    second: redeem-gold-v1_45
+  - first:
+      213: -5867571534272749308
+    second: redeem-gold-v1_46
+  - first:
+      213: -6176941334690705217
+    second: redeem-gold-v1_47
+  - first:
+      213: -6241271262950920489
+    second: redeem-gold-v1_48
+  - first:
+      213: 6115068670641509815
+    second: redeem-gold-v1_49
+  - first:
+      213: -764928295719847481
+    second: redeem-gold-v1_50
+  - first:
+      213: -638053419724653313
+    second: redeem-gold-v1_51
+  - first:
+      213: 6367421580836774375
+    second: redeem-gold-v1_52
+  - first:
+      213: -460267461823354307
+    second: redeem-gold-v1_53
+  - first:
+      213: -2485122963725639098
+    second: redeem-gold-v1_54
+  - first:
+      213: 5473916389770205616
+    second: redeem-gold-v1_55
+  - first:
+      213: -8928721117545639142
+    second: redeem-gold-v1_56
+  - first:
+      213: -8606650184662792008
+    second: redeem-gold-v1_57
+  - first:
+      213: -730570184071613720
+    second: redeem-gold-v1_58
+  - first:
+      213: 471745894412546620
+    second: redeem-gold-v1_59
+  - first:
+      213: -3808836671445264330
+    second: redeem-gold-v1_60
+  - first:
+      213: 935407165616955726
+    second: redeem-gold-v1_61
+  - first:
+      213: 7674000736242556162
+    second: redeem-gold-v1_62
+  - first:
+      213: -4862862182662701941
+    second: redeem-gold-v1_63
+  - first:
+      213: 5609495602991984711
+    second: redeem-gold-v1_64
+  - first:
+      213: -1827500990879413765
+    second: redeem-gold-v1_65
+  - first:
+      213: -4305392454450807478
+    second: redeem-gold-v1_66
+  - first:
+      213: 8270399935237146269
+    second: redeem-gold-v1_67
+  - first:
+      213: 9090741702762700740
+    second: redeem-gold-v1_68
+  - first:
+      213: 5859995889997396781
+    second: redeem-gold-v1_69
+  - first:
+      213: -7259956487946305259
+    second: redeem-gold-v1_70
+  - first:
+      213: -6274228387583183054
+    second: redeem-gold-v1_71
+  - first:
+      213: 3802689179886313575
+    second: redeem-gold-v1_72
+  - first:
+      213: 7353002599450336059
+    second: redeem-gold-v1_73
+  - first:
+      213: -8009124744000181784
+    second: redeem-gold-v1_74
+  - first:
+      213: -2824224163651719161
+    second: redeem-gold-v1_75
+  - first:
+      213: 8941193916463024797
+    second: redeem-gold-v1_76
+  - first:
+      213: -6971331594940010384
+    second: redeem-gold-v1_77
+  - first:
+      213: 3044384490022444365
+    second: redeem-gold-v1_78
+  - first:
+      213: 5282796611763946153
+    second: redeem-gold-v1_79
+  - first:
+      213: 7051189904490430176
+    second: redeem-gold-v1_80
+  - first:
+      213: 3170759459668419911
+    second: redeem-gold-v1_81
+  - first:
+      213: 7440781287012850131
+    second: redeem-gold-v1_82
+  - first:
+      213: -5736617904891281308
+    second: redeem-gold-v1_83
+  - first:
+      213: 3382924578798322102
+    second: redeem-gold-v1_84
+  - first:
+      213: 6913499690933266239
+    second: redeem-gold-v1_85
+  - first:
+      213: 2906571515146478393
+    second: redeem-gold-v1_86
+  - first:
+      213: -5755393949168708607
+    second: redeem-gold-v1_87
+  - first:
+      213: 8828260844335824562
+    second: redeem-gold-v1_88
+  - first:
+      213: 7277762385996577581
+    second: redeem-gold-v1_89
+  - first:
+      213: -5294910216904233340
+    second: redeem-gold-v1_90
+  - first:
+      213: 8594678756146353402
+    second: redeem-gold-v1_91
+  - first:
+      213: 4378706296199315329
+    second: redeem-gold-v1_92
+  - first:
+      213: -6078215196042590939
+    second: redeem-gold-v1_93
+  - first:
+      213: 3518335577903736526
+    second: redeem-gold-v1_94
+  - first:
+      213: -415223452927898121
+    second: redeem-gold-v1_95
+  - first:
+      213: -5522123317057115566
+    second: redeem-gold-v1_96
+  - first:
+      213: -8930864885009846458
+    second: redeem-gold-v1_97
+  - first:
+      213: 1890428127478827612
+    second: redeem-gold-v1_98
+  - first:
+      213: -8914998556174788196
+    second: redeem-gold-v1_99
+  - first:
+      213: -6764911782946300691
+    second: redeem-gold-v1_100
+  - first:
+      213: 3051685856620281229
+    second: redeem-gold-v1_101
+  - first:
+      213: 164388828889164138
+    second: redeem-gold-v1_102
+  - first:
+      213: 157166860274987593
+    second: redeem-gold-v1_103
+  - first:
+      213: 2895402521054895568
+    second: redeem-gold-v1_104
+  - first:
+      213: 1953789024068019843
+    second: redeem-gold-v1_105
+  - first:
+      213: 7505673648323331368
+    second: redeem-gold-v1_106
+  - first:
+      213: 7545630436249334756
+    second: redeem-gold-v1_107
+  - first:
+      213: 933748132597386948
+    second: redeem-gold-v1_108
+  - first:
+      213: 6948451042576961266
+    second: redeem-gold-v1_109
+  - first:
+      213: -7888150826735860305
+    second: redeem-gold-v1_110
+  - first:
+      213: 602059069957893411
+    second: redeem-gold-v1_111
+  - first:
+      213: -6155810578854909265
+    second: redeem-gold-v1_112
+  - first:
+      213: -8998369265823398252
+    second: redeem-gold-v1_113
+  - first:
+      213: -4861257397015928629
+    second: redeem-gold-v1_114
+  - first:
+      213: 5324312635032967418
+    second: redeem-gold-v1_115
+  - first:
+      213: 5106996092318142862
+    second: redeem-gold-v1_116
+  - first:
+      213: -4615890101039586864
+    second: redeem-gold-v1_117
+  - first:
+      213: 4661377719577895413
+    second: redeem-gold-v1_118
+  - first:
+      213: -7285739045323139847
+    second: redeem-gold-v1_119
+  - first:
+      213: 43405580495077227
+    second: redeem-gold-v1_120
+  - first:
+      213: 1504425678321564855
+    second: redeem-gold-v1_121
+  - first:
+      213: -4057430416812038589
+    second: redeem-gold-v1_122
+  - first:
+      213: 4154317837546806534
+    second: redeem-gold-v1_123
+  - first:
+      213: -8025892912424113808
+    second: redeem-gold-v1_124
+  - first:
+      213: 6331751292786084632
+    second: redeem-gold-v1_125
+  - first:
+      213: -1088033394442533988
+    second: redeem-gold-v1_126
+  - first:
+      213: 6723255669967300839
+    second: redeem-gold-v1_127
+  - first:
+      213: -7789183278566739113
+    second: redeem-gold-v1_128
+  - first:
+      213: 6624167440656855610
+    second: redeem-gold-v1_129
+  - first:
+      213: -6746946913487880824
+    second: redeem-gold-v1_130
+  - first:
+      213: 6260072697908731389
+    second: redeem-gold-v1_131
+  - first:
+      213: 6397869402399216267
+    second: redeem-gold-v1_132
+  - first:
+      213: -2796972103165296645
+    second: redeem-gold-v1_133
+  - first:
+      213: -6768669664212242177
+    second: redeem-gold-v1_134
+  - first:
+      213: 6499553681182293867
+    second: redeem-gold-v1_135
+  - first:
+      213: 7386831893417002654
+    second: redeem-gold-v1_136
+  - first:
+      213: 1993689203094035132
+    second: redeem-gold-v1_137
+  - first:
+      213: 1855060144939039718
+    second: redeem-gold-v1_138
+  - first:
+      213: -4096746971431738074
+    second: redeem-gold-v1_139
+  - first:
+      213: -8469056461045197375
+    second: redeem-gold-v1_140
+  - first:
+      213: 9139778402838732234
+    second: redeem-gold-v1_141
+  - first:
+      213: -1608591840822410760
+    second: redeem-gold-v1_142
+  - first:
+      213: -3076526063724888929
+    second: redeem-gold-v1_143
+  - first:
+      213: 423942075271715544
+    second: redeem-gold-v1_144
+  - first:
+      213: 3233158637181840246
+    second: redeem-gold-v1_145
+  - first:
+      213: 5721951669203027539
+    second: redeem-gold-v1_146
+  - first:
+      213: -2054234196375177006
+    second: redeem-gold-v1_147
+  - first:
+      213: 5083523297685538238
+    second: redeem-gold-v1_148
+  - first:
+      213: -2554047899752785037
+    second: redeem-gold-v1_149
+  - first:
+      213: -1145303129056296557
+    second: redeem-gold-v1_150
+  - first:
+      213: 5466221943246001546
+    second: redeem-gold-v1_151
+  - first:
+      213: -3909776903512707287
+    second: redeem-gold-v1_152
+  - first:
+      213: 2825091152615049196
+    second: redeem-gold-v1_153
+  - first:
+      213: 7879261124854230306
+    second: redeem-gold-v1_154
+  - first:
+      213: 1414342749659455988
+    second: redeem-gold-v1_155
+  - first:
+      213: 5304108611932189696
+    second: redeem-gold-v1_156
+  - first:
+      213: 4247550312348963536
+    second: redeem-gold-v1_157
+  - first:
+      213: -2528964038252757474
+    second: redeem-gold-v1_158
+  - first:
+      213: 207037251762542554
+    second: redeem-gold-v1_159
+  - first:
+      213: 1540890329465294726
+    second: redeem-gold-v1_160
+  - first:
+      213: -7731167151724164158
+    second: redeem-gold-v1_161
+  - first:
+      213: 5956728251754979693
+    second: redeem-gold-v1_162
+  - first:
+      213: -6721994654171616246
+    second: redeem-gold-v1_163
+  - first:
+      213: -2159867991299441607
+    second: redeem-gold-v1_164
+  - first:
+      213: 6538139673306649747
+    second: redeem-gold-v1_165
+  - first:
+      213: 6589128530399064154
+    second: redeem-gold-v1_166
+  - first:
+      213: -7112606659278709036
+    second: redeem-gold-v1_167
+  - first:
+      213: -9089044098209723667
+    second: redeem-gold-v1_168
+  - first:
+      213: -8475416524501990234
+    second: redeem-gold-v1_169
+  - first:
+      213: 5693735541722286595
+    second: redeem-gold-v1_170
+  - first:
+      213: 4393782953452067834
+    second: redeem-gold-v1_171
+  - first:
+      213: -1981961460512765133
+    second: redeem-gold-v1_172
+  - first:
+      213: 796040737136240412
+    second: redeem-gold-v1_173
+  - first:
+      213: -1494846352946475181
+    second: redeem-gold-v1_174
+  - first:
+      213: 1865520891364594942
+    second: redeem-gold-v1_175
+  - first:
+      213: -7383051885587652562
+    second: redeem-gold-v1_176
+  - first:
+      213: 5353346225325720626
+    second: redeem-gold-v1_177
+  - first:
+      213: -545632527845931857
+    second: redeem-gold-v1_178
+  - first:
+      213: 8966507909170186062
+    second: redeem-gold-v1_179
+  - first:
+      213: -7108850567072350195
+    second: redeem-gold-v1_180
+  - first:
+      213: 5060183131317028348
+    second: redeem-gold-v1_181
+  - first:
+      213: 4975965601826212190
+    second: redeem-gold-v1_182
+  - first:
+      213: -983151523854034478
+    second: redeem-gold-v1_183
+  - first:
+      213: 1712692443906984534
+    second: redeem-gold-v1_184
+  - first:
+      213: 3895306163879557663
+    second: redeem-gold-v1_185
+  - first:
+      213: 5345379252453930704
+    second: redeem-gold-v1_186
+  - first:
+      213: 4042076033630385854
+    second: redeem-gold-v1_187
+  - first:
+      213: 7119792659199905312
+    second: redeem-gold-v1_188
+  - first:
+      213: 3928241119882733034
+    second: redeem-gold-v1_189
+  - first:
+      213: -4220542634295504269
+    second: redeem-gold-v1_190
+  - first:
+      213: -5979114463860494081
+    second: redeem-gold-v1_191
+  - first:
+      213: -557028286565639125
+    second: redeem-gold-v1_192
+  - first:
+      213: -502464566839025524
+    second: redeem-gold-v1_193
+  - first:
+      213: -3492875797084870576
+    second: redeem-gold-v1_194
+  - first:
+      213: -7410729584800892839
+    second: redeem-gold-v1_195
+  - first:
+      213: 4511152400849685483
+    second: redeem-gold-v1_196
+  - first:
+      213: -2636694805150174922
+    second: redeem-gold-v1_197
+  - first:
+      213: -4431155915032575369
+    second: redeem-gold-v1_198
+  - first:
+      213: 725131590498463494
+    second: redeem-gold-v1_199
+  - first:
+      213: -404336882614375464
+    second: redeem-gold-v1_200
+  - first:
+      213: -6630010333155245503
+    second: redeem-gold-v1_201
+  - first:
+      213: 6632325068043171066
+    second: redeem-gold-v1_202
+  - first:
+      213: -3231478881909409254
+    second: redeem-gold-v1_203
+  - first:
+      213: 6166131883830231000
+    second: redeem-gold-v1_204
+  - first:
+      213: 7464443950187677174
+    second: redeem-gold-v1_205
+  - first:
+      213: -6225956371076916557
+    second: redeem-gold-v1_206
+  - first:
+      213: -7879372108982240269
+    second: redeem-gold-v1_207
+  - first:
+      213: 3835529854869787015
+    second: redeem-gold-v1_208
+  - first:
+      213: -3999015393685654679
+    second: redeem-gold-v1_209
+  - first:
+      213: -507556449835833132
+    second: redeem-gold-v1_210
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: redeem-gold-v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff9f5b6aa0593da0800000000000000
+      internalID: -5964647538599419916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbebb068f494acf0800000000000000
+      internalID: -241904685475435529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c460c97be691dc0800000000000000
+      internalID: -3667778686640829376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2363b0bc58d2def10800000000000000
+      internalID: 2300545037316601394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fdc7dc2a99e3320800000000000000
+      internalID: 2539636164394803034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eff327a0df7a3340800000000000000
+      internalID: 4844324883324469225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3d7424d408aa160800000000000000
+      internalID: 7037578437032661951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2549a717d9d1ea9d0800000000000000
+      internalID: -2761236959480605614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4659e6a678e527910800000000000000
+      internalID: 1833631933992441188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc87fa2db3216510800000000000000
+      internalID: 1540551842914077874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38b04fbfa37fe590800000000000000
+      internalID: -7642762843959281602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d32a0420b6e24d0800000000000000
+      internalID: -3157468631321657977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6c5babc09df18e0800000000000000
+      internalID: -1720417883936930063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b989fd450cc861d50800000000000000
+      internalID: 6707703452700481691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b794ffb44dd1970800000000000000
+      internalID: 8727365075784530708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9499419091bd1ab0800000000000000
+      internalID: -5035673573859421028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a19db1999e8b5d0800000000000000
+      internalID: -3046428304109659582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_17
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59837ddc3a1eaf5b0800000000000000
+      internalID: -5333702715017578347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_18
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fd34e8a22f1b040800000000000000
+      internalID: 4661773353894535064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_19
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385d0e78e62fd30b0800000000000000
+      internalID: -5747170992914901629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec03bb90bd1058c0800000000000000
+      internalID: -4012674623623459602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760fdcfcc93c96940800000000000000
+      internalID: 5289974315592052839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_22
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a077e19e1f0adfb70800000000000000
+      internalID: 8934474196631582474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_23
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4623ccba725e3e10800000000000000
+      internalID: 2179269956800292431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_24
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4537f00ae68bde670800000000000000
+      internalID: 8569708451227202388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0636d31502ef590b0800000000000000
+      internalID: -5722388336748960928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_26
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8754182c5339a70800000000000000
+      internalID: 8832462403712415922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0790d715d4fb38360800000000000000
+      internalID: 7170785370504497520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fa7f83d5d24ccb0800000000000000
+      internalID: -4844697420732846329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_29
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627fa5de328831e10800000000000000
+      internalID: 2167225533582735142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_30
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d0c7a0cb13e8ed0800000000000000
+      internalID: -2409934066897121898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_31
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea07e3360d5a6e10800000000000000
+      internalID: 2191666449891134187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_32
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fe2d6c51ca7efb0800000000000000
+      internalID: -4618533683315151038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_33
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6b9d6870c69a340800000000000000
+      internalID: 4875546851188258473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7e9d7aab9fd0b90800000000000000
+      internalID: -7273883243058174032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_35
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186d0a8b90122b6d0800000000000000
+      internalID: -2976280078102505855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_36
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede994f4d741840b0800000000000000
+      internalID: -5744318796277375266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_37
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229ca49dfaf9f2d30800000000000000
+      internalID: 4408918137832655138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_38
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb344129789215250800000000000000
+      internalID: 5931567846471779260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_39
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb1abedf8f7c0190800000000000000
+      internalID: -7994874982595683399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_40
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d87d985b1a6ebb0800000000000000
+      internalID: -4907056942899819262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_41
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fe9665010d4ffd0800000000000000
+      internalID: -2308991940346384634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_42
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0532f5fad2aa6bd50800000000000000
+      internalID: 6752771804481135440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_43
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4523f7e0024bf7740800000000000000
+      internalID: 5152034548510306900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_44
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb87959c0c662e60800000000000000
+      internalID: 7937150194592222157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_45
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4b0d8a35eb474d0800000000000000
+      internalID: -3137673773846580024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_46
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401aa7df6c2329ea0800000000000000
+      internalID: -5867571534272749308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0555b3598174aa0800000000000000
+      internalID: -6176941334690705217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_48
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dee4f0aadc8269a0800000000000000
+      internalID: -6241271262950920489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_49
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b515b29e861dd450800000000000000
+      internalID: 6115068670641509815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_50
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c939fe84cd6265f0800000000000000
+      internalID: -764928295719847481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_51
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcb6999bcd2527f0800000000000000
+      internalID: -638053419724653313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_52
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1aee41130ad5850800000000000000
+      internalID: 6367421580836774375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_53
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a295c9e2dcc99f0800000000000000
+      internalID: -460267461823354307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_54
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642a7fbc4d1138dd0800000000000000
+      internalID: -2485122963725639098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_55
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9117654f147fb40800000000000000
+      internalID: 5473916389770205616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13d922337fc61480800000000000000
+      internalID: -8928721117545639142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_57
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8cf1dc1490f8880800000000000000
+      internalID: -8606650184662792008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_58
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e27beec94e7cd5f0800000000000000
+      internalID: -730570184071613720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_59
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3275bc346afb8600800000000000000
+      internalID: 471745894412546620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_60
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63816073a3b442bc0800000000000000
+      internalID: -3808836671445264330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_61
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4124f27cdb3bfc00800000000000000
+      internalID: 935407165616955726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_62
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 3
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dd2d1d2078f7a60800000000000000
+      internalID: 7674000736242556162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_63
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 6
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c75b20c94a38cb0800000000000000
+      internalID: -4862862182662701941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_64
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740f371d78ee8dd40800000000000000
+      internalID: 5609495602991984711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_65
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf945f3088963a6e0800000000000000
+      internalID: -1827500990879413765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_66
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dffc5af5c2044c0800000000000000
+      internalID: -4305392454450807478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_67
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9649323cec56c270800000000000000
+      internalID: 8270399935237146269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_68
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf1002f96dc82e70800000000000000
+      internalID: 9090741702762700740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_69
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b3b80e633e25150800000000000000
+      internalID: 5859995889997396781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_70
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5110b230a047f3b90800000000000000
+      internalID: -7259956487946305259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_71
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237be6616867de8a0800000000000000
+      internalID: -6274228387583183054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_72
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760685e59add5c430800000000000000
+      internalID: 3802689179886313575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_73
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 2
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bd2c408ec1b0660800000000000000
+      internalID: 7353002599450336059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_74
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9e310ca7fd9d090800000000000000
+      internalID: -8009124744000181784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_75
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700f67726175ec8d0800000000000000
+      internalID: -2824224163651719161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_76
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a89aa9e70851c70800000000000000
+      internalID: 8941193916463024797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_77
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070b420a9dad04f90800000000000000
+      internalID: -6971331594940010384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_78
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 2
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d1f775093df3a20800000000000000
+      internalID: 3044384490022444365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_79
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2c3d86783405940800000000000000
+      internalID: 5282796611763946153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_80
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eef8fcfbdbdad160800000000000000
+      internalID: 7051189904490430176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_81
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745eebdddecc00c20800000000000000
+      internalID: 3170759459668419911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_82
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d956c75827f24760800000000000000
+      internalID: 7440781287012850131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_83
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4604fcec8607360b0800000000000000
+      internalID: -5736617904891281308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_84
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1463d1bff82fe20800000000000000
+      internalID: 3382924578798322102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_85
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37a9d0f65fa1ff50800000000000000
+      internalID: 6913499690933266239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_86
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9332392b467365820800000000000000
+      internalID: 2906571515146478393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_87
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 0
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104dd5552bbb020b0800000000000000
+      internalID: -5755393949168708607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_88
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be702bb678448a70800000000000000
+      internalID: 8828260844335824562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_89
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b7601b45ecff460800000000000000
+      internalID: 7277762385996577581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_90
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e26db1633b486b0800000000000000
+      internalID: -5294910216904233340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_91
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af413bacace664770800000000000000
+      internalID: 8594678756146353402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_92
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ff9b05d2a44cc30800000000000000
+      internalID: 4378706296199315329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_93
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 2
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5250083ab77d5aba0800000000000000
+      internalID: -6078215196042590939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_94
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 2
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec622913193a3d030800000000000000
+      internalID: 3518335577903736526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_95
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd42d13874dc3af0800000000000000
+      internalID: -415223452927898121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_96
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25aa8e0c91a7d53b0800000000000000
+      internalID: -5522123317057115566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_97
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 2
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f6aff64b13f0480800000000000000
+      internalID: -8930864885009846458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_98
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a48c3bd562c3a10800000000000000
+      internalID: 1890428127478827612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_99
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99d41efb00974480800000000000000
+      internalID: -8914998556174788196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_100
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec91a053943e12a0800000000000000
+      internalID: -6764911782946300691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_101
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d7fe93e14c95a20800000000000000
+      internalID: 3051685856620281229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_102
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a692bf6d4c6084200800000000000000
+      internalID: 164388828889164138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_103
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942772d3d6e5e2200800000000000000
+      internalID: 157166860274987593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_104
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 2
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd5f3d90498e2820800000000000000
+      internalID: 2895402521054895568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_105
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386a1a904c04d1b10800000000000000
+      internalID: 1953789024068019843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_106
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82582589a62892860800000000000000
+      internalID: 7505673648323331368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_107
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3740f37e677b860800000000000000
+      internalID: 7545630436249334756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_108
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cec629baf655fc00800000000000000
+      internalID: 933748132597386948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_109
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe0ef3a86bdd6060800000000000000
+      internalID: 6948451042576961266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_110
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa584b5cd98a78290800000000000000
+      internalID: -7888150826735860305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_111
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d64a6c881fa5800800000000000000
+      internalID: 602059069957893411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_112
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faae2c6b4ea229aa0800000000000000
+      internalID: -6155810578854909265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_113
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496cdc004de5f1380800000000000000
+      internalID: -8998369265823398252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_114
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc020294728598cb0800000000000000
+      internalID: -4861257397015928629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_115
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af89344d122c3e940800000000000000
+      internalID: 5324312635032967418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_116
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e815eef43e1bfd640800000000000000
+      internalID: 5106996092318142862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_117
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 2
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d12b4db86011ffb0800000000000000
+      internalID: -4615890101039586864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_118
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f16c53c65a80b040800000000000000
+      internalID: 4661377719577895413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_119
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4125590fad3ea90800000000000000
+      internalID: -7285739045323139847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_120
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fbdae35253a9000800000000000000
+      internalID: 43405580495077227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_121
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc35530f2bc0e410800000000000000
+      internalID: 1504425678321564855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_122
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346ad09788c11b7c0800000000000000
+      internalID: -4057430416812038589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_123
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ddb0f001a17a930800000000000000
+      internalID: 4154317837546806534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_124
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079a2ad4bec4e9090800000000000000
+      internalID: -8025892912424113808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_125
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 2
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b82a4f046eed750800000000000000
+      internalID: 6331751292786084632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_126
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 2
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c938d74746786e0f0800000000000000
+      internalID: -1088033394442533988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_127
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e82886196dcd4d50800000000000000
+      internalID: 6723255669967300839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_128
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753fd96b31347e390800000000000000
+      internalID: -7789183278566739113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_129
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a327f01e035cdeb50800000000000000
+      internalID: 6624167440656855610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_130
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88df22f67870e52a0800000000000000
+      internalID: -6746946913487880824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_131
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd98f293fe30e650800000000000000
+      internalID: 6260072697908731389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_132
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b829859f25cc9c850800000000000000
+      internalID: 6397869402399216267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_133
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffb720f0b82f29d0800000000000000
+      internalID: -2796972103165296645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_134
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0baa66dcad012a0800000000000000
+      internalID: -6768669664212242177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_135
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 2
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ff37d03ad033a50800000000000000
+      internalID: 6499553681182293867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_136
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9685ae487c438660800000000000000
+      internalID: 7386831893417002654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_137
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba93f664c10bab10800000000000000
+      internalID: 1993689203094035132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_138
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb73109f5f7eb910800000000000000
+      internalID: 1855060144939039718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_139
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6256721c55e6527c0800000000000000
+      internalID: -4096746971431738074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_140
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c59ca8050ed77a80800000000000000
+      internalID: -8469056461045197375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_141
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd5df2680407de70800000000000000
+      internalID: 9139778402838732234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_142
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f140335e322da9e0800000000000000
+      internalID: -1608591840822410760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_143
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c727d58dbfd45d0800000000000000
+      internalID: -3076526063724888929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_144
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da99e1421522e500800000000000000
+      internalID: 423942075271715544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_145
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ba5b786ac7edc20800000000000000
+      internalID: 3233158637181840246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_146
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356ccc81ab4786f40800000000000000
+      internalID: 5721951669203027539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_147
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8f897d1e4ed73e0800000000000000
+      internalID: -2054234196375177006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_148
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb508fd618d4c8640800000000000000
+      internalID: 5083523297685538238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_149
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b17e397f23e8cd0800000000000000
+      internalID: -2554047899752785037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_150
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391c4784fd01b10f0800000000000000
+      internalID: -1145303129056296557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_151
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a859f9665ebebdb40800000000000000
+      internalID: 5466221943246001546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_152
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f29130f9eadb9c0800000000000000
+      internalID: -3909776903512707287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_153
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce708b17f6db43720800000000000000
+      internalID: 2825091152615049196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_154
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d2b773f32c85d60800000000000000
+      internalID: 7879261124854230306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_155
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 2
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1e910cc31c0a310800000000000000
+      internalID: 1414342749659455988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_156
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004fe402eaafb9940800000000000000
+      internalID: 5304108611932189696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_157
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2d82d218452fa30800000000000000
+      internalID: 4247550312348963536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_158
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ef4323b9057ecd0800000000000000
+      internalID: -2528964038252757474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_159
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad75496984b8fd200800000000000000
+      internalID: 207037251762542554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_160
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f0d953797526510800000000000000
+      internalID: 1540890329465294726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_161
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb005edf6065b490800000000000000
+      internalID: -7731167151724164158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_162
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61a36de8cc8aa250800000000000000
+      internalID: 5956728251754979693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_163
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ca6080a7da6b2a0800000000000000
+      internalID: -6721994654171616246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_164
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c3cd0618b9602e0800000000000000
+      internalID: -2159867991299441607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_165
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394d45f64632cba50800000000000000
+      internalID: 6538139673306649747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_166
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50f3d9dc79417b50800000000000000
+      internalID: 6589128530399064154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_167
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de5d967de1fa4d90800000000000000
+      internalID: -7112606659278709036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_168
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea495a6c8a3dd180800000000000000
+      internalID: -9089044098209723667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_169
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4459d5395416a80800000000000000
+      internalID: -8475416524501990234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_170
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a8f59fe46340f40800000000000000
+      internalID: 5693735541722286595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_171
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb5da0215ad9fc30800000000000000
+      internalID: 4393782953452067834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_172
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 2
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b4f937d88ae74e0800000000000000
+      internalID: -1981961460512765133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_173
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 2
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17eeb335da1c0b00800000000000000
+      internalID: 796040737136240412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_174
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f46da792d314be0800000000000000
+      internalID: -1494846352946475181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_175
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef45bd2ed59a3e910800000000000000
+      internalID: 1865520891364594942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_176
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 2
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2025495d612a8990800000000000000
+      internalID: -7383051885587652562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_177
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234c7385708ea4a40800000000000000
+      internalID: 5353346225325720626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_178
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa448d75b168d68f0800000000000000
+      internalID: -545632527845931857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_179
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 2
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47c1d1df6f6f6c70800000000000000
+      internalID: 8966507909170186062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_180
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d008154d21a485d90800000000000000
+      internalID: -7108850567072350195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_181
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf543987fb1693640800000000000000
+      internalID: 5060183131317028348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_182
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e590a6fd95e2e0540800000000000000
+      internalID: 4975965601826212190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_183
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9db44e5e42b52f0800000000000000
+      internalID: -983151523854034478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_184
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 2
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a429814b4b4c710800000000000000
+      internalID: 1712692443906984534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_185
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a3e6d5158ee0630800000000000000
+      internalID: 3895306163879557663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_186
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6724ceb1a9e2a40800000000000000
+      internalID: 5345379252453930704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_187
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6b8ab9cb6581830800000000000000
+      internalID: 4042076033630385854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_188
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e4b0683b59ec260800000000000000
+      internalID: 7119792659199905312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_189
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae561be5c7ae38630800000000000000
+      internalID: 3928241119882733034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_190
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372dc63e5de9d65c0800000000000000
+      internalID: -4220542634295504269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_191
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0f136e21be50da0800000000000000
+      internalID: -5979114463860494081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_192
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c196189b90548f0800000000000000
+      internalID: -557028286565639125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_193
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80e65d7323e609f0800000000000000
+      internalID: -502464566839025524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_194
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0586236f7ffc68fc0800000000000000
+      internalID: -3492875797084870576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_195
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958f673d4bcc72990800000000000000
+      internalID: -7410729584800892839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_196
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 2
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebcb4c1535da9e30800000000000000
+      internalID: 4511152400849685483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_197
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631f7e56b04986bd0800000000000000
+      internalID: -2636694805150174922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_198
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772cc1c2c2f5182c0800000000000000
+      internalID: -4431155915032575369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_199
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 0
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f2313f65f201a00800000000000000
+      internalID: 725131590498463494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_200
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 2
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db6e2e5fb1836af0800000000000000
+      internalID: -404336882614375464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_201
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142cc13bab87df3a0800000000000000
+      internalID: -6630010333155245503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_202
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4b1a38280ca0c50800000000000000
+      internalID: 6632325068043171066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_203
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1afc98f31b7723d0800000000000000
+      internalID: -3231478881909409254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_204
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df39ed5740829550800000000000000
+      internalID: 6166131883830231000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_205
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 2
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f500c07938079760800000000000000
+      internalID: 7464443950187677174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_206
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 2
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba51e2caa5f899a0800000000000000
+      internalID: -6225956371076916557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_207
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb3ef640d8d6a290800000000000000
+      internalID: -7879372108982240269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_208
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7815becd41a8a3530800000000000000
+      internalID: 3835529854869787015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_209
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 2
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9633c08efa4a088c0800000000000000
+      internalID: -3999015393685654679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redeem-gold-v1_210
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8a318191cc4f8f0800000000000000
+      internalID: -507556449835833132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
