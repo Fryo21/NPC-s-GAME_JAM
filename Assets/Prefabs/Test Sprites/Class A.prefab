@@ -361,8 +361,8 @@ MonoBehaviour:
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.6
-  pickNextWaypointDist: 2
-  alwaysDrawGizmos: 0
+  pickNextWaypointDist: 0.4
+  alwaysDrawGizmos: 1
   slowWhenNotFacingTarget: 1
   preventMovingBackwards: 0
-  constrainInsideGraph: 1
+  constrainInsideGraph: 0
