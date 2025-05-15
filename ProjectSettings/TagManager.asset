@@ -16,8 +16,8 @@ TagManager:
   - Ground
   - Buildings
   - NPCs
-  - 
-  - 
+  - Player
+  - NPCBodyCollideWithWorld
   - 
   - 
   - 

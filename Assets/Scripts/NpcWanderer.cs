@@ -1,197 +1,193 @@
-using System.Collections;
-using System.Runtime.InteropServices.WindowsRuntime;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using Pathfinding;
 
+[RequireComponent(typeof(Seeker))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class NpcWanderer : MonoBehaviour
 {
-    [Header("Wanderer Settings")]
-    public float wandererSpeed = 3f;
-    //public float wandererRadius = 5f;
-    public float minWandererWaitTime = 1f;
-    public float maxWandererWaitTime = 2f;
+    // A* Pathfinding components
+    private Seeker seeker;
+    private Rigidbody2D rb;
+    private Path path;
 
-    [Header("Avoidance Settings")]
-    //public float wandererAvoidanceRadius = 1f;
-    //public float wandererAvoidanceStrength = 1f;
-    public LayerMask obstacleLayer;
+    // Wandering settings
+    [Header("Wandering Settings")]
+    [SerializeField] private float wanderRadius = 10f;        // How far to wander from start position
+    [SerializeField] private float minWanderDistance = 3f;    // Minimum distance for a new point
+    [SerializeField] private float nextWaypointDistance = 1f; // When to consider a waypoint reached
 
-   // [Header("Boundary Settings")]
-   // public BoxCollider2D boundaryBox;
-   // public LayerMask obstacleLayer;
+    [Header("Movement Settings")]
+    [SerializeField] private float speed = 2f;                // Movement speed
+    [SerializeField] private float rotationSpeed = 10f;       // How fast to rotate (for sprites)
+    [SerializeField] private bool faceMovementDirection = true; // Whether to rotate sprite to face movement direction
 
-    //  private Bounds boundaryBounds;
-    private Vector2 wanderingPoint;
-    private bool isWandering;
-    void Start()
+    [Header("Timing Settings")]
+    [SerializeField] private float repathRate = 0.5f;         // How often to recalculate path
+    [SerializeField] private float pauseTimeMin = 1f;         // Minimum time to pause at destination
+    [SerializeField] private float pauseTimeMax = 3f;         // Maximum time to pause at destination
+
+    // State variables
+    private Vector3 startPosition;
+    private Vector3 targetPosition;
+    private int currentWaypoint = 0;
+    private bool reachedEndOfPath = false;
+    private bool isWandering = true;
+    private bool isPaused = false;
+    private float pauseTimer = 0f;
+    private float pathUpdateTimer = 0f;
+
+    private void Start()
     {
-        // boundaryBounds = boundaryBox.bounds;
-        //PickDirection();
-        StartCoroutine(MoveRoutine());
+        // Get components
+        seeker = GetComponent<Seeker>();
+        rb = GetComponent<Rigidbody2D>();
+
+        // Store starting position
+        startPosition = transform.position;
+
+        // Calculate initial target position
+        CalculateNewWanderTarget();
+
+        // Start pathfinding
+        CalculatePath();
     }
 
-    /*
-     void Update()
-  {
-      if (isWandering) { return; }
-
-      Vector2 direction = (wanderingPoint - (Vector2)transform.position).normalized;      
-
-      Vector2 avoidance = Vector2.zero;
-
-      Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, wandererAvoidanceRadius);
-
-      foreach (Collider2D hit in hits)
-      {
-          if (hit.gameObject != gameObject && hit.CompareTag("NPC_Wanderer"))
-          {
-              Vector2 change = (Vector2)transform.position - (Vector2)hit.transform.position;
-
-              avoidance += change.normalized * wandererAvoidanceStrength;
-          }
-      }
-
-      Collider2D[] obstacles = Physics2D.OverlapCircleAll(transform.position, wandererAvoidanceRadius, obstacleLayer);
-      foreach (var  obstacle in obstacles)
-      {
-          Vector2 away = (Vector2)transform.position - (Vector2)obstacle.transform.position;
-          avoidance += away.normalized * wandererAvoidanceStrength;
-      }
-
-      Vector2 finalDirertion = (direction + avoidance * wandererAvoidanceStrength).normalized;
-
-
-              Vector2 nextPosition = (Vector2)transform.position + (Vector2)finalDirertion * wandererSpeed * Time.deltaTime;
-
-              RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, finalDirertion, wandererRadius, obstacleLayer);
-              if (hitInfo.collider)
-              {
-                  PickDirection();
-                  return;
-              }
-
-              if (!boundaryBounds.Contains(nextPosition))
-              {
-                  PickDirectionAwayFromBoundary();
-
-                  return;
-              }
-
-
-              transform.position = nextPosition;
-
-              transform.position += (Vector3)finalDirertion * wandererSpeed * Time.deltaTime;
-              if (Vector2.Distance(transform.position, wanderingPoint) < 0.1f)
-              {
-                  StartCoroutine(WaitAndMove());
-              }
-          }
-      */
-    public IEnumerator MoveRoutine()
+    private void Update()
     {
-        while (true)
+        // Handle pause at destination
+        if (isPaused)
         {
-            if (!isWandering)
+            pauseTimer -= Time.deltaTime;
+            if (pauseTimer <= 0)
             {
-                Vector2 nextPos = GetNextValidPosition();
-                if (nextPos != (Vector2)transform.position)
-                {
-                    yield return StartCoroutine(MoveToPosition(nextPos));
-                }
-                else
-                {
-                    yield return new WaitForSeconds(Random.Range(minWandererWaitTime, maxWandererWaitTime));
-                }
+                isPaused = false;
+                CalculateNewWanderTarget();
+                CalculatePath();
             }
-            yield return null;
+            return;
+        }
+
+        // Update path periodically
+        pathUpdateTimer -= Time.deltaTime;
+        if (pathUpdateTimer <= 0 && isWandering)
+        {
+            pathUpdateTimer = repathRate;
+            CalculatePath();
         }
     }
-    public Vector2 GetNextValidPosition()
+
+    private void FixedUpdate()
     {
-        Vector2[] randomDirection = { Vector2.up, Vector2.down, Vector2.left, Vector2.right };
-        Vector2 currentPos = transform.position;
-
-        for (int i = 0; i < randomDirection.Length; i++)
+        // Don't move if paused or no path
+        if (isPaused || path == null || !isWandering)
         {
-            int randIndex = Random.Range(i, randomDirection.Length);
-            Vector2 temp = randomDirection[i];
-            randomDirection[i] = randomDirection[randIndex];
-            randomDirection[randIndex] = temp;
+            // Optional: You could gradually reduce velocity here for smoother stops
+            return;
         }
 
-        foreach (Vector2 dir in randomDirection)
+        // Check if we've reached the end of the path
+        if (currentWaypoint >= path.vectorPath.Count)
         {
-            Vector2 checkPos = currentPos + dir;
-            if (!Physics2D.OverlapCircle(checkPos, 0.1f, obstacleLayer))
-            {
-                return checkPos;
-            }
+            reachedEndOfPath = true;
+            StartPause();
+            return;
+        }
+        else
+        {
+            reachedEndOfPath = false;
         }
 
-        return currentPos;
+        // Direction to the next waypoint
+        Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
+        Vector2 force = direction * speed;
+
+        // Apply movement
+        rb.velocity = force;
+
+        // Check if we're close enough to the current waypoint
+        float distanceToWaypoint = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
+        if (distanceToWaypoint < nextWaypointDistance)
+        {
+            currentWaypoint++;
+        }
     }
-    private IEnumerator MoveToPosition(Vector2 targetPos)
+
+    private void CalculatePath()
+    {
+        if (seeker.IsDone())
+        {
+            seeker.StartPath(transform.position, targetPosition, OnPathComplete);
+        }
+    }
+
+    private void OnPathComplete(Path p)
+    {
+        if (!p.error)
+        {
+            path = p;
+            currentWaypoint = 0;
+        }
+        else
+        {
+            Debug.LogWarning("Path error: " + p.errorLog);
+
+            // If path failed, try a new target after a short delay
+            Invoke("CalculateNewWanderTarget", 1f);
+        }
+    }
+
+    private void CalculateNewWanderTarget()
+    {
+        // Try to find a valid point that's not too close
+        int attempts = 0;
+        Vector3 newTarget;
+
+        do
+        {
+            // Get random point within circle
+            Vector2 randomDirection = Random.insideUnitCircle * wanderRadius;
+            newTarget = startPosition + new Vector3(randomDirection.x, randomDirection.y, 0);
+            attempts++;
+        }
+        while (Vector3.Distance(transform.position, newTarget) < minWanderDistance && attempts < 10);
+
+        targetPosition = newTarget;
+    }
+
+    private void StartPause()
+    {
+        isPaused = true;
+        pauseTimer = Random.Range(pauseTimeMin, pauseTimeMax);
+        rb.velocity = Vector2.zero; // Stop movement
+    }
+
+    // Optional: Public methods to control NPC behavior from outside
+    public void StopWandering()
+    {
+        isWandering = false;
+        rb.velocity = Vector2.zero;
+    }
+
+    public void ResumeWandering()
     {
         isWandering = true;
-        while ((Vector2)transform.position != targetPos)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, targetPos, wandererSpeed * Time.deltaTime);
-
-            yield return null;
-        }
-        isWandering = false;
+        CalculateNewWanderTarget();
+        CalculatePath();
     }
-    /*
-    void PickDirection()
+
+    // Optional: Gizmos to visualize the wander radius in editor
+    private void OnDrawGizmosSelected()
     {
-        
-        for (int i = 0; i < 10; i++)
-        {
-            Vector2 ranDirection = Random.insideUnitCircle * wandererRadius;
-
-            Vector2 vector2 = (Vector2)transform.position + ranDirection;
-
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, ranDirection, wandererRadius, obstacleLayer);
-            if (!hit.collider)
-            {
-                wanderingPoint = vector2;
-                return;
-            }
-        }
-        
-        Vector2 randomDirection = Random.insideUnitCircle.normalized * Random.Range(1f, wandererRadius);
-        wanderingPoint = (Vector2)transform.position + randomDirection;
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(Application.isPlaying ? startPosition : transform.position, wanderRadius);
     }
-    IEnumerator WaitAndMove()
-    {
-        float wandererWaitTime = Random.Range(minWandererWaitTime, maxWandererWaitTime);
 
+    // Optional: Set a specific target location (for integrating with other systems)
+    public void SetTarget(Vector3 target)
+    {
         isWandering = true;
-
-        yield return new WaitForSeconds(wandererWaitTime);
-
-        PickDirection();
-
-        isWandering = false;
+        isPaused = false;
+        targetPosition = target;
+        CalculatePath();
     }
-    
-    private void PickDirectionAwayFromBoundary()
-    {
-        Vector2 directionToCenter = (Vector2)boundaryBounds.center - (Vector2)transform.position;
-        
-        Vector2 randomOffset = Random.insideUnitCircle.normalized * 0.5f; 
-       
-        wanderingPoint = (Vector2)transform.position + (directionToCenter + randomOffset).normalized * wandererRadius;
-
-        wanderingPoint = ClampToBounds(wanderingPoint);
-    }
-    private Vector2 ClampToBounds(Vector2 point)
-    {
-        float clampedX = Mathf.Clamp(point.x, boundaryBounds.min.x + 0.5f, boundaryBounds.max.x - 0.5f);
-        float clampedY = Mathf.Clamp(point.y, boundaryBounds.min.y + 0.5f, boundaryBounds.max.y - 0.5f);
-
-        return new Vector2(clampedX, clampedY);
-    }
-    */
-
 }
