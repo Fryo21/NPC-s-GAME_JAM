@@ -213,6 +213,7 @@ MonoBehaviour:
   wanderRadius: 10
   pauseTimeMin: 1
   pauseTimeMax: 3
+  drawGizmos: 1
 --- !u!70 &9104493360856981674
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -326,7 +327,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  endReachedDistance: 0.2
+  endReachedDistance: 1
   whenCloseToDestination: 0
   rvoDensityBehavior:
     enabled: 1
