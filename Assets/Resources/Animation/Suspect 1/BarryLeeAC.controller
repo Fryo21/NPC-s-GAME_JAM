@@ -170,7 +170,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Suspect 1 down_0
+  m_Name: BarryLeeAC
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: VelocityX

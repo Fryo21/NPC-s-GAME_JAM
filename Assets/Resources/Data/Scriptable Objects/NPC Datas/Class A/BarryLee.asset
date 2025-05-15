@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BarryLee
   m_EditorClassIdentifier: 
   npcName: Barry Lee
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: 4193791905097879574, guid: 0ee162c7e14a2384f9c9a19c3b2882fe, type: 3}
   nPCClass: 0
   npcSubClass: 3
+  npcAnimatorController: {fileID: 9100000, guid: 26a81fecde1a63f4fb7c33ae36682518, type: 2}

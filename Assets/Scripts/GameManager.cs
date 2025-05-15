@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     public void SpawnNpc()
     {
         for (int i = 0; i < spawnPoints.Length; i++)
-        {     
+        {
             GameObject criminalType = (npcPrefabs[Random.Range(0, npcPrefabs.Length)]);
 
             GameObject npc = Instantiate(criminalType, spawnPoints[i].position, Quaternion.identity);
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
             foreach (var entry in npcTypeCount)
             {
                 Debug.Log($"NPC Class: {entry.Key}, Count: {entry.Value}");
-            }   
+            }
         }
         wantedCriminals = npcTypeCount
                         .OrderBy(entry => entry.Value)
@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
         }
         Debug.Log("=== END ===");
 
-               Debug.Log("=== Spawned NPCs ===");
+        Debug.Log("=== Spawned NPCs ===");
         Debug.Log("Wanted Criminals: " + string.Join(", ", wantedCriminals));
 
         // Display the npc preset in the console which you are looking for and how many of them
@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour
         }
 
         int assignedCriminals = 0;
-        
+
         foreach (var cls in wantedCriminals)
         {
             int count = 0;
@@ -189,5 +189,5 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
-    
+
 }

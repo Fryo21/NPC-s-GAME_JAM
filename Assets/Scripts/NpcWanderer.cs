@@ -1,5 +1,6 @@
 using UnityEngine;
 using Pathfinding;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(Seeker))]
 [RequireComponent(typeof(AIPath))]
@@ -260,4 +261,5 @@ public class NpcWanderer : MonoBehaviour
     //         Gizmos.DrawLine(transform.position, currentTarget);
     //     }
     // }
+
 }

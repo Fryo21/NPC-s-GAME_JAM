@@ -10,6 +10,8 @@ public class NPCData : ScriptableObject
 
     public int npcSubClass; //1-3
 
+    public RuntimeAnimatorController npcAnimatorController;
+
 }
 
 public enum NPCClass

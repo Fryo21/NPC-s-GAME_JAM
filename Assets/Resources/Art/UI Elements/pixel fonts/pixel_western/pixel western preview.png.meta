@@ -158,7 +158,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pixel western preview_0: 3272652878515526195
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
