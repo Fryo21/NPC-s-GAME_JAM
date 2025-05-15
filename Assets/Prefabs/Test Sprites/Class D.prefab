@@ -186,12 +186,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   wanderRadius: 10
   minWanderDistance: 3
   nextWaypointDistance: 1
-  speed: 2
-  rotationSpeed: 10
-  faceMovementDirection: 1
+  boundaryBox: {fileID: 0}
+  speed: 0.5
+  wandererAvoidanceRadius: 1
+  wandererAvoidanceStrength: 1
   repathRate: 0.5
   pauseTimeMin: 1
   pauseTimeMax: 3

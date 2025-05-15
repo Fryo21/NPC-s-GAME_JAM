@@ -10,16 +10,24 @@ public class NpcWanderer : MonoBehaviour
     private Rigidbody2D rb;
     private Path path;
 
+    // Animation components
+    [Header("Animation")]
+    [SerializeField] private Animator animator;
+    private SpriteRenderer spriteRenderer;
+
     // Wandering settings
     [Header("Wandering Settings")]
     [SerializeField] private float wanderRadius = 10f;        // How far to wander from start position
     [SerializeField] private float minWanderDistance = 3f;    // Minimum distance for a new point
     [SerializeField] private float nextWaypointDistance = 1f; // When to consider a waypoint reached
+    [SerializeField] private BoxCollider2D boundaryBox;       // Optional boundary constraint
 
     [Header("Movement Settings")]
     [SerializeField] private float speed = 2f;                // Movement speed
-    [SerializeField] private float rotationSpeed = 10f;       // How fast to rotate (for sprites)
-    [SerializeField] private bool faceMovementDirection = true; // Whether to rotate sprite to face movement direction
+
+    [Header("Avoidance Settings")]
+    [SerializeField] private float wandererAvoidanceRadius = 1f;
+    [SerializeField] private float wandererAvoidanceStrength = 1f;
 
     [Header("Timing Settings")]
     [SerializeField] private float repathRate = 0.5f;         // How often to recalculate path
@@ -35,6 +43,19 @@ public class NpcWanderer : MonoBehaviour
     private bool isPaused = false;
     private float pauseTimer = 0f;
     private float pathUpdateTimer = 0f;
+    private Bounds boundaryBounds;
+
+    private void Awake()
+    {
+        // Get the sprite renderer component
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        // Set up animation
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
+    }
 
     private void Start()
     {
@@ -44,6 +65,12 @@ public class NpcWanderer : MonoBehaviour
 
         // Store starting position
         startPosition = transform.position;
+
+        // Set up boundary if provided
+        if (boundaryBox != null)
+        {
+            boundaryBounds = boundaryBox.bounds;
+        }
 
         // Calculate initial target position
         CalculateNewWanderTarget();
@@ -74,6 +101,9 @@ public class NpcWanderer : MonoBehaviour
             pathUpdateTimer = repathRate;
             CalculatePath();
         }
+
+        // Update animation based on velocity
+        UpdateAnimation();
     }
 
     private void FixedUpdate()
@@ -81,7 +111,11 @@ public class NpcWanderer : MonoBehaviour
         // Don't move if paused or no path
         if (isPaused || path == null || !isWandering)
         {
-            // Optional: You could gradually reduce velocity here for smoother stops
+            // If stopped, set velocity to zero
+            if (rb.velocity.magnitude > 0.1f)
+            {
+                rb.velocity = Vector2.zero;
+            }
             return;
         }
 
@@ -99,9 +133,26 @@ public class NpcWanderer : MonoBehaviour
 
         // Direction to the next waypoint
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-        Vector2 force = direction * speed;
+
+        // Check boundary constraint if available
+        if (boundaryBox != null)
+        {
+            Vector2 nextPosition = rb.position + direction * speed * Time.fixedDeltaTime;
+            if (!boundaryBounds.Contains(nextPosition))
+            {
+                // If we're going to hit the boundary, redirect toward center
+                Vector2 directionToCenter = ((Vector2)boundaryBounds.center - rb.position).normalized;
+                Vector2 randomOffset = Random.insideUnitCircle.normalized * 0.5f;
+                direction = (directionToCenter + randomOffset).normalized;
+
+                // Recalculate target position away from boundary
+                targetPosition = ClampToBounds((Vector2)transform.position + direction * wanderRadius);
+                CalculatePath();
+            }
+        }
 
         // Apply movement
+        Vector2 force = direction * speed;
         rb.velocity = force;
 
         // Check if we're close enough to the current waypoint
@@ -109,6 +160,41 @@ public class NpcWanderer : MonoBehaviour
         if (distanceToWaypoint < nextWaypointDistance)
         {
             currentWaypoint++;
+        }
+    }
+
+
+
+    private void UpdateAnimation()
+    {
+        if (animator != null)
+        {
+            // Use velocity for animation parameters
+            Vector2 velocity = rb.velocity;
+
+            // Update animator parameters
+            animator.SetFloat("VelocityX", Mathf.Abs(velocity.x));
+            animator.SetFloat("VelocityY", velocity.y);
+
+            // Set sideways animation flag based on vertical movement
+            if (velocity.y <= 0.3f)
+            {
+                animator.SetBool("IsSideways", true);
+            }
+            else
+            {
+                animator.SetBool("IsSideways", false);
+            }
+
+            // Flip sprite based on horizontal movement direction
+            if (velocity.x >= 0.1f)
+            {
+                spriteRenderer.flipX = false;
+            }
+            else if (velocity.x < 0)
+            {
+                spriteRenderer.flipX = true;
+            }
         }
     }
 
@@ -148,10 +234,26 @@ public class NpcWanderer : MonoBehaviour
             Vector2 randomDirection = Random.insideUnitCircle * wanderRadius;
             newTarget = startPosition + new Vector3(randomDirection.x, randomDirection.y, 0);
             attempts++;
+
+            // Clamp to boundary if we have one
+            if (boundaryBox != null)
+            {
+                newTarget = ClampToBounds(newTarget);
+            }
         }
         while (Vector3.Distance(transform.position, newTarget) < minWanderDistance && attempts < 10);
 
         targetPosition = newTarget;
+    }
+
+    private Vector2 ClampToBounds(Vector2 point)
+    {
+        if (boundaryBox == null) return point;
+
+        float clampedX = Mathf.Clamp(point.x, boundaryBounds.min.x + 0.5f, boundaryBounds.max.x - 0.5f);
+        float clampedY = Mathf.Clamp(point.y, boundaryBounds.min.y + 0.5f, boundaryBounds.max.y - 0.5f);
+
+        return new Vector2(clampedX, clampedY);
     }
 
     private void StartPause()
@@ -161,7 +263,7 @@ public class NpcWanderer : MonoBehaviour
         rb.velocity = Vector2.zero; // Stop movement
     }
 
-    // Optional: Public methods to control NPC behavior from outside
+    // Public methods to control NPC behavior from outside
     public void StopWandering()
     {
         isWandering = false;
@@ -175,14 +277,17 @@ public class NpcWanderer : MonoBehaviour
         CalculatePath();
     }
 
-    // Optional: Gizmos to visualize the wander radius in editor
+    // Gizmos for visualization in the editor
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(Application.isPlaying ? startPosition : transform.position, wanderRadius);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(Application.isPlaying ? transform.position : transform.position, wandererAvoidanceRadius);
     }
 
-    // Optional: Set a specific target location (for integrating with other systems)
+    // Set a specific target location (for integrating with other systems)
     public void SetTarget(Vector3 target)
     {
         isWandering = true;

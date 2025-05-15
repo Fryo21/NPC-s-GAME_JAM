@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e39b698df1716eb4b8d731423d5c39fd, type: 3}
   m_Name: DanNandwani
   m_EditorClassIdentifier: 
-  npcName: Priti Kaur
+  npcName: Dan Nandwani
   npcSprite: {fileID: 0}
-  nPCClass: 3
+  nPCClass: 4
   npcSubClass: 3
