@@ -47,9 +47,18 @@ public class NpcWanderer : MonoBehaviour
 
     private void Awake()
     {
-        // Get the sprite renderer component
-        spriteRenderer = GetComponent<SpriteRenderer>();
+
     }
+
+    private void Update()
+    {
+        // Handle pause at destination
+        if (isPaused)
+        {
+            pauseTimer -= Time.deltaTime;
+            if (pauseTimer <= 0)
+            {
+                Vector2 change = (Vector2)transform.position - (Vector2)hit.transform.position;
 
     private void Start()
     {
