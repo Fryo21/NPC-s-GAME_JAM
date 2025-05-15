@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4925035423303932305}
   - component: {fileID: 7327165509025906170}
   - component: {fileID: 1316140019129822743}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NPC
   m_TagString: NPC_Wanderer
   m_Icon: {fileID: 0}

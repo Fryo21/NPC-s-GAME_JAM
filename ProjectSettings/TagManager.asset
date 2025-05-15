@@ -15,7 +15,7 @@ TagManager:
   - UI
   - Ground
   - Buildings
-  - 
+  - NPCs
   - 
   - 
   - 
@@ -42,6 +42,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2288763961
+    locked: 0
+  - name: Buildings
+    uniqueID: 2303992287
+    locked: 0
+  - name: Characters
+    uniqueID: 3895238225
     locked: 0
   m_RenderingLayers:
   - Default
