@@ -56,7 +56,6 @@ public class NpcWanderer : MonoBehaviour
         //animation
         animator.SetFloat("VelocityX", Mathf.Abs(finalDirertion.x));
         animator.SetFloat("VelocityY", finalDirertion.y);
-        horizontal = finalDirertion.x;
 
         if (finalDirertion.y <= 0.3f)
         {
