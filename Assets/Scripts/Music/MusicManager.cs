@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
+
+    public static MusicManager Instance { get; private set; }
+
     [Header("Audio Sources")]
     [SerializeField] private AudioSource softSource;
     [SerializeField] private AudioSource mediumSource;
@@ -19,8 +22,8 @@ public class MusicManager : MonoBehaviour
     [SerializeField] private MusicTrackSO song02;
 
     // Intensity tracking
-    private enum Intensity { Soft, Medium, Hard }
-    private Intensity currentIntensity = Intensity.Soft;
+    private enum MusicIntensity { Soft, Medium, Hard }
+    private MusicIntensity currentIntensity = MusicIntensity.Soft;
     private MusicTrackSO currentSong;
 
     // Transition coroutine reference
@@ -28,6 +31,10 @@ public class MusicManager : MonoBehaviour
 
     private void Awake()
     {
+
+        // Implement singleton pattern for cross-scene persistence
+        SingletonAwake();
+
         // Ensure we have all required audio sources
         if (softSource == null || mediumSource == null || hardSource == null)
         {
@@ -45,6 +52,25 @@ public class MusicManager : MonoBehaviour
         softSource.loop = true;
         mediumSource.loop = true;
         hardSource.loop = true;
+    }
+
+    private void SingletonAwake()
+    {
+        // Implement singleton pattern for cross-scene persistence
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
+    public void LoadTestTransitionScene()
+    {
+        // Load the test scene for transitions
+        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("TestTransitionScene");
     }
 
     public void PlaySong01()
@@ -91,7 +117,7 @@ public class MusicManager : MonoBehaviour
         mediumSource.volume = 0f;
         hardSource.volume = 0f;
 
-        currentIntensity = Intensity.Soft;
+        currentIntensity = MusicIntensity.Soft;
     }
 
     /// <summary>
@@ -122,8 +148,10 @@ public class MusicManager : MonoBehaviour
     {
         if (currentSong == null) return;
 
-        if (transitionTime < 0) transitionTime = defaultTransitionTime;
-        TransitionToIntensity(Intensity.Soft, transitionTime);
+        if (transitionTime < 0)
+            transitionTime = defaultTransitionTime;
+
+        TransitionToIntensity(MusicIntensity.Soft, transitionTime);
     }
 
     /// <summary>
@@ -134,8 +162,10 @@ public class MusicManager : MonoBehaviour
     {
         if (currentSong == null) return;
 
-        if (transitionTime < 0) transitionTime = defaultTransitionTime;
-        TransitionToIntensity(Intensity.Medium, transitionTime);
+        if (transitionTime < 0)
+            transitionTime = defaultTransitionTime;
+
+        TransitionToIntensity(MusicIntensity.Medium, transitionTime);
     }
 
     /// <summary>
@@ -146,14 +176,16 @@ public class MusicManager : MonoBehaviour
     {
         if (currentSong == null) return;
 
-        if (transitionTime < 0) transitionTime = defaultTransitionTime;
-        TransitionToIntensity(Intensity.Hard, transitionTime);
+        if (transitionTime < 0)
+            transitionTime = defaultTransitionTime;
+
+        TransitionToIntensity(MusicIntensity.Hard, transitionTime);
     }
 
     /// <summary>
     /// Handles the transition between intensity levels.
     /// </summary>
-    private void TransitionToIntensity(Intensity targetIntensity, float transitionTime)
+    private void TransitionToIntensity(MusicIntensity targetIntensity, float transitionTime)
     {
         // Skip if we're already at the target intensity
         if (currentIntensity == targetIntensity) return;
@@ -171,7 +203,7 @@ public class MusicManager : MonoBehaviour
     /// <summary>
     /// Coroutine to handle fading between intensity levels.
     /// </summary>
-    private IEnumerator FadeIntensity(Intensity targetIntensity, float transitionTime)
+    private IEnumerator FadeIntensity(MusicIntensity targetIntensity, float transitionTime)
     {
         // Determine which source to fade in and which to fade out
         AudioSource sourceToFadeIn = GetSourceForIntensity(targetIntensity);
@@ -187,10 +219,10 @@ public class MusicManager : MonoBehaviour
         while (elapsedTime < transitionTime)
         {
             elapsedTime += Time.deltaTime;
-            float t = elapsedTime / transitionTime;
+            float fadeProgress = elapsedTime / transitionTime;
 
-            // Use smoothstep for a more natural transition
-            float smoothT = t * t * (3f - 2f * t);
+            // Use smoothstep for a more natural transition (maps the value to a curve that starts and ends slowly)
+            float smoothT = fadeProgress * fadeProgress * (3f - 2f * fadeProgress);
 
             // Update volumes
             sourceToFadeIn.volume = Mathf.Lerp(startVolumeIn, maxVolume, smoothT);
@@ -211,34 +243,18 @@ public class MusicManager : MonoBehaviour
     /// <summary>
     /// Returns the AudioSource corresponding to the specified intensity.
     /// </summary>
-    private AudioSource GetSourceForIntensity(Intensity intensity)
+    private AudioSource GetSourceForIntensity(MusicIntensity intensity)
     {
         switch (intensity)
         {
-            case Intensity.Soft:
+            case MusicIntensity.Soft:
                 return softSource;
-            case Intensity.Medium:
+            case MusicIntensity.Medium:
                 return mediumSource;
-            case Intensity.Hard:
+            case MusicIntensity.Hard:
                 return hardSource;
             default:
                 return softSource;
         }
-    }
-
-    /// <summary>
-    /// Gets the current playing song.
-    /// </summary>
-    public MusicTrackSO GetCurrentSong()
-    {
-        return currentSong;
-    }
-
-    /// <summary>
-    /// Gets the current intensity level as a string.
-    /// </summary>
-    public string GetCurrentIntensityName()
-    {
-        return currentIntensity.ToString();
     }
 }
