@@ -47,29 +47,7 @@ public class NpcWanderer : MonoBehaviour
 
     private void Awake()
     {
-        boundaryBounds = boundaryBox.bounds;
-        PickDirection();
-    }
-    void Update()
-    {
-        // Get components
-        seeker = GetComponent<Seeker>();
-        rb = GetComponent<Rigidbody2D>();
 
-        // Store starting position
-        startPosition = transform.position;
-
-        // Set up boundary if provided
-        if (boundaryBox != null)
-        {
-            boundaryBounds = boundaryBox.bounds;
-        }
-
-        // Calculate initial target position
-        CalculateNewWanderTarget();
-
-        // Start pathfinding
-        CalculatePath();
     }
 
     private void Update()
@@ -159,25 +137,31 @@ public class NpcWanderer : MonoBehaviour
         // Direction to the next waypoint
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
 
+        // Calculate avoidance vector for other NPCs
+        Vector2 avoidance = CalculateAvoidance();
+
+        // Combine direction with avoidance
+        Vector2 finalDirection = (direction + avoidance).normalized;
+
         // Check boundary constraint if available
         if (boundaryBox != null)
         {
-            Vector2 nextPosition = rb.position + direction * speed * Time.fixedDeltaTime;
+            Vector2 nextPosition = rb.position + finalDirection * speed * Time.fixedDeltaTime;
             if (!boundaryBounds.Contains(nextPosition))
             {
                 // If we're going to hit the boundary, redirect toward center
                 Vector2 directionToCenter = ((Vector2)boundaryBounds.center - rb.position).normalized;
                 Vector2 randomOffset = Random.insideUnitCircle.normalized * 0.5f;
-                direction = (directionToCenter + randomOffset).normalized;
+                finalDirection = (directionToCenter + randomOffset).normalized;
 
                 // Recalculate target position away from boundary
-                targetPosition = ClampToBounds((Vector2)transform.position + direction * wanderRadius);
+                targetPosition = ClampToBounds((Vector2)transform.position + finalDirection * wanderRadius);
                 CalculatePath();
             }
         }
 
         // Apply movement
-        Vector2 force = direction * speed;
+        Vector2 force = finalDirection * speed;
         rb.velocity = force;
 
         // Check if we're close enough to the current waypoint
@@ -188,7 +172,24 @@ public class NpcWanderer : MonoBehaviour
         }
     }
 
+    private Vector2 CalculateAvoidance()
+    {
+        Vector2 avoidance = Vector2.zero;
 
+        // Find all nearby NPCs
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, wandererAvoidanceRadius);
+
+        foreach (Collider2D hit in hits)
+        {
+            if (hit.gameObject != gameObject && hit.CompareTag("NPC_Wanderer"))
+            {
+                Vector2 change = (Vector2)transform.position - (Vector2)hit.transform.position;
+                avoidance += change.normalized * wandererAvoidanceStrength;
+            }
+        }
+
+        return avoidance;
+    }
 
     private void UpdateAnimation()
     {
