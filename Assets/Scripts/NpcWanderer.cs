@@ -18,10 +18,18 @@ public class NpcWanderer : MonoBehaviour
 
     private Vector2 wanderingPoint;
     private bool isWandering;
+
+    public Animator animator;
+    private SpriteRenderer spriteRenderer;
     void Start()
     {
         boundaryBounds = boundaryBox.bounds;
         PickDirection();
+    }
+
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void Update()
     {
@@ -44,6 +52,29 @@ public class NpcWanderer : MonoBehaviour
         }
 
         Vector2 finalDirertion = (direction + avoidance * wandererAvoidanceStrength).normalized;
+
+        //animation
+        animator.SetFloat("VelocityX", Mathf.Abs(finalDirertion.x));
+        animator.SetFloat("VelocityY", finalDirertion.y);
+        horizontal = finalDirertion.x;
+
+        if (finalDirertion.y <= 0.3f)
+        {
+            animator.SetBool("IsSideways", true);
+        } else
+        {
+            animator.SetBool("IsSideways", false);
+        }
+
+        if (finalDirertion.x >= 0.1)
+        {
+            spriteRenderer.flipX = false;
+
+        } else if (finalDirertion.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+
 
         Vector2 nextPosition = (Vector2)transform.position + (Vector2)finalDirertion * wandererSpeed * Time.deltaTime;
 
@@ -96,5 +127,4 @@ public class NpcWanderer : MonoBehaviour
 
         return new Vector2(clampedX, clampedY);
     }
-
 }
