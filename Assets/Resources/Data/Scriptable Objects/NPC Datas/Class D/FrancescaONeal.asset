@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FrancescaONeal
   m_EditorClassIdentifier: 
   npcName: Francesca O'Neal
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: 5923761731768941643, guid: 587bd2f0f276b7a44adbd048c4ba957e, type: 3}
   nPCClass: 3
   npcSubClass: 1
   npcAnimatorController: {fileID: 9100000, guid: 8f42809d52902a84d830452b85a4b26f, type: 2}

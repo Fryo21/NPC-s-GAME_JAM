@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ChuckBerry
   m_EditorClassIdentifier: 
   npcName: Mike Perry
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: -4799550167354663130, guid: e617293e8fc66c942a7ef3e3ec0ee3c0, type: 3}
   nPCClass: 1
   npcSubClass: 1
   npcAnimatorController: {fileID: 9100000, guid: 03841121f74b5b640ae90ffa1a985bf8, type: 2}

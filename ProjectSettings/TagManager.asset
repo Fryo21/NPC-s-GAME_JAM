@@ -52,5 +52,8 @@ TagManager:
   - name: Characters
     uniqueID: 3895238225
     locked: 0
+  - name: Moveable UI
+    uniqueID: 807265157
+    locked: 0
   m_RenderingLayers:
   - Default

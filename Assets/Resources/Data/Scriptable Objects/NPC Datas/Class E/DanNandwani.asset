@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DanNandwani
   m_EditorClassIdentifier: 
   npcName: Dan Nandwani
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: -4929081035888620519, guid: b9bbb96b17b03ee44b8ca559d29e1f0f, type: 3}
   nPCClass: 4
   npcSubClass: 3
   npcAnimatorController: {fileID: 9100000, guid: 9ddeeb89f3fc26146925345c84b78980, type: 2}
