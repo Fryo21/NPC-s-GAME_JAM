@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2db68c86e7461d408191b32f872ce22, type: 3}
+  m_Name: Track02
+  m_EditorClassIdentifier: 
+  softIntensityClip: {fileID: 8300000, guid: d3e20bd384b0e9d4ea1d08dc84c35353, type: 3}
+  mediumIntensityClip: {fileID: 8300000, guid: ea06bc49b35fdf64eb25138b4c6b035a, type: 3}
+  hardIntensityClip: {fileID: 8300000, guid: f19b0867f793d5b479cc8e094e5a91e1, type: 3}

@@ -45,9 +45,7 @@ public class NpcWanderer : MonoBehaviour
     private float pathUpdateTimer = 0f;
     private Bounds boundaryBounds;
 
-    private Vector2 wanderingPoint;
-    private bool isWandering;
-    void Start()
+    private void Awake()
     {
         boundaryBounds = boundaryBox.bounds;
         PickDirection();
@@ -84,18 +82,65 @@ public class NpcWanderer : MonoBehaviour
             {
                 Vector2 change = (Vector2)transform.position - (Vector2)hit.transform.position;
 
-                avoidance += change.normalized * wandererAvoidanceStrength;
-            }
+    private void Start()
+    {
+        // Get components
+        seeker = GetComponent<Seeker>();
+        rb = GetComponent<Rigidbody2D>();
+
+        // Store starting position
+        startPosition = transform.position;
+
+        // Set up boundary if provided
+        if (boundaryBox != null)
+        {
+            boundaryBounds = boundaryBox.bounds;
         }
 
-        Vector2 finalDirertion = (direction + avoidance * wandererAvoidanceStrength).normalized;
+        // Calculate initial target position
+        CalculateNewWanderTarget();
 
-        Vector2 nextPosition = (Vector2)transform.position + (Vector2)finalDirertion * wandererSpeed * Time.deltaTime;
+        // Start pathfinding
+        CalculatePath();
+    }
 
-        if (!boundaryBounds.Contains(nextPosition))
+    private void Update()
+    {
+        // Handle pause at destination
+        if (isPaused)
         {
-            PickDirectionAwayFromBoundary();
+            pauseTimer -= Time.deltaTime;
+            if (pauseTimer <= 0)
+            {
+                isPaused = false;
+                CalculateNewWanderTarget();
+                CalculatePath();
+            }
+            return;
+        }
 
+        // Update path periodically
+        pathUpdateTimer -= Time.deltaTime;
+        if (pathUpdateTimer <= 0 && isWandering)
+        {
+            pathUpdateTimer = repathRate;
+            CalculatePath();
+        }
+
+        // Update animation based on velocity
+        UpdateAnimation();
+    }
+
+    private void FixedUpdate()
+    {
+        // Don't move if paused or no path
+        if (isPaused || path == null || !isWandering)
+        {
+            // If stopped, set velocity to zero
+            if (rb.velocity.magnitude > 0.1f)
+            {
+                rb.velocity = Vector2.zero;
+            }
             return;
         }
 
@@ -236,4 +281,43 @@ public class NpcWanderer : MonoBehaviour
         return new Vector2(clampedX, clampedY);
     }
 
+    private void StartPause()
+    {
+        isPaused = true;
+        pauseTimer = Random.Range(pauseTimeMin, pauseTimeMax);
+        rb.velocity = Vector2.zero; // Stop movement
+    }
+
+    // Public methods to control NPC behavior from outside
+    public void StopWandering()
+    {
+        isWandering = false;
+        rb.velocity = Vector2.zero;
+    }
+
+    public void ResumeWandering()
+    {
+        isWandering = true;
+        CalculateNewWanderTarget();
+        CalculatePath();
+    }
+
+    // Gizmos for visualization in the editor
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(Application.isPlaying ? startPosition : transform.position, wanderRadius);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(Application.isPlaying ? transform.position : transform.position, wandererAvoidanceRadius);
+    }
+
+    // Set a specific target location (for integrating with other systems)
+    public void SetTarget(Vector3 target)
+    {
+        isWandering = true;
+        isPaused = false;
+        targetPosition = target;
+        CalculatePath();
+    }
 }
