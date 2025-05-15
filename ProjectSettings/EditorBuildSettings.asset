@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TestTransitionScene.unity
     guid: 2112df42e2f580e4eb79a2a206e93623
   - enabled: 1
-    path: Assets/Scenes/Music Test Scene.unity
+    path: Assets/Scenes/MusicTestScene.unity
     guid: 4e9a8b23aad62314085b58c912dbe488
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
