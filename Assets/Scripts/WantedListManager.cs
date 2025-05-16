@@ -148,6 +148,16 @@ public class WantedListManager : MonoBehaviour
 
         // Notify listeners
         OnWantedListUpdated?.Invoke(currentWantedList);
+
+        if (wantedClassCounts.Count <= 0)
+        {
+            // End the round early if everyone is arrested
+            if (RoundManager.Instance != null)
+            {
+                RoundManager.Instance.EndRoundEarly();
+            }
+        }
+
     }
 
     public bool IsWanted(NPCData npcData)

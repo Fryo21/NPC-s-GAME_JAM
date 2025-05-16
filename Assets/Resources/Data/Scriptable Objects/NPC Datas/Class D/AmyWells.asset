@@ -15,5 +15,5 @@ MonoBehaviour:
   npcName: Amy Wells
   npcSprite: {fileID: 6651842606088877432, guid: 264ee2d14ef65db4695e29faf47c648c, type: 3}
   nPCClass: 3
-  npcSubClass: 2
+  npcSubClass: 1
   npcAnimatorController: {fileID: 9100000, guid: 8f42809d52902a84d830452b85a4b26f, type: 2}

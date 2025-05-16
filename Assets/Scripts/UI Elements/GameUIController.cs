@@ -104,6 +104,7 @@ public class GameUIController : MonoBehaviour
         if (MoneyManager.Instance.CanAffordDrone())
         {
             MoneyManager.Instance.SubtractMoney(MoneyManager.Instance.droneCost);
+            DroneManager.Instance.PurchaseDrone();
             droneCount++;
             UpdateDroneUI();
 

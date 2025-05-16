@@ -15,5 +15,5 @@ MonoBehaviour:
   npcName: Paul Evans
   npcSprite: {fileID: -4957293350305332966, guid: b6e3de83ae6da2b4fbcd3571ddf888dc, type: 3}
   nPCClass: 6
-  npcSubClass: 1
+  npcSubClass: 3
   npcAnimatorController: {fileID: 9100000, guid: a7039ea24a35aa7449f8fae7f39f537c, type: 2}

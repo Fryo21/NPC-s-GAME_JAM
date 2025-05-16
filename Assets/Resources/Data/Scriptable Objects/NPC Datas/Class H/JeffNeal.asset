@@ -15,5 +15,5 @@ MonoBehaviour:
   npcName: Jeff Neal
   npcSprite: {fileID: 1563906824357353356, guid: 4201d303ae7fbb64bb58645639ca7f4b, type: 3}
   nPCClass: 7
-  npcSubClass: 1
+  npcSubClass: 3
   npcAnimatorController: {fileID: 9100000, guid: c34c82850410eba45b32b4dbd510ab0e, type: 2}

@@ -156,6 +156,11 @@ public class RoundManager : MonoBehaviour
         }
     }
 
+    public void EndRoundEarly()
+    {
+        EndRound();
+    }
+
     private void ChangeState(GameState newState)
     {
         CurrentState = newState;

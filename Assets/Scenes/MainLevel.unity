@@ -1527,6 +1527,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508841010}
   m_CullTransparentMesh: 1
+--- !u!1 &509818942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 509818943}
+  m_Layer: 5
+  m_Name: DroneUIParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &509818943
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509818942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1953849591}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,7 +2379,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 30
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4082,7 +4117,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1099920084}
   - component: {fileID: 1099920086}
-  - component: {fileID: 1099920085}
   m_Layer: 0
   m_Name: DroneManager
   m_TagString: Untagged
@@ -4105,19 +4139,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1740740421}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1099920085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099920083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7414d21cc13d114fa5f8f237d7be956, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  droneAccuracy: 0.75
 --- !u!114 &1099920086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4130,6 +4151,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2739e59e575339f4b9697de95bca491b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  droneUIPopupPrefab: {fileID: 4226430301864996962, guid: d19009185b961314abafb381edbf1f4c, type: 3}
+  droneUIParent: {fileID: 509818943}
+  baseDroneCost: 10
+  droneCostMultiplier: 1.5
+  droneAnalysisInterval: 8
+  baseAccuracy: 0.75
+  accuracyDecreasePerDrone: 0.1
 --- !u!1 &1127855606
 GameObject:
   m_ObjectHideFlags: 0
@@ -4208,6 +4236,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fd40d4e31269a6843824003c37035367, type: 2}
   - {fileID: 11400000, guid: a935bbfe19ca53f4e9deb5e0e875c199, type: 2}
   - {fileID: 11400000, guid: d27c31f44bc038f4d9b693e0820339dc, type: 2}
+  - {fileID: 11400000, guid: 02ba37897b8016e45afe91689307f9b7, type: 2}
+  - {fileID: 11400000, guid: fe1e545ac03dca24e855bd2bceb2f2a5, type: 2}
+  - {fileID: 11400000, guid: 8f3651129f5545843ac977831f859f8a, type: 2}
+  - {fileID: 11400000, guid: a585b396228eeb34b8386cf67652f0bf, type: 2}
+  - {fileID: 11400000, guid: 3d17ebcf1d4f434409e35ff8a05ff16e, type: 2}
+  - {fileID: 11400000, guid: ea800512ff29d85449649370fb993b40, type: 2}
+  - {fileID: 11400000, guid: 6d429454eb4a721468e172e419b8b3fe, type: 2}
+  - {fileID: 11400000, guid: 49a209334560c8947a6c2c88c1856a02, type: 2}
+  - {fileID: 11400000, guid: 17a29b00eee0b1c48b864ebac43b776f, type: 2}
+  - {fileID: 11400000, guid: c272e464fc59c0a40b79483f2b094f72, type: 2}
+  - {fileID: 11400000, guid: 58a73768e33de18468c1cadb2a30359e, type: 2}
+  - {fileID: 11400000, guid: 98fcdfc00387ca543a1d54027a8d8fd5, type: 2}
+  - {fileID: 11400000, guid: 848785febf6565247a3f0e9b7865669c, type: 2}
+  - {fileID: 11400000, guid: 028d27533e5816740a2af4b5250d28e5, type: 2}
+  - {fileID: 11400000, guid: 3ebfd7c6cb335c34c8523871aea11471, type: 2}
   npcSpawnCount: 30
   wantedListManager: {fileID: 1401551733}
   roundManager: {fileID: 710810330}
@@ -6971,6 +7014,7 @@ RectTransform:
   m_Children:
   - {fileID: 2114311111}
   - {fileID: 1849987182}
+  - {fileID: 509818943}
   - {fileID: 672999954}
   - {fileID: 1371738386}
   - {fileID: 1162420887}
@@ -7539,7 +7583,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.15
+  m_fontSize: 30
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

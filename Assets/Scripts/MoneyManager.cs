@@ -77,7 +77,6 @@ public class MoneyManager : MonoBehaviour
 
     public bool CanAffordDrone()
     {
-        DroneAIManager.Instance.ActivateDrone();
         return CurrentBalance >= droneCost;
     }
 

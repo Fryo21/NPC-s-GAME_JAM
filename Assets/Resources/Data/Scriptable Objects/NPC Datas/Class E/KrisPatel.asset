@@ -15,5 +15,5 @@ MonoBehaviour:
   npcName: Kris Patel
   npcSprite: {fileID: 3364157193554082929, guid: 94a0961b90146bb4a8a6995296849766, type: 3}
   nPCClass: 4
-  npcSubClass: 2
+  npcSubClass: 3
   npcAnimatorController: {fileID: 9100000, guid: 2df341d04c96d1647acdbfa5fc3bae99, type: 2}

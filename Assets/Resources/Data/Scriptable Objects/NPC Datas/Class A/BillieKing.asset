@@ -15,5 +15,5 @@ MonoBehaviour:
   npcName: Billie King
   npcSprite: {fileID: -4121178396329078076, guid: d19e6e708f08cec4bb2a79ff0520a750, type: 3}
   nPCClass: 0
-  npcSubClass: 2
+  npcSubClass: 3
   npcAnimatorController: {fileID: 9100000, guid: 0512971d95d34cb43af6442ffafa2787, type: 2}

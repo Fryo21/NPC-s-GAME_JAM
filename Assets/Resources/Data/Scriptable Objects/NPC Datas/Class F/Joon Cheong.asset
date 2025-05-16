@@ -15,5 +15,5 @@ MonoBehaviour:
   npcName: Joon Cheong
   npcSprite: {fileID: 8994814595283649571, guid: 062ae27f34c641146b473e8641592ae0, type: 3}
   nPCClass: 5
-  npcSubClass: 1
+  npcSubClass: 3
   npcAnimatorController: {fileID: 9100000, guid: cd1355324aef7004396bb7797c4bdfbb, type: 2}

@@ -15,5 +15,5 @@ MonoBehaviour:
   npcName: Zara Hatif
   npcSprite: {fileID: -589419924189294328, guid: d256781c81595d646940a5687335fdda, type: 3}
   nPCClass: 4
-  npcSubClass: 1
+  npcSubClass: 2
   npcAnimatorController: {fileID: 9100000, guid: e7515b3afa04b7a48a24f28325b36652, type: 2}

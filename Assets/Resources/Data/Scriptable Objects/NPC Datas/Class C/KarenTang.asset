@@ -15,5 +15,5 @@ MonoBehaviour:
   npcName: Karen Tang
   npcSprite: {fileID: -7006435523904415407, guid: ba99fe3314e575c40890fe25f83226b1, type: 3}
   nPCClass: 2
-  npcSubClass: 1
+  npcSubClass: 2
   npcAnimatorController: {fileID: 9100000, guid: 9eaa70c3a57c41f4e99a54c5d01ca81b, type: 2}

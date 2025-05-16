@@ -148,7 +148,7 @@ public class GameManager : MonoBehaviour
                 DroneManager.Instance?.RegisterNPC(dataHolder);
             }
         }
-       
+
 
         Debug.Log($"Spawned {spawnedNPCs.Count} NPCs");
     }
@@ -172,23 +172,27 @@ public class GameManager : MonoBehaviour
 
     private void ClearNPCs()
     {
-        foreach (GameObject npc in spawnedNPCs)
+        // Create a copy of the list to avoid modification during iteration
+        List<GameObject> npcsToDestroy = new List<GameObject>(spawnedNPCs);
+
+        foreach (GameObject npc in npcsToDestroy)
         {
-            // Unregister from DroneManager
-            NPCDataHolder dataHolder = npc.GetComponent<NPCDataHolder>();
+            // Check if the NPC still exists before trying to access it
             if (npc != null)
             {
+                // Unregister from DroneManager
+                NPCDataHolder dataHolder = npc.GetComponent<NPCDataHolder>();
                 if (dataHolder != null)
                 {
                     // Unregister from DroneManager
                     DroneManager.Instance?.UnregisterNPC(dataHolder);
                 }
-                else Debug.LogError("NPCDataHolder not found on NPC prefab!");
-            }
-            
+
                 Destroy(npc);
-            
+            }
         }
+
+        // Clear the list after we're done
         spawnedNPCs.Clear();
     }
 
@@ -214,14 +218,19 @@ public class GameManager : MonoBehaviour
         // Report to RoundManager
         if (roundManager != null)
         {
-            roundManager.ReportArrest(isWanted);
+            roundManager.ReportArrest(isCorrect: isWanted);
         }
 
         // If it's a correct arrest, remove the NPC
         if (isWanted)
         {
+            // Notify DroneManager before destroying the NPC
+            if (DroneManager.Instance != null)
+            {
+                DroneManager.Instance.NotifyTargetArrested(dataHolder);
+            }
+
             spawnedNPCs.Remove(selectedNPC);
-            Destroy(selectedNPC);
 
             // Remove from wanted list - use the public method instead of accessing the field directly
             var currentList = wantedListManager.GetCurrentWantedList();
@@ -229,6 +238,9 @@ public class GameManager : MonoBehaviour
 
             // Use the event to update the wanted list
             wantedListManager.UpdateWantedList(currentList);
+
+            // Destroy the NPC object after all processing is done
+            Destroy(selectedNPC);
         }
 
         Debug.Log($"Player selected {dataHolder.nPCData.npcName}. Wanted? {isWanted}");

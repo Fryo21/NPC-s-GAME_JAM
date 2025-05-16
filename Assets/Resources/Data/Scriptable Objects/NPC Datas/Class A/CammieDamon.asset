@@ -15,5 +15,5 @@ MonoBehaviour:
   npcName: Cammie Damon
   npcSprite: {fileID: -1737842573624192735, guid: b6c87db519160d64ba927f6aa87fa1d7, type: 3}
   nPCClass: 0
-  npcSubClass: 1
+  npcSubClass: 2
   npcAnimatorController: {fileID: 9100000, guid: dfc26dc76baf4cc4d9ee06fb762f33ba, type: 2}
