@@ -1663,9 +1663,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: -0.07036248
-    width: 0.32285166
-    height: 1.0916845
+    y: 0.025925925
+    width: 1
+    height: 0.94814813
   near clip plane: 0.1
   far clip plane: 5000
   field of view: 40
@@ -2404,7 +2404,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.45
+  m_fontSize: 60
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2904,6 +2904,7 @@ MonoBehaviour:
   wrongArrestPenalty: 15
   bankruptcyThreshold: -10
   droneCost: 10
+  <CurrentBalance>k__BackingField: 0
 --- !u!1 &804289815
 GameObject:
   m_ObjectHideFlags: 0
@@ -5493,7 +5494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2.800003}
+  m_AnchoredPosition: {x: 0, y: -2.7999878}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1345541404
@@ -7762,7 +7763,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 557, y: 354}
-  m_SizeDelta: {x: 550, y: 500}
+  m_SizeDelta: {x: 550, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050967501
 MonoBehaviour:
@@ -7962,7 +7963,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.3
+  m_fontSize: 60
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
