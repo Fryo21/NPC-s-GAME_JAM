@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -8,6 +9,8 @@ public class DroneManager : MonoBehaviour
 
     [Header("Drone Settings")]
     [SerializeField] private GameObject droneUIPopupPrefab;
+    [SerializeField] private GameObject droneSpritePrefab;
+    [SerializeField] private Transform droneSpriteParent;
     [SerializeField] private Transform droneUIParent;
     [SerializeField] private float baseDroneCost = 75f;
     [SerializeField] private float droneCostMultiplier = 1.5f;
@@ -151,6 +154,20 @@ public class DroneManager : MonoBehaviour
         activeDrones.Add(droneController);
 
         Debug.Log($"Drone #{activeDrones.Count} created with accuracy {droneAccuracy:P0}");
+
+        SpawnDronespritePrefabInScene();
+    }
+
+    private void SpawnDronespritePrefabInScene()
+    {
+        // Instantiate the prefab in the scene
+        GameObject dronespritePrefab = Instantiate(droneSpritePrefab, droneSpriteParent);
+        if (dronespritePrefab == null)
+        {
+            Debug.LogError("Drone sprite prefab not assigned!");
+            return;
+        }
+        dronespritePrefab.transform.position = droneSpriteParent.position; // Set the position to the parent
     }
 
     public void NotifyTargetArrested(NPCDataHolder arrestedNPC)

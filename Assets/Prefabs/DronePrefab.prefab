@@ -80,9 +80,9 @@ GameObject:
   - component: {fileID: 2547321197603144595}
   - component: {fileID: 6382799903783505117}
   - component: {fileID: 4044444876232140898}
-  - component: {fileID: -438954933202757525}
   - component: {fileID: 6554638376893865950}
   - component: {fileID: 7350924673675147702}
+  - component: {fileID: 5433989790220549451}
   - component: {fileID: 7444276568059142197}
   - component: {fileID: 216095208308208257}
   m_Layer: 8
@@ -185,22 +185,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-438954933202757525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197278421282812343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2337f0a37460354688f161fa7392dba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wanderRadius: 10
-  pauseTimeMin: 1
-  pauseTimeMax: 3
-  drawGizmos: 1
 --- !u!70 &6554638376893865950
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -265,6 +249,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &5433989790220549451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6197278421282812343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7661b543692d6044f8562fb1c4dd536c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wanderRadius: 10
+  pauseTimeMin: 1
+  pauseTimeMax: 3
+  drawGizmos: 0
 --- !u!114 &7444276568059142197
 MonoBehaviour:
   m_ObjectHideFlags: 0
