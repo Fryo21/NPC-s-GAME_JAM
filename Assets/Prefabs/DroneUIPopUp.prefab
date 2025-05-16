@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 2153222394720384282}
   - component: {fileID: 7692076026287325041}
   - component: {fileID: 3393448581566976732}
+  - component: {fileID: 7167132661539578758}
   m_Layer: 5
   m_Name: DenyButton
   m_TagString: Untagged
@@ -351,7 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.6094339, b: 0.6094339, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -424,6 +425,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7167132661539578758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703348283532266630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090c03d7f892dcf4f8b04ba26930147e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useScaleEffect: 1
+  hoverScale: 1.05
+  clickScale: 0.95
+  scaleDuration: 0.2
+  useColorEffect: 1
+  brightenAmount: 0.2
+  darkenAmount: 0.1
+  colorDuration: 0.1
+  useShakeEffect: 1
+  shakeStrength: 3
+  shakeVibrato: 10
+  shakeDuration: 0.3
+  useRotationEffect: 0
+  rotationAmount: 5
+  rotationDuration: 0.2
+  useAudioEffects: 0
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  volume: 0.5
 --- !u!1 &2888098507114943635
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,6 +731,7 @@ GameObject:
   - component: {fileID: 3212925702524663723}
   - component: {fileID: 624737034407077385}
   - component: {fileID: 5549736527170023635}
+  - component: {fileID: 5318622307008285038}
   m_Layer: 5
   m_Name: ArrestButton
   m_TagString: Untagged
@@ -747,7 +780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6094339, g: 1, b: 0.6094339, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -820,6 +853,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5318622307008285038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3669763119687258732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090c03d7f892dcf4f8b04ba26930147e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useScaleEffect: 1
+  hoverScale: 1.05
+  clickScale: 0.95
+  scaleDuration: 0.2
+  useColorEffect: 1
+  brightenAmount: 0.2
+  darkenAmount: 0.1
+  colorDuration: 0.1
+  useShakeEffect: 1
+  shakeStrength: 3
+  shakeVibrato: 10
+  shakeDuration: 0.3
+  useRotationEffect: 0
+  rotationAmount: 5
+  rotationDuration: 0.2
+  useAudioEffects: 0
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  volume: 0.5
 --- !u!1 &4226430301864996962
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,7 +970,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &7861522727485716537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,7 +1264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1743,14 +1807,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.121568635, g: 0.8980393, b: 0.34117648, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -4574212078531657959, guid: 67a0adbd00fbe73499e34a6f338d7c3e, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1759,7 +1823,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 5
 --- !u!1 &7970737069612757462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,14 +2145,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9960785, g: 0.25490198, b: 0.16470589, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 7162553228475994574, guid: 57a90e0ca3dedcb4fa31409af5e72bab, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2097,4 +2161,4 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 5
