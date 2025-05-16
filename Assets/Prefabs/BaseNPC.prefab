@@ -114,6 +114,7 @@ GameObject:
   - component: {fileID: 4496676453095256135}
   - component: {fileID: 1387548700732659850}
   - component: {fileID: 1324305898184696369}
+  - component: {fileID: 5456860641722577566}
   m_Layer: 5
   m_Name: Arrest Button
   m_TagString: Untagged
@@ -235,6 +236,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5456860641722577566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2697157027673860609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090c03d7f892dcf4f8b04ba26930147e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useScaleEffect: 1
+  hoverScale: 1.05
+  clickScale: 0.95
+  scaleDuration: 0.2
+  useColorEffect: 1
+  brightenAmount: 0.2
+  darkenAmount: 0.1
+  colorDuration: 0.1
+  useShakeEffect: 1
+  shakeStrength: 3
+  shakeVibrato: 10
+  shakeDuration: 0.3
+  useRotationEffect: 0
+  rotationAmount: 5
+  rotationDuration: 0.2
+  useAudioEffects: 0
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  volume: 0.5
 --- !u!1 &3262111779675617167
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,6 +279,7 @@ GameObject:
   - component: {fileID: 1137402141443002753}
   - component: {fileID: 5551475924808175170}
   - component: {fileID: 340914358399157314}
+  - component: {fileID: 463572628092577283}
   m_Layer: 5
   m_Name: Cancel Button
   m_TagString: Untagged
@@ -368,6 +401,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &463572628092577283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3262111779675617167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090c03d7f892dcf4f8b04ba26930147e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useScaleEffect: 1
+  hoverScale: 1.05
+  clickScale: 0.95
+  scaleDuration: 0.2
+  useColorEffect: 1
+  brightenAmount: 0.2
+  darkenAmount: 0.1
+  colorDuration: 0.1
+  useShakeEffect: 1
+  shakeStrength: 3
+  shakeVibrato: 10
+  shakeDuration: 0.3
+  useRotationEffect: 0
+  rotationAmount: 5
+  rotationDuration: 0.2
+  useAudioEffects: 0
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  volume: 0.5
 --- !u!1 &3726161569744070406
 GameObject:
   m_ObjectHideFlags: 0

@@ -2379,7 +2379,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.35
+  m_fontSize: 30
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3147,6 +3147,7 @@ GameObject:
   - component: {fileID: 839058742}
   - component: {fileID: 839058741}
   - component: {fileID: 839058740}
+  - component: {fileID: 839058743}
   m_Layer: 5
   m_Name: Start Next Round Button
   m_TagString: Untagged
@@ -3268,6 +3269,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839058738}
   m_CullTransparentMesh: 1
+--- !u!114 &839058743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839058738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090c03d7f892dcf4f8b04ba26930147e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useScaleEffect: 1
+  hoverScale: 1.05
+  clickScale: 0.95
+  scaleDuration: 0.2
+  useColorEffect: 1
+  brightenAmount: 0.2
+  darkenAmount: 0.1
+  colorDuration: 0.1
+  useShakeEffect: 1
+  shakeStrength: 3
+  shakeVibrato: 10
+  shakeDuration: 0.3
+  useRotationEffect: 0
+  rotationAmount: 5
+  rotationDuration: 0.2
+  useAudioEffects: 0
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  volume: 0.5
 --- !u!1 &846097461
 GameObject:
   m_ObjectHideFlags: 0
@@ -3467,6 +3499,7 @@ GameObject:
   - component: {fileID: 933486843}
   - component: {fileID: 933486842}
   - component: {fileID: 933486841}
+  - component: {fileID: 933486844}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -3588,6 +3621,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933486839}
   m_CullTransparentMesh: 1
+--- !u!114 &933486844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933486839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090c03d7f892dcf4f8b04ba26930147e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useScaleEffect: 1
+  hoverScale: 1.05
+  clickScale: 0.95
+  scaleDuration: 0.2
+  useColorEffect: 1
+  brightenAmount: 0.2
+  darkenAmount: 0.1
+  colorDuration: 0.1
+  useShakeEffect: 1
+  shakeStrength: 3
+  shakeVibrato: 10
+  shakeDuration: 0.3
+  useRotationEffect: 0
+  rotationAmount: 5
+  rotationDuration: 0.2
+  useAudioEffects: 0
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  volume: 0.5
 --- !u!1 &970615401
 GameObject:
   m_ObjectHideFlags: 0
@@ -7676,7 +7740,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55.75
+  m_fontSize: 60
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
