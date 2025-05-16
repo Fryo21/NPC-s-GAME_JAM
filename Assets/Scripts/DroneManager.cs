@@ -202,16 +202,13 @@ public class DroneManager : MonoBehaviour
                     RoundManager.Instance.ReportArrest(true);
                 }
 
-                // Notify other drones that this target was arrested
-                NotifyTargetArrested(target);
+                // Show success feedback
+                if (FeedbackManager.Instance != null)
+                {
+                    FeedbackManager.Instance.ShowSuccessFeedback();
+                }
 
-                // Remove NPC
-                Destroy(target.gameObject);
-
-                // Remove from wanted list
-                var currentList = WantedListManager.Instance.GetCurrentWantedList();
-                currentList.Remove(target.nPCData);
-                WantedListManager.Instance.UpdateWantedList(currentList);
+                // Rest of your code for handling correct arrests...
             }
             else
             {
@@ -219,6 +216,12 @@ public class DroneManager : MonoBehaviour
                 if (RoundManager.Instance != null)
                 {
                     RoundManager.Instance.ReportArrest(false);
+                }
+
+                // Show warning feedback
+                if (FeedbackManager.Instance != null)
+                {
+                    FeedbackManager.Instance.ShowWarningFeedback();
                 }
             }
         }
