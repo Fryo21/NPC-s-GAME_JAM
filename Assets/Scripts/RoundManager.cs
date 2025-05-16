@@ -92,6 +92,8 @@ public class RoundManager : MonoBehaviour
 
         ChangeState(GameState.Playing);
         OnRoundStarted?.Invoke(CurrentRound);
+
+        MusicManager.Instance.SetHardIntensity();
     }
 
     public void EndRound()
@@ -114,6 +116,9 @@ public class RoundManager : MonoBehaviour
         {
             ChangeState(GameState.Interlude);
         }
+
+        MusicManager.Instance.SetSoftIntensity();
+
     }
 
     private bool CheckWinLoseConditions()

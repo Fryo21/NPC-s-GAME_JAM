@@ -66,12 +66,20 @@ public class MusicManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
-
-    public void LoadTestTransitionScene()
+    private void Start()
     {
-        // Load the test scene for transitions
-        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("TestTransitionScene");
+        // Load the default song if none is set
+        if (currentSong == null)
+        {
+            PlaySong(song01);
+        }
     }
+
+    // public void LoadTestTransitionScene()
+    // {
+    //     // Load the test scene for transitions
+    //     UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("TestTransitionScene");
+    // }
 
     public void PlaySong01()
     {
