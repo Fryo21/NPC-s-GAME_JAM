@@ -65,7 +65,7 @@ public class DroneController : MonoBehaviour
         // Update UI
         if (droneIdText != null)
         {
-            droneIdText.text = $"Drone #{droneId}";
+            droneIdText.text = $"DRONE #{droneId}";
         }
         else
         {
