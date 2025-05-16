@@ -119,6 +119,7 @@ public class RoundManager : MonoBehaviour
         {
             ChangeState(GameState.Interlude);
             SFXManager.Instance.PlayRoundEndSound();
+            TipManager.Instance.SetTipTextToRandomTip();
 
         }
 
