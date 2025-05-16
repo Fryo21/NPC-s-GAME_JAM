@@ -12,7 +12,7 @@ public class MoneyManager : MonoBehaviour
     [SerializeField] private float bankruptcyThreshold = -10f;
     public float droneCost = 10f;
 
-    public float CurrentBalance { get; private set; }
+    [field: SerializeField] public float CurrentBalance { get; private set; }
 
     // Events
     public event Action<float> OnBalanceChanged;
@@ -69,12 +69,15 @@ public class MoneyManager : MonoBehaviour
     public void ProcessCorrectArrest()
     {
         AddMoney(correctArrestReward);
+        SFXManager.Instance.PlayCorrectArrestSound();
         GameUIController.Instance.UpdateArrestQuotaUI();
     }
 
     public void ProcessWrongArrest()
     {
         SubtractMoney(wrongArrestPenalty);
+        SFXManager.Instance.PlayWrongArrestSound();
+
     }
 
     public bool CanAffordDrone()

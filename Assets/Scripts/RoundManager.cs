@@ -94,6 +94,8 @@ public class RoundManager : MonoBehaviour
         OnRoundStarted?.Invoke(CurrentRound);
 
         MusicManager.Instance.SetHardIntensity();
+
+        SFXManager.Instance.PlayRoundStartSound();
     }
 
     public void EndRound()
@@ -110,14 +112,18 @@ public class RoundManager : MonoBehaviour
         if (CheckWinLoseConditions())
         {
             ChangeState(GameState.GameOver);
+            SFXManager.Instance.PlayGameOverSound();
             OnGameOver?.Invoke();
         }
         else
         {
             ChangeState(GameState.Interlude);
+            SFXManager.Instance.PlayRoundEndSound();
+
         }
 
         MusicManager.Instance.SetSoftIntensity();
+
 
     }
 
@@ -185,9 +191,30 @@ public class RoundManager : MonoBehaviour
     // Method to reset the game (can be called to restart)
     public void ResetGame()
     {
+        Debug.Log("[RoundManager] Resetting game");
+
+        // Reset round state
         CurrentRound = 0;
-        MoneyManager.Instance.ResetBalance();
+        ArrestedSuspects = 0;
+        playerWasCaught = false;
+
+        // Reset money
+        if (MoneyManager.Instance != null)
+        {
+            MoneyManager.Instance.ResetBalance();
+        }
+
+        // Reset drones
+        if (DroneManager.Instance != null)
+        {
+            DroneManager.Instance.ResetAllDrones();
+        }
+
+        // Change state to interlude to start fresh
         ChangeState(GameState.Interlude);
+
+        // Log reset completion
+        Debug.Log("[RoundManager] Game reset complete");
     }
 
 

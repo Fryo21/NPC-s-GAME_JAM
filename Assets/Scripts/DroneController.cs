@@ -260,6 +260,7 @@ public class DroneController : MonoBehaviour
 
         // Update UI with the actual NPC's image but the reported (false) identity + "?"
         UpdateSuspectUI(currentTarget.nPCData, reportedAs);
+        SFXManager.Instance.PlayDroneAlertSound();
         return true;
     }
 
@@ -330,6 +331,8 @@ public class DroneController : MonoBehaviour
 
         // Update UI
         UpdateSuspectUI(playerData, playerData);
+
+        SFXManager.Instance.PlayDroneTargetPlayerSound();
 
         // Change state to awaiting response
         SetDroneState(DroneState.AwaitingResponse);

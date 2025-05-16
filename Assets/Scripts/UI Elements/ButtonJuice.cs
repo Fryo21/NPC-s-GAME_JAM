@@ -194,6 +194,7 @@ public class ButtonJuice : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     private void OnButtonClick(UnityEvent originalOnClick)
     {
+        SFXManager.Instance.PlayButtonClickSound();
         // Shake effect
         if (useShakeEffect)
         {

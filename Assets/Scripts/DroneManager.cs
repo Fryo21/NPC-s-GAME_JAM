@@ -319,4 +319,33 @@ public class DroneManager : MonoBehaviour
     {
         return baseDroneCost * Mathf.Pow(droneCostMultiplier, activeDrones.Count);
     }
+
+    public void ResetAllDrones()
+    {
+        Debug.Log("[DroneManager] Resetting all drones");
+
+        // Stop targeting player
+        targetingPlayer = false;
+
+        // Destroy all active drone UI elements
+        foreach (var drone in activeDrones)
+        {
+            if (drone != null && drone.gameObject != null)
+            {
+                Destroy(drone.gameObject);
+            }
+        }
+
+        // Clear the list
+        activeDrones.Clear();
+
+        // Also clear the active NPCs list
+        activeNPCs.Clear();
+    }
+
+    public int GetActiveDroneCount()
+    {
+        return activeDrones.Count;
+    }
+
 }
