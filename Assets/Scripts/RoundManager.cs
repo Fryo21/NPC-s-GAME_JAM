@@ -36,6 +36,10 @@ public class RoundManager : MonoBehaviour
     public event Action OnGameOver;
     public event Action<float> OnTimerTick;
 
+
+    private bool playerWasCaught = false;
+
+
     private void Awake()
     {
         // Singleton setup
@@ -128,6 +132,12 @@ public class RoundManager : MonoBehaviour
             return true;
         }
 
+        if (playerWasCaught)
+        {
+            Debug.Log("Game Over: Player was caught by the drones!");
+            return true;
+        }
+
         // Check for max rounds (win condition)
         if (CurrentRound >= maxRounds)
         {
@@ -173,5 +183,17 @@ public class RoundManager : MonoBehaviour
         CurrentRound = 0;
         MoneyManager.Instance.ResetBalance();
         ChangeState(GameState.Interlude);
+    }
+
+
+    public void EndGameWithPlayerCaught()
+    {
+        playerWasCaught = true;
+        EndRound();
+    }
+
+    public bool PlayerWasCaught()
+    {
+        return playerWasCaught;
     }
 }

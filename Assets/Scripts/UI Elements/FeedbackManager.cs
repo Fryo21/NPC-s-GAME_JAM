@@ -35,6 +35,14 @@ public class FeedbackManager : MonoBehaviour
         "Civilian wrongfully detained. Watch your accuracy!"
     };
 
+    [Header("Employee of the Month")]
+    [SerializeField] private GameObject employeeOfMonthPrefab;
+    [SerializeField] private Sprite playerCharacterSprite;
+    [SerializeField] private string playerName = "Officer #7482";
+    [SerializeField] private Vector2 employeePopupPosition = new Vector2(-200, 100);
+
+    private GameObject employeePopup;
+
     // List to track active warning popups
     private List<GameObject> activeWarnings = new List<GameObject>();
     private int warningCount = 0;
@@ -59,6 +67,13 @@ public class FeedbackManager : MonoBehaviour
         {
             RoundManager.Instance.OnRoundEnded += ClearAllWarnings;
         }
+
+        // Subscribe to round events
+        if (RoundManager.Instance != null)
+        {
+            RoundManager.Instance.OnRoundEnded += ClearAllWarnings;
+            RoundManager.Instance.OnRoundEnded += CheckForSpecialEvents;
+        }
     }
 
     private void OnDestroy()
@@ -68,6 +83,59 @@ public class FeedbackManager : MonoBehaviour
         {
             RoundManager.Instance.OnRoundEnded -= ClearAllWarnings;
         }
+
+        if (RoundManager.Instance != null)
+        {
+            RoundManager.Instance.OnRoundEnded -= ClearAllWarnings;
+            RoundManager.Instance.OnRoundEnded -= CheckForSpecialEvents;
+        }
+    }
+
+    private void CheckForSpecialEvents()
+    {
+        if (RoundManager.Instance == null) return;
+
+        int currentRound = RoundManager.Instance.CurrentRound;
+
+        // End of 3rd shift - show Employee of the Month if player is doing well
+        if (currentRound == 3)
+        {
+            bool isSuccessful = !MoneyManager.Instance.IsBankrupt() &&
+                               RoundManager.Instance.ArrestedSuspects >=
+                               Mathf.CeilToInt(RoundManager.Instance.TotalSuspectsForThisRound * 0.33f);
+
+            if (isSuccessful)
+            {
+                ShowEmployeeOfMonthPopup();
+            }
+        }
+
+        // End of 5th shift - make drones turn against player
+        if (currentRound == 4 && DroneManager.Instance != null)
+        {
+            StartCoroutine(DronesTargetPlayerCoroutine());
+        }
+    }
+
+    public void ShowEmployeeOfMonthPopup()
+    {
+        if (employeeOfMonthPrefab == null || canvasTransform == null) return;
+
+        // If it's already shown, don't create another one
+        if (employeePopup != null) return;
+
+        // Instantiate employee popup
+        employeePopup = Instantiate(employeeOfMonthPrefab, canvasTransform);
+
+    }
+
+    private IEnumerator DronesTargetPlayerCoroutine()
+    {
+        // Wait a bit before the drones turn on the player
+        yield return new WaitForSeconds(30f); // 30 seconds before end of shift
+
+        // Make all drones target the player
+        DroneManager.Instance.MakeDronesTargetPlayer();
     }
 
     public void ShowSuccessFeedback()

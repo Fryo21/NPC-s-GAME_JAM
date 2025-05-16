@@ -28,6 +28,11 @@ public class DroneManager : MonoBehaviour
     public delegate void DroneUIEvent(DroneController drone, NPCDataHolder target, NPCData reportedAs, float timeLimit);
     public static event DroneUIEvent OnDroneIdentification;
 
+    [Header("Player Targeting")]
+    [SerializeField] private Sprite playerCharacterSprite;
+    [SerializeField] private string playerCharacterName = "Officer #7482";
+    private bool targetingPlayer = false;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -254,6 +259,51 @@ public class DroneManager : MonoBehaviour
         {
             // Player denied the arrest - no consequences
             Debug.Log("Player denied the drone identification");
+        }
+    }
+
+    public void MakeDronesTargetPlayer()
+    {
+        if (targetingPlayer) return;
+        targetingPlayer = true;
+
+        Debug.Log("[DroneManager] All drones are now targeting the player!");
+
+        // Create a fake NPCData for the player
+        NPCData playerData = ScriptableObject.CreateInstance<NPCData>();
+        playerData.npcName = playerCharacterName;
+        playerData.npcSprite = playerCharacterSprite;
+
+        // Force all drones to target the player
+        foreach (var drone in activeDrones)
+        {
+            drone.ForceTargetPlayer(playerData);
+        }
+
+        // Ensure the wanted list manager treats the player as wanted
+        if (WantedListManager.Instance != null)
+        {
+            var currentList = WantedListManager.Instance.GetCurrentWantedList();
+            if (!currentList.Contains(playerData))
+            {
+                currentList.Add(playerData);
+                WantedListManager.Instance.UpdateWantedList(currentList);
+            }
+        }
+    }
+
+    public void CheckIfPlayerWasCaught(bool playerConfirmed)
+    {
+        if (targetingPlayer && playerConfirmed)
+        {
+            // Player was caught by a drone and confirmed it
+            Debug.Log("[DroneManager] The player has been caught by a drone!");
+
+            // End the game
+            if (RoundManager.Instance != null)
+            {
+                RoundManager.Instance.EndGameWithPlayerCaught();
+            }
         }
     }
 

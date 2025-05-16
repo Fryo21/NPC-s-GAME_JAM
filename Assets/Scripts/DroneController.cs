@@ -41,6 +41,10 @@ public class DroneController : MonoBehaviour
     // Debug flag
     private bool initialized = false;
 
+    // Flag to know if targeting player
+    private bool isTargetingPlayer = false;
+    private NPCData playerData;
+
     private void Start()
     {
         Debug.Log($"[DroneController] Start called. Initialized={initialized}, AutoStart={autoStartScanning}");
@@ -308,6 +312,37 @@ public class DroneController : MonoBehaviour
         }
     }
 
+    // New method to force this drone to target the player
+    public void ForceTargetPlayer(NPCData playerData)
+    {
+        this.playerData = playerData;
+        isTargetingPlayer = true;
+
+        // Cancel current scanning and go directly to awaiting response
+        if (scanCoroutine != null)
+        {
+            StopCoroutine(scanCoroutine);
+        }
+
+        // Set up the identification
+        reportedAs = playerData;
+        currentTarget = null; // There's no actual NPC for the player
+
+        // Update UI
+        UpdateSuspectUI(playerData, playerData);
+
+        // Change state to awaiting response
+        SetDroneState(DroneState.AwaitingResponse);
+
+        // Start response timer
+        if (timerCoroutine != null)
+            StopCoroutine(timerCoroutine);
+
+        timerCoroutine = StartCoroutine(ResponseTimerRoutine());
+
+        Debug.Log($"Drone #{droneId} is now targeting the player!");
+    }
+
     private void SetDroneState(DroneState newState)
     {
         currentState = newState;
@@ -431,8 +466,20 @@ public class DroneController : MonoBehaviour
         }
     }
 
-    private void OnConfirmButtonClicked()
+    public void OnConfirmButtonClicked()
     {
+
+        // Special handling for player targeting
+        if (isTargetingPlayer)
+        {
+            // Notify DroneManager that player confirmed their own arrest
+            if (DroneManager.Instance != null)
+                DroneManager.Instance.CheckIfPlayerWasCaught(true);
+
+            // Don't reset state - keep targeting the player
+            return;
+        }
+
         // Process the confirmation
         DroneManager.Instance.ProcessDroneIdentificationResponse(this, currentTarget, true);
 
@@ -442,8 +489,13 @@ public class DroneController : MonoBehaviour
         SetDroneState(DroneState.Scanning);
     }
 
-    private void OnDenyButtonClicked()
+    public void OnDenyButtonClicked()
     {
+        if (isTargetingPlayer)
+        {
+            return;
+        }
+
         // Process the denial
         DroneManager.Instance.ProcessDroneIdentificationResponse(this, currentTarget, false);
 

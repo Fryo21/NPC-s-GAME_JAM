@@ -187,7 +187,13 @@ public class GameUIController : MonoBehaviour
     {
         string gameOverReason;
 
-        if (MoneyManager.Instance.IsBankrupt())
+        if (RoundManager.Instance.PlayerWasCaught())
+        {
+            gameOverReason = "The surveillance system has deemed you a person of interest.\n" +
+                             "You have been detained for questioning.\n\n" +
+                             "GAME OVER";
+        }
+        else if (MoneyManager.Instance.IsBankrupt())
         {
             gameOverReason = "You've gone bankrupt! The department has fired you.";
         }

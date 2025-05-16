@@ -1260,7 +1260,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 0
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 150
+  m_ScrollSensitivity: 500
   m_Viewport: {fileID: 1248905461}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 0}
@@ -1663,9 +1663,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.025925925
     width: 1
-    height: 1
+    height: 0.94814813
   near clip plane: 0.1
   far clip plane: 5000
   field of view: 40
@@ -3689,7 +3689,7 @@ GameObject:
   m_Layer: 0
   m_Name: DroneSpriteParent
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3702,7 +3702,7 @@ Transform:
   m_GameObject: {fileID: 937286350}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1134.5168, y: 150.99846, z: -6.1549673}
+  m_LocalPosition: {x: 0.9, y: 1.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4293,6 +4293,8 @@ MonoBehaviour:
   droneAnalysisInterval: 8
   baseAccuracy: 0.55
   accuracyDecreasePerDrone: 0.1
+  playerCharacterSprite: {fileID: 6105864948427516053, guid: e09084d53c10abb44a3aabb163de2887, type: 3}
+  playerCharacterName: Officer #7482
 --- !u!1 &1127855606
 GameObject:
   m_ObjectHideFlags: 0
@@ -7081,6 +7083,10 @@ MonoBehaviour:
   - False arrest! Department faces lawsuit. -$15
   - Incorrect identification! Penalty applied.
   - Civilian wrongfully detained. Watch your accuracy!
+  employeeOfMonthPrefab: {fileID: 4337126341148502800, guid: d3bc56eec37f9ca478d77d2561320fa6, type: 3}
+  playerCharacterSprite: {fileID: 6105864948427516053, guid: e09084d53c10abb44a3aabb163de2887, type: 3}
+  playerName: Officer #7482
+  employeePopupPosition: {x: -200, y: 100}
 --- !u!1 &1880233820 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3493556505159601668, guid: 30ac4a31d1fc6bc44afef1b31fc84fcf, type: 3}
@@ -7660,7 +7666,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 557, y: 354}
-  m_SizeDelta: {x: 550, y: 350}
+  m_SizeDelta: {x: 550, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050967501
 MonoBehaviour:
