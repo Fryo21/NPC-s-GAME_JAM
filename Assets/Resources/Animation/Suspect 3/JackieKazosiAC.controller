@@ -76,7 +76,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d3b4789bdf720184085c0c0a102e70d8, type: 2}
+  m_Motion: {fileID: -3342844162463901806, guid: 4fbbeeb95b2428246b904e9d2fb76e2f, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -116,7 +116,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 228681eb8f0898648a12649cbdfacb5f, type: 2}
+    m_Motion: {fileID: 3016971540868441452, guid: 4fbbeeb95b2428246b904e9d2fb76e2f, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -124,7 +124,7 @@ BlendTree:
     m_DirectBlendParameter: VelocityY
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 0c3c89ebe84dfb74fb31311dce7cfa7d, type: 2}
+    m_Motion: {fileID: -7308915492238435477, guid: 4fbbeeb95b2428246b904e9d2fb76e2f, type: 3}
     m_Threshold: 0.33333334
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -132,7 +132,7 @@ BlendTree:
     m_DirectBlendParameter: VelocityY
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: d4c8e523660fa0f4987f815ff60b14e6, type: 2}
+    m_Motion: {fileID: 3389221227110006669, guid: 4fbbeeb95b2428246b904e9d2fb76e2f, type: 3}
     m_Threshold: 0.6666667
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -140,7 +140,7 @@ BlendTree:
     m_DirectBlendParameter: VelocityY
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: d4c8e523660fa0f4987f815ff60b14e6, type: 2}
+    m_Motion: {fileID: 3389221227110006669, guid: 4fbbeeb95b2428246b904e9d2fb76e2f, type: 3}
     m_Threshold: 1
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1

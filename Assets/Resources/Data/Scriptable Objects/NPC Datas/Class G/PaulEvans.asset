@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39b698df1716eb4b8d731423d5c39fd, type: 3}
+  m_Name: PaulEvans
+  m_EditorClassIdentifier: 
+  npcName: Paul Evans
+  npcSprite: {fileID: -4957293350305332966, guid: b6e3de83ae6da2b4fbcd3571ddf888dc, type: 3}
+  nPCClass: 6
+  npcSubClass: 1
+  npcAnimatorController: {fileID: 9100000, guid: a7039ea24a35aa7449f8fae7f39f537c, type: 2}

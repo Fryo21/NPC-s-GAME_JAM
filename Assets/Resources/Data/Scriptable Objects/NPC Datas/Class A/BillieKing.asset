@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39b698df1716eb4b8d731423d5c39fd, type: 3}
+  m_Name: BillieKing
+  m_EditorClassIdentifier: 
+  npcName: Billie King
+  npcSprite: {fileID: -4121178396329078076, guid: d19e6e708f08cec4bb2a79ff0520a750, type: 3}
+  nPCClass: 0
+  npcSubClass: 2
+  npcAnimatorController: {fileID: 9100000, guid: 0512971d95d34cb43af6442ffafa2787, type: 2}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SharonBeau
   m_EditorClassIdentifier: 
   npcName: Sharon Beau
-  npcSprite: {fileID: 5398264502420699975, guid: a5981300059c2214fa2fd4af37dcb9f7, type: 3}
+  npcSprite: {fileID: -158828478046782101, guid: 74085a73fe40d724eb53f78aca45d573, type: 3}
   nPCClass: 2
   npcSubClass: 3
-  npcAnimatorController: {fileID: 9100000, guid: 57202126f63f89d40bd5a9b96e5fea19, type: 2}
+  npcAnimatorController: {fileID: 9100000, guid: 2b366970dc4210640b1013dfc8e125bf, type: 2}

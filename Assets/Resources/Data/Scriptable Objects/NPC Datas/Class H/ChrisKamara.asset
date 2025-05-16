@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39b698df1716eb4b8d731423d5c39fd, type: 3}
+  m_Name: ChrisKamara
+  m_EditorClassIdentifier: 
+  npcName: Chris Kamara
+  npcSprite: {fileID: 1106289131704528443, guid: 678bb7fb12ffcc1488c23c4def39f0bb, type: 3}
+  nPCClass: 7
+  npcSubClass: 1
+  npcAnimatorController: {fileID: 9100000, guid: 0a54776983fb42c42a323de99f75d641, type: 2}

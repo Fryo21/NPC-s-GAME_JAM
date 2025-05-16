@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39b698df1716eb4b8d731423d5c39fd, type: 3}
+  m_Name: JeffNeal
+  m_EditorClassIdentifier: 
+  npcName: Jeff Neal
+  npcSprite: {fileID: 1563906824357353356, guid: 4201d303ae7fbb64bb58645639ca7f4b, type: 3}
+  nPCClass: 7
+  npcSubClass: 1
+  npcAnimatorController: {fileID: 9100000, guid: c34c82850410eba45b32b4dbd510ab0e, type: 2}

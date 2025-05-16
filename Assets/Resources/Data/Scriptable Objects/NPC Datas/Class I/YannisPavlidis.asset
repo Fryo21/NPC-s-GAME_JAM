@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39b698df1716eb4b8d731423d5c39fd, type: 3}
+  m_Name: YannisPavlidis
+  m_EditorClassIdentifier: 
+  npcName: Yannis Pavlidis
+  npcSprite: {fileID: -373952157807185400, guid: 37e58fcd324109d4e844020bb72ff75c, type: 3}
+  nPCClass: 8
+  npcSubClass: 1
+  npcAnimatorController: {fileID: 9100000, guid: c764213de92f75940b2d24a57bc177cb, type: 2}

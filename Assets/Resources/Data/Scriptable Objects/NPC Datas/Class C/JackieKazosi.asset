@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: JackieKazosi
   m_EditorClassIdentifier: 
   npcName: Jackie Kazosi
-  npcSprite: {fileID: 5398264502420699975, guid: a5981300059c2214fa2fd4af37dcb9f7, type: 3}
+  npcSprite: {fileID: -5843391286067668560, guid: 4fbbeeb95b2428246b904e9d2fb76e2f, type: 3}
   nPCClass: 2
   npcSubClass: 2
   npcAnimatorController: {fileID: 9100000, guid: 57202126f63f89d40bd5a9b96e5fea19, type: 2}
