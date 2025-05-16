@@ -199,6 +199,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef36c9094e3ad67429f8f8b6091acfe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectionCanvas: {fileID: 0}
+  arrestButton: {fileID: 0}
+  cancelButton: {fileID: 0}
 --- !u!114 &8600643065259159414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9141be7660ecb1545981ba9b32203a9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nPCClass: {fileID: 11400000, guid: 8de543a123f60d942b0c67343763b28c, type: 2}
+  nPCData: {fileID: 0}
 --- !u!114 &-438954933202757525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,14 +247,14 @@ CapsuleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1527
   m_ForceReceiveLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1527
   m_ContactCaptureLayers:
     serializedVersion: 2
     m_Bits: 4294967295
