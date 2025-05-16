@@ -237,7 +237,23 @@ public class GameManager : MonoBehaviour
         // If it's a correct arrest, remove the NPC
         if (isWanted)
         {
-            // Rest of your code for handling correct arrests...
+            // Notify DroneManager before destroying the NPC
+            if (DroneManager.Instance != null)
+            {
+                DroneManager.Instance.NotifyTargetArrested(dataHolder);
+            }
+
+            spawnedNPCs.Remove(selectedNPC);
+
+            // Remove from wanted list - use the public method instead of accessing the field directly
+            var currentList = wantedListManager.GetCurrentWantedList();
+            currentList.Remove(dataHolder.nPCData);
+
+            // Use the event to update the wanted list
+            wantedListManager.UpdateWantedList(currentList);
+
+            // Destroy the NPC object after all processing is done
+            Destroy(selectedNPC);
         }
 
         Debug.Log($"Player selected {dataHolder.nPCData.npcName}. Wanted? {isWanted}");

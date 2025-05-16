@@ -68,6 +68,7 @@ public class MoneyManager : MonoBehaviour
     public void ProcessCorrectArrest()
     {
         AddMoney(correctArrestReward);
+        GameUIController.Instance.UpdateArrestQuotaUI();
     }
 
     public void ProcessWrongArrest()

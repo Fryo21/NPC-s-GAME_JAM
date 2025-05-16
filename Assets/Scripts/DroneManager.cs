@@ -208,7 +208,16 @@ public class DroneManager : MonoBehaviour
                     FeedbackManager.Instance.ShowSuccessFeedback();
                 }
 
-                // Rest of your code for handling correct arrests...
+                // Notify other drones that this target was arrested
+                NotifyTargetArrested(target);
+
+                // Remove NPC
+                Destroy(target.gameObject);
+
+                // Remove from wanted list
+                var currentList = WantedListManager.Instance.GetCurrentWantedList();
+                currentList.Remove(target.nPCData);
+                WantedListManager.Instance.UpdateWantedList(currentList);
             }
             else
             {
@@ -224,6 +233,8 @@ public class DroneManager : MonoBehaviour
                     FeedbackManager.Instance.ShowWarningFeedback();
                 }
             }
+
+
         }
         else
         {
