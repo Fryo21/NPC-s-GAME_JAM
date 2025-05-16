@@ -17,7 +17,7 @@ public class FeedbackManager : MonoBehaviour
     private string[] successMessages = new string[]
     {
         "Great job! Suspect apprehended.",
-        "Correct identification! +$50",
+        "Correct identification! +$10",
         "Criminal apprehended successfully!",
         "Target acquired. Well done."
     };
@@ -29,8 +29,8 @@ public class FeedbackManager : MonoBehaviour
     [SerializeField]
     private string[] warningMessages = new string[]
     {
-        "Wrong target! Innocent citizen arrested. -$30",
-        "False arrest! Department faces lawsuit. -$30",
+        "Wrong target! Innocent citizen arrested. -$15",
+        "False arrest! Department faces lawsuit. -$15",
         "Incorrect identification! Penalty applied.",
         "Civilian wrongfully detained. Watch your accuracy!"
     };

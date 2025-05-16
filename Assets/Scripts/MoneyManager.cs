@@ -49,6 +49,7 @@ public class MoneyManager : MonoBehaviour
         OnBalanceChanged?.Invoke(CurrentBalance);
 
         Debug.Log($"Added ${amount}. New balance: ${CurrentBalance}");
+        GameUIController.Instance.UpdatePurchaseDroneButtonUI();
     }
 
     public void SubtractMoney(float amount)

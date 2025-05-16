@@ -10,7 +10,7 @@ public class DroneUIPopup : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
     [SerializeField] private RectTransform backgroundPanel;
 
     // Drag state
-    private Canvas parentCanvas;
+    public Canvas parentCanvas;
     private RectTransform canvasRectTransform;
     private Vector2 dragOffset;
 
@@ -21,7 +21,7 @@ public class DroneUIPopup : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
     private void Awake()
     {
         // Get parent canvas
-        parentCanvas = GetComponentInParent<Canvas>();
+        parentCanvas = transform.parent.GetComponentInParent<Canvas>();
         if (parentCanvas == null)
         {
             Debug.LogError("DroneUIPopup must be a child of a Canvas!");
@@ -95,44 +95,66 @@ public class DroneUIPopup : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
 
     private void KeepInBounds()
     {
-        if (parentCanvas == null || canvasRectTransform == null || backgroundPanel == null) return;
+        if (parentCanvas == null || backgroundPanel == null) return;
 
-        // Get canvas and panel dimensions
-        Vector2 canvasSize = canvasRectTransform.rect.size;
-        Vector2 panelSize = backgroundPanel.rect.size * backgroundPanel.localScale;
+        // Get canvas and background panel rect transforms
+        RectTransform canvasRect = parentCanvas.GetComponent<RectTransform>();
 
-        // Calculate canvas edges in world space
+        // Get the canvas world corners
         Vector3[] canvasCorners = new Vector3[4];
-        canvasRectTransform.GetWorldCorners(canvasCorners);
+        canvasRect.GetWorldCorners(canvasCorners);
 
-        // Get panel position
+        // Get the panel world corners
         Vector3[] panelCorners = new Vector3[4];
         backgroundPanel.GetWorldCorners(panelCorners);
 
-        // Get panel min/max bounds
-        float minX = panelCorners[0].x;
-        float maxX = panelCorners[2].x;
-        float minY = panelCorners[0].y;
-        float maxY = panelCorners[2].y;
+        // Calculate bounds
+        // canvasCorners[0] = bottom-left, canvasCorners[2] = top-right
+        // panelCorners[0] = bottom-left, panelCorners[2] = top-right
 
-        // Get canvas min/max bounds
-        float canvasMinX = canvasCorners[0].x + edgePadding;
-        float canvasMaxX = canvasCorners[2].x - edgePadding;
-        float canvasMinY = canvasCorners[0].y + edgePadding;
-        float canvasMaxY = canvasCorners[2].y - edgePadding;
+        // Calculate min and max positions in world space
+        float minX = canvasCorners[0].x + edgePadding;
+        float maxX = canvasCorners[2].x - edgePadding;
+        float minY = canvasCorners[0].y + edgePadding;
+        float maxY = canvasCorners[2].y - edgePadding;
 
-        // Calculate clamped position
-        Vector3 newPos = transform.position;
+        // Panel dimensions
+        float panelWidth = panelCorners[2].x - panelCorners[0].x;
+        float panelHeight = panelCorners[2].y - panelCorners[0].y;
 
-        // Clamp X position
-        if (minX < canvasMinX) newPos.x += (canvasMinX - minX);
-        if (maxX > canvasMaxX) newPos.x -= (maxX - canvasMaxX);
+        // Current position
+        Vector3 currentPos = transform.position;
 
-        // Clamp Y position
-        if (minY < canvasMinY) newPos.y += (canvasMinY - minY);
-        if (maxY > canvasMaxY) newPos.y -= (maxY - canvasMaxY);
+        // Calculate clamped position to ensure panel stays in view
+        // We need to check both left and right edges, top and bottom edges
+        float leftEdge = panelCorners[0].x;
+        float rightEdge = panelCorners[2].x;
+        float bottomEdge = panelCorners[0].y;
+        float topEdge = panelCorners[2].y;
 
-        // Apply clamped position
+        Vector3 newPos = currentPos;
+
+        // Adjust X position if needed
+        if (leftEdge < minX)
+        {
+            newPos.x += (minX - leftEdge);
+        }
+        else if (rightEdge > maxX)
+        {
+            newPos.x -= (rightEdge - maxX);
+        }
+
+        // Adjust Y position if needed
+        if (bottomEdge < minY)
+        {
+            newPos.y += (minY - bottomEdge);
+        }
+        else if (topEdge > maxY)
+        {
+            newPos.y -= (topEdge - maxY);
+        }
+
+        // Apply position
         transform.position = newPos;
     }
 }

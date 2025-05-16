@@ -116,16 +116,12 @@ public class GameUIController : MonoBehaviour
 
     public void PurchaseDrone()
     {
-
         if (MoneyManager.Instance.CanAffordDrone())
         {
-            MoneyManager.Instance.SubtractMoney(MoneyManager.Instance.droneCost);
+            // MoneyManager.Instance.SubtractMoney(MoneyManager.Instance.droneCost);
             DroneManager.Instance.PurchaseDrone();
             droneCount++;
-            UpdateDroneUI();
-
-            // Inform the Automation System about the new drone
-            NotifyDronePurchased();
+            UpdatePurchaseDroneButtonUI();
         }
         else
         {
@@ -135,16 +131,7 @@ public class GameUIController : MonoBehaviour
     }
 
 
-    private void NotifyDronePurchased()
-    {
-        // This is where we can integrate with the Automation System
-        // For now, just log the purchase
-
-        Debug.Log($"Drone #{droneCount} purchased! Notify Automation System.");
-    }
-
-
-    private void UpdateDroneUI()
+    public void UpdatePurchaseDroneButtonUI()
     {
         droneCostText.text = $"Buy Drone: ${MoneyManager.Instance.droneCost:F2}";
 

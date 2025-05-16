@@ -29,7 +29,12 @@ public class WantedListUI : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
         parentCanvas = GetComponentInParent<Canvas>();
         if (parentCanvas == null)
         {
-            Debug.LogError("WantedListUI must be a child of a Canvas!");
+            parentCanvas = transform.parent.GetComponentInParent<Canvas>();
+            canvasRectTransform = parentCanvas.GetComponent<RectTransform>();
+            if (parentCanvas == null)
+            {
+                Debug.LogError("draggable must be a child or grandchidl of a Canvas!");
+            }
         }
         else
         {

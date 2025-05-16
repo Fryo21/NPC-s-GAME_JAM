@@ -108,14 +108,11 @@ public class DroneManager : MonoBehaviour
     // Purchase a new drone
     public bool PurchaseDrone()
     {
-        // Calculate cost based on current drone count
-        float cost = baseDroneCost * Mathf.Pow(droneCostMultiplier, activeDrones.Count);
-
         // Check if player can afford
         if (MoneyManager.Instance != null && MoneyManager.Instance.CanAffordDrone())
         {
             // Deduct money
-            MoneyManager.Instance.SubtractMoney(cost);
+            MoneyManager.Instance.SubtractMoney(baseDroneCost);
 
             // Create drone UI
             CreateDroneUI();
@@ -123,7 +120,7 @@ public class DroneManager : MonoBehaviour
             return true;
         }
 
-        Debug.Log($"Cannot afford drone. Cost: ${cost}");
+        Debug.Log($"Cannot afford drone. Cost: ${baseDroneCost}");
         return false;
     }
 

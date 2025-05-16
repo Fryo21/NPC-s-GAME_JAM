@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 8291265832300697517}
   - component: {fileID: 4489161531787303490}
   - component: {fileID: 1807521885545240484}
+  - component: {fileID: 6541339029143521420}
   m_Layer: 5
   m_Name: background
   m_TagString: Untagged
@@ -343,3 +344,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   edgePadding: 10
+--- !u!114 &6541339029143521420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159150082569783598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28f67af4264b934fb226544da65b9c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAppearAnimation: 0
+  appearDelay: 0
+  appearDuration: 0.1
+  appearEase: 27
+  useRandomRotation: 0
+  maxRandomRotation: 5
+  enableHoverEffects: 1
+  hoverScale: 1.05
+  hoverScaleDuration: 0.2
+  hoverEase: 6
+  useHoverColor: 0
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  enableClickEffects: 1
+  clickScale: 0.95
+  clickDuration: 0.1
+  clickEase: 6
+  playClickSound: 0
+  clickSound: {fileID: 0}
+  enableDragEffects: 1
+  dragScale: 1.05
+  dragAlpha: 0.9
+  bringToFrontWhenDragged: 1
+  addDragRotation: 0
+  maxDragRotation: 1.5
+  dragRotationSpeed: 1
+  enableDropEffects: 1
+  bounceDrop: 1
+  dropBounceDuration: 0.3
+  dropBounceEase: 30
+  shakeOnDrop: 0
+  shakeStrength: 5
+  shakeVibrato: 10

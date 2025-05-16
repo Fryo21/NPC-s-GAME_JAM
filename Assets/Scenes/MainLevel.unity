@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.34117648, g: 0.34117648, b: 0.34117648, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4218,9 +4218,9 @@ MonoBehaviour:
   droneUIPopupPrefab: {fileID: 4226430301864996962, guid: d19009185b961314abafb381edbf1f4c, type: 3}
   droneUIParent: {fileID: 509818943}
   baseDroneCost: 10
-  droneCostMultiplier: 1.5
+  droneCostMultiplier: 1
   droneAnalysisInterval: 8
-  baseAccuracy: 0.75
+  baseAccuracy: 0.55
   accuracyDecreasePerDrone: 0.1
 --- !u!1 &1127855606
 GameObject:
@@ -4859,7 +4859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -5170,7 +5170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4393531, g: 0.21493955, b: 0.21493955, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6742,6 +6742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1849987182}
   - component: {fileID: 1849987181}
+  - component: {fileID: 1849987183}
   m_Layer: 0
   m_Name: WantedListUI
   m_TagString: Untagged
@@ -6767,22 +6768,70 @@ MonoBehaviour:
   titleBar: {fileID: 365707363}
   backgroundPanel: {fileID: 812539738}
   edgePadding: 5
---- !u!4 &1849987182
-Transform:
+--- !u!224 &1849987182
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849987180}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -901, y: -433, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2050967500}
   m_Father: {fileID: 1953849591}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -816, y: -420}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1849987183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849987180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28f67af4264b934fb226544da65b9c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAppearAnimation: 0
+  appearDelay: 0
+  appearDuration: 0.3
+  appearEase: 27
+  useRandomRotation: 0
+  maxRandomRotation: 5
+  enableHoverEffects: 1
+  hoverScale: 1.05
+  hoverScaleDuration: 0.2
+  hoverEase: 6
+  useHoverColor: 0
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  enableClickEffects: 1
+  clickScale: 0.95
+  clickDuration: 0.1
+  clickEase: 6
+  playClickSound: 0
+  clickSound: {fileID: 0}
+  enableDragEffects: 1
+  dragScale: 1.05
+  dragAlpha: 0.9
+  bringToFrontWhenDragged: 1
+  addDragRotation: 0
+  maxDragRotation: 0.5
+  dragRotationSpeed: 0.1
+  enableDropEffects: 1
+  bounceDrop: 0
+  dropBounceDuration: 0.3
+  dropBounceEase: 30
+  shakeOnDrop: 0
+  shakeStrength: 5
+  shakeVibrato: 10
 --- !u!1 &1860589221
 GameObject:
   m_ObjectHideFlags: 0
@@ -6950,15 +6999,15 @@ MonoBehaviour:
   successPopupDuration: 2
   successMessages:
   - Great job! Suspect apprehended.
-  - Correct identification! +$50
+  - Correct identification! +$10
   - Criminal apprehended successfully!
   - Target acquired. Well done.
   warningPopupPrefab: {fileID: 1392303843199133766, guid: 2f44ecba091e26f45a5b912c8a65c2f6, type: 3}
   warningSpawnPosition: {x: 0, y: 0}
   warningSpawnOffset: 20
   warningMessages:
-  - Wrong target! Innocent citizen arrested. -$30
-  - False arrest! Department faces lawsuit. -$30
+  - Wrong target! Innocent citizen arrested. -$15
+  - False arrest! Department faces lawsuit. -$15
   - Incorrect identification! Penalty applied.
   - Civilian wrongfully detained. Watch your accuracy!
 --- !u!1 &1880233820 stripped
