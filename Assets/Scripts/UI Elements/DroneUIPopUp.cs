@@ -15,7 +15,7 @@ public class DroneUIPopup : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
     private Vector2 dragOffset;
 
     [Header("Appearance")]
-    [SerializeField] private Color headerColor = new Color(0.3f, 0.3f, 0.7f); // Blue-ish for drones
+    //[SerializeField] private Color headerColor = new Color(0.3f, 0.3f, 0.7f); // Blue-ish for drones
     [SerializeField] private float edgePadding = 20f;
 
     private void Awake()
@@ -35,10 +35,10 @@ public class DroneUIPopup : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
         if (dragHandle != null)
         {
             Image headerImage = dragHandle.GetComponent<Image>();
-            if (headerImage != null)
-            {
-                headerImage.color = headerColor;
-            }
+            // if (headerImage != null)
+            // {
+            //     headerImage.color = headerColor;
+            // }
         }
     }
 

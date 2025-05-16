@@ -158,6 +158,15 @@ public class WantedListManager : MonoBehaviour
             }
         }
 
+        if (GameUIController.Instance != null)
+        {
+            GameUIController.Instance.UpdateArrestQuotaUI();
+        }
+        else
+        {
+            LogDebug("GameUIController.Instance is null. Cannot update Arrest Quota UI.");
+        }
+
     }
 
     public bool IsWanted(NPCData npcData)

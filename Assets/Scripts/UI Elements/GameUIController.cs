@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class GameUIController : MonoBehaviour
 {
@@ -30,7 +31,22 @@ public class GameUIController : MonoBehaviour
     [SerializeField] private float baseDroneCost = 10f;
     private int droneCount = 0;
 
+    public static GameUIController Instance { get; private set; }
 
+    private void Awake()
+    {
+        // Singleton pattern
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+    }
 
     private void Start()
     {
@@ -93,7 +109,7 @@ public class GameUIController : MonoBehaviour
         UpdateArrestQuotaUI();
     }
 
-    private void UpdateArrestQuotaUI()
+    public void UpdateArrestQuotaUI()
     {
         arrestQuotaText.text = $"Arrests: {RoundManager.Instance.ArrestedSuspects}/{RoundManager.Instance.TotalSuspectsForThisRound}";
     }
