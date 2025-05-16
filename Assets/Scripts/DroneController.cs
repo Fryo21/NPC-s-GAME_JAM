@@ -242,7 +242,9 @@ public class DroneController : MonoBehaviour
                 // Pick a random wanted NPC
                 currentTarget = wantedNPCs[Random.Range(0, wantedNPCs.Count)];
                 reportedAs = currentTarget.nPCData; // Correctly identified
-                UpdateSuspectUI(currentTarget.nPCData);
+
+                // Display the actual NPC's image but with the reported name + "?"
+                UpdateSuspectUI(currentTarget.nPCData, reportedAs);
                 return true;
             }
         }
@@ -252,8 +254,8 @@ public class DroneController : MonoBehaviour
         currentTarget = allNPCs[Random.Range(0, allNPCs.Count)];
         reportedAs = wantedList[Random.Range(0, wantedList.Count)];
 
-        // Update UI with the reported (possibly false) identity
-        UpdateSuspectUI(reportedAs);
+        // Update UI with the actual NPC's image but the reported (false) identity + "?"
+        UpdateSuspectUI(currentTarget.nPCData, reportedAs);
         return true;
     }
 
@@ -288,21 +290,21 @@ public class DroneController : MonoBehaviour
         }
     }
 
-    private void UpdateSuspectUI(NPCData suspectData)
+    private void UpdateSuspectUI(NPCData actualNpcData, NPCData reportedAsNpcData)
     {
-        if (suspectData == null) return;
+        if (actualNpcData == null || reportedAsNpcData == null) return;
 
-        // Update image
-        if (suspectImage != null && suspectData.npcSprite != null)
+        // Update image with the ACTUAL NPC's image (what the drone is looking at)
+        if (suspectImage != null && actualNpcData.npcSprite != null)
         {
-            suspectImage.sprite = suspectData.npcSprite;
+            suspectImage.sprite = actualNpcData.npcSprite;
             suspectImage.preserveAspect = true;
         }
 
-        // Update name
+        // Update name with the REPORTED name (who the drone THINKS it is) + question mark
         if (suspectNameText != null)
         {
-            suspectNameText.text = suspectData.npcName;
+            suspectNameText.text = reportedAsNpcData.npcName + "?";
         }
     }
 

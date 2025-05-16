@@ -906,7 +906,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &7861522727485716537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -961,7 +961,7 @@ MonoBehaviour:
   timerSlider: {fileID: 3784778457642195393}
   scanInterval: 8
   identificationDuration: 5
-  accuracyRate: 0.75
+  accuracyRate: 0.45
   autoStartScanning: 1
   scanningImageTint: {r: 0.6, g: 0.6, b: 0.6, a: 0.5}
   activeImageTint: {r: 1, g: 1, b: 1, a: 1}
