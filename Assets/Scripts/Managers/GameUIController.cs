@@ -116,7 +116,7 @@ public class GameUIController : MonoBehaviour
 
     public void UpdateArrestQuotaUI()
     {
-        arrestQuotaText.text = $"Arrests: {RoundManager.Instance.ArrestedSuspects}/{RoundManager.Instance.TotalSuspectsForThisRound}";
+        arrestQuotaText.text = $"{RoundManager.Instance.ArrestedSuspects}/{RoundManager.Instance.TotalSuspectsForThisRound}";
     }
 
     public void PurchaseDrone()
