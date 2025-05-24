@@ -897,6 +897,7 @@ GameObject:
   - component: {fileID: 3305729969169039395}
   - component: {fileID: 7861522727485716537}
   - component: {fileID: 455371691685608059}
+  - component: {fileID: 1521569960716912468}
   - component: {fileID: 4445059474669916789}
   - component: {fileID: 4276199523363964202}
   m_Layer: 5
@@ -971,7 +972,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &7861522727485716537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1005,6 +1006,18 @@ MonoBehaviour:
   backgroundPanel: {fileID: 3355947550590233561}
   parentCanvas: {fileID: 0}
   edgePadding: 20
+--- !u!225 &1521569960716912468
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4226430301864996962}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &4445059474669916789
 MonoBehaviour:
   m_ObjectHideFlags: 0
