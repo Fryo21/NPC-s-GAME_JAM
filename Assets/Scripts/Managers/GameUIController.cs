@@ -18,6 +18,8 @@ public class GameUIController : MonoBehaviour
     [FoldoutGroup("Round UI")]
     [SerializeField] private TextMeshProUGUI timerText;
     [FoldoutGroup("Round UI")]
+    [SerializeField] private Color timerLowColor = Color.red; // Color when time is low
+    [FoldoutGroup("Round UI")]
     [SerializeField] private TextMeshProUGUI arrestQuotaText;
 
     [FoldoutGroup("Game State Panels")]
@@ -43,6 +45,12 @@ public class GameUIController : MonoBehaviour
     [SerializeField] private GameObject timerHelpTip;
     [FoldoutGroup("Help Tips")]
     [SerializeField] private GameObject arrestQuotaHelpTip;
+    [FoldoutGroup("Help Tips")]
+    [SerializeField] private GameObject balanceHelpTip;
+    [FoldoutGroup("Help Tips")]
+    [SerializeField] private GameObject dronePurchaseHelpTip;
+    [FoldoutGroup("Help Tips")]
+    [SerializeField] private GameObject moveableUIHelpTip;
 
     public static GameUIController Instance { get; private set; }
 
@@ -237,6 +245,9 @@ public class GameUIController : MonoBehaviour
     {
         timerHelpTip.SetActive(true);
         arrestQuotaHelpTip.SetActive(true);
+        balanceHelpTip.SetActive(true);
+        dronePurchaseHelpTip.SetActive(true);
+        moveableUIHelpTip.SetActive(true);
     }
 
     private IEnumerator FlashText(TextMeshProUGUI text)
@@ -245,7 +256,7 @@ public class GameUIController : MonoBehaviour
 
         for (int i = 0; i < 3; i++)
         {
-            text.color = Color.red;
+            text.color = timerLowColor; // Flash red
             yield return new WaitForSeconds(0.1f);
             text.color = originalColor;
             yield return new WaitForSeconds(0.1f);
