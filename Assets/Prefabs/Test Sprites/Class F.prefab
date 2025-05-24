@@ -216,7 +216,6 @@ MonoBehaviour:
   wanderRadius: 10
   pauseTimeMin: 1
   pauseTimeMax: 3
-  drawGizmos: 1
 --- !u!70 &2897788708842214443
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

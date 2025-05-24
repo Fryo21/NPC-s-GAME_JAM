@@ -8,6 +8,10 @@ public class GameUIController : MonoBehaviour
 {
     [FoldoutGroup("Money UI")]
     [SerializeField] private TextMeshProUGUI balanceText;
+    [FoldoutGroup("Money UI")]
+    [SerializeField] private Color positiveBalanceColor = Color.green;
+    [FoldoutGroup("Money UI")]
+    [SerializeField] private Color negativeBalanceColor = Color.red;
 
     [FoldoutGroup("Round UI")]
     [SerializeField] private TextMeshProUGUI roundText;
@@ -34,6 +38,11 @@ public class GameUIController : MonoBehaviour
 
     [FoldoutGroup("ESC Menu")]
     [SerializeField] private GameObject escMenu;
+
+    [FoldoutGroup("Help Tips")]
+    [SerializeField] private GameObject timerHelpTip;
+    [FoldoutGroup("Help Tips")]
+    [SerializeField] private GameObject arrestQuotaHelpTip;
 
     public static GameUIController Instance { get; private set; }
 
@@ -89,9 +98,9 @@ public class GameUIController : MonoBehaviour
 
         // Optional: Change color if negative
         if (balance < 0)
-            balanceText.color = Color.red;
+            balanceText.color = negativeBalanceColor;
         else
-            balanceText.color = Color.green;
+            balanceText.color = positiveBalanceColor;
     }
 
     private void UpdateTimerUI(float timeRemaining)
@@ -116,7 +125,7 @@ public class GameUIController : MonoBehaviour
 
     public void UpdateArrestQuotaUI()
     {
-        arrestQuotaText.text = $"{RoundManager.Instance.ArrestedSuspects}/{RoundManager.Instance.TotalSuspectsForThisRound}";
+        arrestQuotaText.text = $"{RoundManager.Instance.ArrestedSuspects}/{RoundManager.Instance.GetMinArrestQuotaForRound()}";
     }
 
     public void PurchaseDrone()
@@ -222,6 +231,12 @@ public class GameUIController : MonoBehaviour
     public void ToggleESCMenu()
     {
         escMenu.SetActive(!escMenu.activeSelf);
+    }
+
+    public void ShowFirstRoundHelpTips()
+    {
+        timerHelpTip.SetActive(true);
+        arrestQuotaHelpTip.SetActive(true);
     }
 
     private IEnumerator FlashText(TextMeshProUGUI text)

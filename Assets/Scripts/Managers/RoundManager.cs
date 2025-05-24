@@ -83,6 +83,12 @@ public class RoundManager : MonoBehaviour
             return;
         }
 
+        //if this is the player's first ever round, show help tips
+        if (CurrentRound == 0)
+        {
+            GameUIController.Instance.ShowFirstRoundHelpTips();
+        }
+
         CurrentRound++;
         RemainingTime = roundDuration;
         ArrestedSuspects = 0;
@@ -137,7 +143,7 @@ public class RoundManager : MonoBehaviour
         }
 
         // Check for quota failure
-        if (ArrestedSuspects < Mathf.CeilToInt(TotalSuspectsForThisRound * quotaPercentage))
+        if (ArrestedSuspects < GetMinArrestQuotaForRound())
         {
             Debug.Log("Game Over: Failed to meet arrest quota!");
             return true;
@@ -157,6 +163,16 @@ public class RoundManager : MonoBehaviour
         }
 
         return false;
+    }
+
+    public int GetMinArrestQuotaForRound()
+    {
+        int minQuota = Mathf.CeilToInt(WantedListManager.Instance.GetCurrentWantedList().Count * quotaPercentage);
+        if (minQuota <= 0)
+        {
+            minQuota = 1; // Ensure at least one suspect to arrest
+        }
+        return minQuota;
     }
 
     public void ReportArrest(bool isCorrect)
