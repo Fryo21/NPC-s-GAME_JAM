@@ -243,4 +243,13 @@ public class FeedbackManager : MonoBehaviour
         activeWarnings.Clear();
         warningCount = 0;
     }
+
+    public void ClearEmployeeOfMonthPopup()
+    {
+        if (employeePopup != null)
+        {
+            Destroy(employeePopup);
+            employeePopup = null;
+        }
+    }
 }

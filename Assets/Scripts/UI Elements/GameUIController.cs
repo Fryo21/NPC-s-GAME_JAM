@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
-using Unity.VisualScripting;
 
 public class GameUIController : MonoBehaviour
 {
@@ -29,7 +28,7 @@ public class GameUIController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI droneCostText;
 
     [SerializeField] private float baseDroneCost = 10f;
-    private int droneCount = 0;
+
 
     public static GameUIController Instance { get; private set; }
 
@@ -55,7 +54,7 @@ public class GameUIController : MonoBehaviour
         RoundManager.Instance.OnTimerTick += UpdateTimerUI;
         RoundManager.Instance.OnGameStateChanged += HandleGameStateChanged;
         RoundManager.Instance.OnRoundStarted += UpdateRoundUI;
-        RoundManager.Instance.OnRoundEnded += UpdateRoundSummary;
+        RoundManager.Instance.OnRoundEnded += UpdateInterludeRoundSummary;
         RoundManager.Instance.OnGameOver += ShowGameOverUI;
 
         // Initial UI setup
@@ -74,7 +73,7 @@ public class GameUIController : MonoBehaviour
             RoundManager.Instance.OnTimerTick -= UpdateTimerUI;
             RoundManager.Instance.OnGameStateChanged -= HandleGameStateChanged;
             RoundManager.Instance.OnRoundStarted -= UpdateRoundUI;
-            RoundManager.Instance.OnRoundEnded -= UpdateRoundSummary;
+            RoundManager.Instance.OnRoundEnded -= UpdateInterludeRoundSummary;
             RoundManager.Instance.OnGameOver -= ShowGameOverUI;
         }
     }
@@ -107,6 +106,7 @@ public class GameUIController : MonoBehaviour
     {
         roundText.text = $"Shift {roundNumber}";
         UpdateArrestQuotaUI();
+        UpdatePurchaseDroneButtonUI();
     }
 
     public void UpdateArrestQuotaUI()
@@ -120,7 +120,6 @@ public class GameUIController : MonoBehaviour
         {
             // MoneyManager.Instance.SubtractMoney(MoneyManager.Instance.droneCost);
             DroneManager.Instance.PurchaseDrone();
-            droneCount++;
             UpdatePurchaseDroneButtonUI();
         }
         else
@@ -154,7 +153,7 @@ public class GameUIController : MonoBehaviour
 
             case GameState.Interlude:
                 interludePanel.SetActive(true);
-                UpdateRoundSummary();
+                UpdateInterludeRoundSummary();
                 break;
 
             case GameState.GameOver:
@@ -163,7 +162,7 @@ public class GameUIController : MonoBehaviour
         }
     }
 
-    private void UpdateRoundSummary()
+    private void UpdateInterludeRoundSummary()
     {
         if (RoundManager.Instance.CurrentRound == 0)
         {

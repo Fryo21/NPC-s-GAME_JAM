@@ -211,6 +211,11 @@ public class RoundManager : MonoBehaviour
             DroneManager.Instance.ResetAllDrones();
         }
 
+        if (FeedbackManager.Instance != null)
+        {
+            FeedbackManager.Instance.ClearEmployeeOfMonthPopup();
+        }
+
         // Change state to interlude to start fresh
         ChangeState(GameState.Interlude);
 
