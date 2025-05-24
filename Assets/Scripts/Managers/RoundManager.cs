@@ -17,7 +17,6 @@ public class RoundManager : MonoBehaviour
     [Header("Round Settings")]
     [SerializeField] private int maxRounds = 5;
     [SerializeField] private float roundDuration = 60f; // 1 minute per round
-    [SerializeField] private float interludeDuration = 10f; // Optional auto-continue
 
     [Header("Quota Settings")]
     [SerializeField] private float quotaPercentage = 0.33f; // Need to arrest 1/3 of suspects

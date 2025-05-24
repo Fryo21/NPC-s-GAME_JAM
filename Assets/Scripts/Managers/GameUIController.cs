@@ -27,9 +27,6 @@ public class GameUIController : MonoBehaviour
     [SerializeField] private Button purchaseDroneButton;
     [SerializeField] private TextMeshProUGUI droneCostText;
 
-    [SerializeField] private float baseDroneCost = 10f;
-
-
     public static GameUIController Instance { get; private set; }
 
     private void Awake()

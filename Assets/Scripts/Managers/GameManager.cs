@@ -18,10 +18,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private WantedListManager wantedListManager;
     [SerializeField] private RoundManager roundManager;
 
-    [Header("Game Settings")]
-    [SerializeField] private float moneyForCorrectArrest = 50f;
-    [SerializeField] private float penaltyForWrongArrest = 30f;
-
     // List of spawned NPCs
     private List<GameObject> spawnedNPCs = new List<GameObject>();
 

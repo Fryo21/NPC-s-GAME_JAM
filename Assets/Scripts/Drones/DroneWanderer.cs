@@ -15,7 +15,7 @@ public class DroneWanderer : MonoBehaviour
     [SerializeField] private float wanderRadius = 10f;         // How far to search for a random point
     [SerializeField] private float pauseTimeMin = 1f;          // Minimum time to pause at destination
     [SerializeField] private float pauseTimeMax = 3f;          // Maximum time to pause at destination
-    [SerializeField] private bool drawGizmos = true;           // Whether to draw debug gizmos
+
 
     // State variables
     private bool isPaused = false;

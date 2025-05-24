@@ -30,6 +30,12 @@ public class PlayerController : MonoBehaviour
     {
         playerControls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         playerControls.Player.Move.canceled += ctx => moveInput = Vector2.zero;
+
+        playerControls.Player.EscMenuToggle.performed += ctx =>
+        {
+            // Handle escape menu toggle here
+            Debug.Log("Escape menu toggled");
+        };
     }
     private void Update()
     {

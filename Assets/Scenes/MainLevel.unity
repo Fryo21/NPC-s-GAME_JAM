@@ -1628,9 +1628,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.16759259
-    width: 0.53489584
-    height: 0.47407407
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.1
   far clip plane: 5000
   field of view: 40
@@ -7078,6 +7078,7 @@ Transform:
   - {fileID: 1401551732}
   - {fileID: 1099920084}
   - {fileID: 1871598750}
+  - {fileID: 2050695714}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1821044615
@@ -8095,12 +8096,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050695712}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 490.83093, y: 412.9, z: 1.1719549}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 484.69275, y: 413.93997, z: 1.0926576}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1740740421}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2080009389
 GameObject:
@@ -8665,6 +8666,5 @@ SceneRoots:
   - {fileID: 766941400}
   - {fileID: 1323645703}
   - {fileID: 506971288}
-  - {fileID: 2050695714}
   - {fileID: 937286351}
   - {fileID: 1627592984}
