@@ -16,13 +16,24 @@ MonoBehaviour:
     keys:
     - 2b9355716ed76b94eadf2da70a489316
     - 8c9cfa26abfee488c85f1582747f6a02
+    - 
     values:
     - goDatasByGlobalId:
-        keys: []
-        values: []
+        keys:
+        - GlobalObjectId_V1-2-2b9355716ed76b94eadf2da70a489316-923919337-0
+        - GlobalObjectId_V1-2-2b9355716ed76b94eadf2da70a489316-2129659821-0
+        values:
+        - iColor: 0
+          icon: AudioClip Icon
+        - iColor: 0
+          icon: AudioSource Icon
       goDatasByInstanceId:
-        keys: 
-        values: []
+        keys: acf001002cf10100
+        values:
+        - iColor: 0
+          icon: AudioClip Icon
+        - iColor: 0
+          icon: AudioSource Icon
     - goDatasByGlobalId:
         keys:
         - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1953849590-0
@@ -41,6 +52,8 @@ MonoBehaviour:
         - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-766941396-0
         - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1627592983-0
         - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-937286350-0
+        - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-997981022-0
+        - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-751116767-0
         values:
         - iColor: 3
           icon: Canvas Icon
@@ -51,7 +64,7 @@ MonoBehaviour:
         - iColor: 0
           icon: Camera Icon
         - iColor: 0
-          icon: 
+          icon: Light Icon
         - iColor: 4
           icon: cs Script Icon
         - iColor: 0
@@ -68,14 +81,18 @@ MonoBehaviour:
           icon: 
         - iColor: 0
           icon: 
-        - iColor: 0
+        - iColor: 9
           icon: AvatarMask On Icon
         - iColor: 0
           icon: AvatarMask On Icon
         - iColor: 0
           icon: AvatarMask On Icon
+        - iColor: 0
+          icon: AvatarMask On Icon
+        - iColor: 2
+          icon: Terrain Icon
       goDatasByInstanceId:
-        keys: daec010018ed010070ea0100b4ea0100c8ea01009eec0100fcea010034eb0100b8eb010040ec0100b2eb0100b4ec0100f6ec010028eb010076ec010078eb0100
+        keys: daec010018ed010070ea0100b4ea0100c8ea01009eec0100fcea010034eb0100b8eb010040ec0100b2eb0100b4ec0100f6ec010028eb010076ec010078eb01009cfd0100dafd010032fb010076fb01008afb010060fd0100befb0100f6fb01007afc010002fd010074fc010076fd0100b8fd0100eafb010038fd01003afc010056adfaff90abfaff
         values:
         - iColor: 3
           icon: Canvas Icon
@@ -109,3 +126,45 @@ MonoBehaviour:
           icon: AvatarMask On Icon
         - iColor: 0
           icon: AvatarMask On Icon
+        - iColor: 3
+          icon: Canvas Icon
+        - iColor: 0
+          icon: 
+        - iColor: 0
+          icon: Camera Icon
+        - iColor: 0
+          icon: Camera Icon
+        - iColor: 0
+          icon: Light Icon
+        - iColor: 4
+          icon: cs Script Icon
+        - iColor: 0
+          icon: 
+        - iColor: 0
+          icon: 
+        - iColor: 0
+          icon: 
+        - iColor: 0
+          icon: 
+        - iColor: 0
+          icon: 
+        - iColor: 0
+          icon: 
+        - iColor: 0
+          icon: 
+        - iColor: 9
+          icon: AvatarMask On Icon
+        - iColor: 0
+          icon: AvatarMask On Icon
+        - iColor: 0
+          icon: AvatarMask On Icon
+        - iColor: 0
+          icon: AvatarMask On Icon
+        - iColor: 2
+          icon: Terrain Icon
+    - goDatasByGlobalId:
+        keys: []
+        values: []
+      goDatasByInstanceId:
+        keys: 
+        values: []

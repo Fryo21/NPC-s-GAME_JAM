@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         playerControls.Player.EscMenuToggle.performed += ctx =>
         {
             // Handle escape menu toggle here
-            Debug.Log("Escape menu toggled");
+            GameUIController.Instance.ToggleESCMenu();
         };
     }
     private void Update()

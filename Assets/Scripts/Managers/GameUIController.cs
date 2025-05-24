@@ -2,30 +2,38 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using Sirenix.OdinInspector;
 
 public class GameUIController : MonoBehaviour
 {
-    [Header("Money UI")]
+    [FoldoutGroup("Money UI")]
     [SerializeField] private TextMeshProUGUI balanceText;
 
-    [Header("Round UI")]
+    [FoldoutGroup("Round UI")]
     [SerializeField] private TextMeshProUGUI roundText;
+    [FoldoutGroup("Round UI")]
     [SerializeField] private TextMeshProUGUI timerText;
+    [FoldoutGroup("Round UI")]
     [SerializeField] private TextMeshProUGUI arrestQuotaText;
 
-    [Header("Game State Panels")]
+    [FoldoutGroup("Game State Panels")]
     [SerializeField] private GameObject interludePanel;
+    [FoldoutGroup("Game State Panels")]
     [SerializeField] private GameObject gameOverPanel;
 
-    [Header("Interlude UI")]
+    [FoldoutGroup("Interlude UI")]
     [SerializeField] private TextMeshProUGUI roundSummaryText;
 
-    [Header("Game Over UI")]
+    [FoldoutGroup("Game Over UI")]
     [SerializeField] private TextMeshProUGUI gameOverReasonText;
 
-    [Header("Drone Purchase UI")]
+    [FoldoutGroup("Drone Purchase UI")]
     [SerializeField] private Button purchaseDroneButton;
+    [FoldoutGroup("Drone Purchase UI")]
     [SerializeField] private TextMeshProUGUI droneCostText;
+
+    [FoldoutGroup("ESC Menu")]
+    [SerializeField] private GameObject escMenu;
 
     public static GameUIController Instance { get; private set; }
 
@@ -209,6 +217,11 @@ public class GameUIController : MonoBehaviour
         }
 
         gameOverReasonText.text = gameOverReason;
+    }
+
+    public void ToggleESCMenu()
+    {
+        escMenu.SetActive(!escMenu.activeSelf);
     }
 
     private IEnumerator FlashText(TextMeshProUGUI text)
