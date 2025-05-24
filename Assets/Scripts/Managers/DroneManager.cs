@@ -1,23 +1,31 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 public class DroneManager : MonoBehaviour
 {
     public static DroneManager Instance { get; private set; }
 
-    [Header("Drone Settings")]
+    [FoldoutGroup("Drone Settings")]
     [SerializeField] private GameObject droneUIPopupPrefab;
+    [FoldoutGroup("Drone Settings")]
     [SerializeField] private GameObject droneSpritePrefab;
+    [FoldoutGroup("Drone Settings")]
     [SerializeField] private Transform droneSpriteParent;
+    [FoldoutGroup("Drone Settings")]
     [SerializeField] private Transform droneUIParent;
-    [SerializeField] private float baseDroneCost = 75f;
+    [FoldoutGroup("Drone Settings")]
+    [SerializeField] private float baseDroneCost = 15f;
+    [FoldoutGroup("Drone Settings")]
     [SerializeField] private float droneCostMultiplier = 1.5f;
+    [FoldoutGroup("Drone Settings")]
     [SerializeField] private float droneAnalysisInterval = 8f; // How often drones scan for suspects
 
-    [Header("Accuracy Settings")]
+    [FoldoutGroup("Drone Settings/Accuracy Settings")]
     [Range(0f, 1f)][SerializeField] private float baseAccuracy = 0.75f;
+    [FoldoutGroup("Drone Settings/Accuracy Settings")]
     [Range(0f, 1f)][SerializeField] private float accuracyDecreasePerDrone = 0.1f; // Each drone reduces overall accuracy
 
     // List of active drones and NPCs

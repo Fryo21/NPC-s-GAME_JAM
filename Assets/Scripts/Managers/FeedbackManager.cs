@@ -4,41 +4,51 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using DG.Tweening;
+using Sirenix.OdinInspector;
 
 public class FeedbackManager : MonoBehaviour
 {
     public static FeedbackManager Instance { get; private set; }
 
-    [Header("Success Feedback")]
+    [FoldoutGroup("Success Feedback")]
     [SerializeField] private GameObject successPopupPrefab;
+    [FoldoutGroup("Success Feedback")]
     [SerializeField] private Transform popUpCanvasTransform;
+    [FoldoutGroup("Success Feedback")]
     [SerializeField] private float successPopupDuration = 2f;
+    [FoldoutGroup("Success Feedback")]
     [SerializeField]
     private string[] successMessages = new string[]
-    {
+ {
         "Great job! Suspect apprehended.",
         "Correct identification! +$10",
         "Criminal apprehended successfully!",
         "Target acquired. Well done."
-    };
+ };
 
-    [Header("Warning Feedback")]
+    [FoldoutGroup("Warning Feedback")]
     [SerializeField] private GameObject warningPopupPrefab;
+    [FoldoutGroup("Warning Feedback")]
     [SerializeField] private Vector2 warningSpawnPosition = new Vector2(200, -100);
+    [FoldoutGroup("Warning Feedback")]
     [SerializeField] private float warningSpawnOffset = 20f;
+    [FoldoutGroup("Warning Feedback")]
     [SerializeField]
     private string[] warningMessages = new string[]
-    {
+ {
         "Wrong target! Innocent citizen arrested. -$15",
         "False arrest! Department faces lawsuit. -$15",
         "Incorrect identification! Penalty applied.",
         "Civilian wrongfully detained. Watch your accuracy!"
-    };
+ };
 
-    [Header("Employee of the Month")]
+    [FoldoutGroup("Employee of the Month")]
     [SerializeField] private GameObject employeeOfMonthPrefab;
+    [FoldoutGroup("Employee of the Month")]
     [SerializeField] private Sprite playerCharacterSprite;
+    [FoldoutGroup("Employee of the Month")]
     [SerializeField] private string playerName = "Officer #7482";
+    [FoldoutGroup("Employee of the Month")]
     [SerializeField] private Vector2 employeePopupPosition = new Vector2(-200, 100);
 
     private GameObject employeePopup;
