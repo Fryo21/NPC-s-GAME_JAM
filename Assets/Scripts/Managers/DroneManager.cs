@@ -328,6 +328,7 @@ public class DroneManager : MonoBehaviour
         return baseDroneCost * Mathf.Pow(droneCostMultiplier, activeDrones.Count);
     }
 
+
     public void ResetAllDrones()
     {
         Debug.Log("[DroneManager] Resetting all drones");

@@ -56,6 +56,7 @@ public class FeedbackManager : MonoBehaviour
     // List to track active warning popups
     private List<GameObject> activeWarnings = new List<GameObject>();
     private int warningCount = 0;
+    private int totalWarningsInPlaythrough = 0;
 
     private void Awake()
     {
@@ -214,6 +215,8 @@ public class FeedbackManager : MonoBehaviour
             Vector2 position = warningSpawnPosition + new Vector2(warningCount * warningSpawnOffset, -warningCount * warningSpawnOffset);
             rect.anchoredPosition = position;
             warningCount++;
+            // Increment total warnings in playthrough so we can enable the warning help tip if it's the first warning
+            totalWarningsInPlaythrough++;
 
             // Animation with DOTween
             rect.localScale = Vector3.zero;
@@ -223,12 +226,16 @@ public class FeedbackManager : MonoBehaviour
             rect.DOShakePosition(0.5f, 10, 20, 90, false, true).SetDelay(0.3f);
         }
 
-        // Make warning draggable
-        DraggablePopup draggable = popup.GetComponent<DraggablePopup>();
-        if (draggable == null)
+        //if this is the first ever warning in the playthrough, show the warning help tip
+        if (totalWarningsInPlaythrough == 1)
         {
-            draggable = popup.AddComponent<DraggablePopup>();
+            WarningPopUp warningPopUp = popup.GetComponentInChildren<WarningPopUp>();
+            if (warningPopUp != null)
+            {
+                warningPopUp.ShowHelpTip();
+            }
         }
+
     }
 
     public void ClearAllWarnings()
@@ -254,7 +261,17 @@ public class FeedbackManager : MonoBehaviour
         warningCount = 0;
     }
 
-    public void ClearEmployeeOfMonthPopup()
+    public void OnResetGame()
+    {
+        // Clear all warnings and reset warning count
+        ClearAllWarnings();
+        totalWarningsInPlaythrough = 0;
+
+        // Reset employee of the month popup if it exists
+        ClearEmployeeOfMonthPopup();
+    }
+
+    private void ClearEmployeeOfMonthPopup()
     {
         if (employeePopup != null)
         {

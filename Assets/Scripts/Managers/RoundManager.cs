@@ -212,7 +212,7 @@ public class RoundManager : MonoBehaviour
 
         if (FeedbackManager.Instance != null)
         {
-            FeedbackManager.Instance.ClearEmployeeOfMonthPopup();
+            FeedbackManager.Instance.OnResetGame();
         }
 
         // Change state to interlude to start fresh

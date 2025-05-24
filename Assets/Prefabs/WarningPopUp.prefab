@@ -102,7 +102,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2039
 --- !u!225 &7854248057873551666
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -266,6 +266,7 @@ GameObject:
   - component: {fileID: 4489161531787303490}
   - component: {fileID: 1807521885545240484}
   - component: {fileID: 6541339029143521420}
+  - component: {fileID: 2491075129053181779}
   m_Layer: 5
   m_Name: background
   m_TagString: Untagged
@@ -286,6 +287,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4532659248885013469}
+  - {fileID: 7824267760019304728}
   m_Father: {fileID: 6735820276235841245}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -388,3 +390,156 @@ MonoBehaviour:
   shakeOnDrop: 0
   shakeStrength: 5
   shakeVibrato: 10
+--- !u!114 &2491075129053181779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159150082569783598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d217c1605652e4478327f7110ac0ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpTipPanel: {fileID: 8606125706354067598}
+  helpTipDuration: 3
+--- !u!1001 &3364904274440451687
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3354076080824817102}
+    m_Modifications:
+    - target: {fileID: 1110086765833948527, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: fadeOut
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021699086866593673, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_text
+      value: '<bounce w=0 a=.1>Warning popups are permanent during a shift!</bounce>
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021699086866593673, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_fontSize
+      value: 33.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021699086866593673, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_margin.x
+      value: 50.502502
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021699086866593673, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_margin.z
+      value: 49.902832
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 84.89166
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -143.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475493637603000041, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_Name
+      value: Help Tip
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475493637603000041, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7932615166409773477, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+      propertyPath: _text
+      value: '<bounce w=0 a=.1>Warning popups are permanent during a shift!</bounce>
+
+'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+--- !u!224 &7824267760019304728 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4767034429900752767, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+  m_PrefabInstance: {fileID: 3364904274440451687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8606125706354067598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6475493637603000041, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
+  m_PrefabInstance: {fileID: 3364904274440451687}
+  m_PrefabAsset: {fileID: 0}

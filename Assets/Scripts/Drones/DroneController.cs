@@ -3,27 +3,41 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Linq;
+using Sirenix.OdinInspector;
 
 public class DroneController : MonoBehaviour
 {
-    [Header("UI References")]
+    [FoldoutGroup("UI References")]
     [SerializeField] private TextMeshProUGUI droneIdText;
+    [FoldoutGroup("UI References")]
     [SerializeField] private TextMeshProUGUI statusText;
+    [FoldoutGroup("UI References")]
     [SerializeField] private Image suspectImage;
+    [FoldoutGroup("UI References")]
     [SerializeField] private TextMeshProUGUI suspectNameText;
+    [FoldoutGroup("UI References")]
     [SerializeField] private Button confirmButton;
+    [FoldoutGroup("UI References")]
     [SerializeField] private Button denyButton;
+    [FoldoutGroup("UI References")]
     [SerializeField] private Slider timerSlider;
+    [FoldoutGroup("UI References")]
+    [SerializeField] private GameObject helpTip;  // Reference to the help tip UI element
 
-    [Header("Settings")]
+    [FoldoutGroup("Settings")]
     [SerializeField] private float scanInterval = 8f;  // Time between scans
+    [FoldoutGroup("Settings")]
     [SerializeField] private float identificationDuration = 5f;  // Time player has to respond
+    [FoldoutGroup("Settings")]
     [SerializeField] private float accuracyRate = 0.75f;  // Chance of correct identification
+    [FoldoutGroup("Settings")]
     [SerializeField] private bool autoStartScanning = true;  // Start scanning immediately
 
-    [Header("Visual Settings")]
+    [FoldoutGroup("Visual Settings")]
     [SerializeField] private Color scanningImageTint = new Color(0.6f, 0.6f, 0.6f, 0.5f);  // Greyed out tint
+    [FoldoutGroup("Visual Settings")]
     [SerializeField] private Color activeImageTint = Color.white;  // Normal tint
+    [FoldoutGroup("Visual Settings")]
     [SerializeField] private Sprite placeholderSprite;  // Default image when scanning
 
     // State variables
@@ -177,6 +191,10 @@ public class DroneController : MonoBehaviour
 
                 timerCoroutine = StartCoroutine(ResponseTimerRoutine());
 
+                //if this is the first drone that the player has bought and it is the first scan, show the help tip
+                if (scanCount == 1 && droneId == 1)
+                    ShowHelpTip();
+
                 // Notify the drone manager
                 if (DroneManager.Instance != null)
                 {
@@ -197,6 +215,21 @@ public class DroneController : MonoBehaviour
                 yield return new WaitForSeconds(1f);
             }
         }
+    }
+
+    private void ShowHelpTip()
+    {
+        if (helpTip != null)
+            helpTip.SetActive(true);
+    }
+
+    private void HideHelpTip()
+    {
+        if (helpTip != null)
+        {
+            helpTip.GetComponent<HelpTip>().FadeOut(1); // Use the FadeOut method from HelpTip script
+        }
+
     }
 
     public void CheckIfTargetWasArrested(NPCDataHolder arrestedNPC)
@@ -490,6 +523,7 @@ public class DroneController : MonoBehaviour
         currentTarget = null;
         reportedAs = null;
         SetDroneState(DroneState.Scanning);
+        HideHelpTip();
     }
 
     public void OnDenyButtonClicked()
@@ -506,5 +540,14 @@ public class DroneController : MonoBehaviour
         currentTarget = null;
         reportedAs = null;
         SetDroneState(DroneState.Scanning);
+        HideHelpTip();
+    }
+
+    public void ShowDroneHelpTip()
+    {
+        if (helpTip != null)
+        {
+            helpTip.gameObject.SetActive(true);
+        }
     }
 }
