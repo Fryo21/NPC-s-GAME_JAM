@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [Header("NPC Spawning")]
     [SerializeField] private GameObject npcPrefab;
     [SerializeField] private Transform[] spawnPoints;
+    [SerializeField] private Transform npcSpawnParent; // Parent object to keep spawned NPCs organized
     [SerializeField] private NPCData[] allNPCDataAssets; // Assign all your NPCData scriptable objects here
     [SerializeField] private int npcSpawnCount = 30;     // How many NPCs to spawn in total
 
@@ -121,7 +122,7 @@ public class GameManager : MonoBehaviour
             Vector3 spawnPosition = selectedSpawnPoints[i % selectedSpawnPoints.Length].position;
 
             // Create the NPC
-            GameObject npc = Instantiate(npcPrefab, spawnPosition, Quaternion.identity);
+            GameObject npc = Instantiate(npcPrefab, spawnPosition, Quaternion.identity, npcSpawnParent);
 
             // Assign NPCData
             NPCDataHolder dataHolder = npc.GetComponent<NPCDataHolder>();

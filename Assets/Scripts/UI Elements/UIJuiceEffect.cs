@@ -283,7 +283,7 @@ public class UIJuiceEffect : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         isDragging = true;
         dragStartPosition = rectTransform.position;
         lastPosition = dragStartPosition;
-        originalSiblingIndex = transform.GetSiblingIndex();
+        originalSiblingIndex = transform.parent.GetSiblingIndex();
 
         // Store velocity for rotation calculation
         dragVelocity = Vector3.zero;
@@ -291,7 +291,7 @@ public class UIJuiceEffect : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         // Bring to front if enabled
         if (bringToFrontWhenDragged)
         {
-            transform.SetAsLastSibling();
+            transform.parent.SetAsLastSibling();
         }
 
         // Scale effect
@@ -333,7 +333,7 @@ public class UIJuiceEffect : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         // Reset sibling index if not hover
         if (bringToFrontWhenDragged && !isPointerOver)
         {
-            transform.SetSiblingIndex(originalSiblingIndex);
+            transform.parent.SetSiblingIndex(originalSiblingIndex);
         }
 
         // Create sequence for drop animation

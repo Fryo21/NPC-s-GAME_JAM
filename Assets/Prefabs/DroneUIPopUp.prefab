@@ -108,6 +108,9 @@ GameObject:
   - component: {fileID: 6801566077643280810}
   - component: {fileID: 949003324640337953}
   - component: {fileID: 1865060793979887486}
+  - component: {fileID: 8621005331939928585}
+  - component: {fileID: 5465335326669429939}
+  - component: {fileID: 2588587693489680742}
   m_Layer: 5
   m_Name: BackgroundPanel
   m_TagString: Untagged
@@ -133,10 +136,10 @@ RectTransform:
   - {fileID: 861671733611407770}
   m_Father: {fileID: 7230372609817866164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6801566077643280810
 CanvasRenderer:
@@ -202,6 +205,89 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &8621005331939928585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554240446600805565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7414d21cc13d114fa5f8f237d7be956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droneIdText: {fileID: 1137897947056138298}
+  statusText: {fileID: 4492184003851729818}
+  suspectImage: {fileID: 8722538512487864260}
+  suspectNameText: {fileID: 3290294768683648160}
+  confirmButton: {fileID: 5549736527170023635}
+  denyButton: {fileID: 3393448581566976732}
+  timerSlider: {fileID: 3784778457642195393}
+  scanInterval: 8
+  identificationDuration: 5
+  accuracyRate: 0.45
+  autoStartScanning: 1
+  scanningImageTint: {r: 0.6, g: 0.6, b: 0.6, a: 0.5}
+  activeImageTint: {r: 1, g: 1, b: 1, a: 1}
+  placeholderSprite: {fileID: 6701807026480723599, guid: 7fd7ee40e4eedbb429e7c2fdd9fbdcc4, type: 3}
+--- !u!114 &5465335326669429939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554240446600805565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4970a38d6ca5e214d8835583bfa94237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  edgePadding: 10
+--- !u!114 &2588587693489680742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554240446600805565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28f67af4264b934fb226544da65b9c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAppearAnimation: 0
+  appearDelay: 0
+  appearDuration: 0.1
+  appearEase: 27
+  useRandomRotation: 0
+  maxRandomRotation: 5
+  enableHoverEffects: 1
+  hoverScale: 1.05
+  hoverScaleDuration: 0.2
+  hoverEase: 6
+  useHoverColor: 0
+  hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  enableClickEffects: 1
+  clickScale: 0.95
+  clickDuration: 0.1
+  clickEase: 6
+  playClickSound: 0
+  clickSound: {fileID: 0}
+  enableDragEffects: 1
+  dragScale: 1.05
+  dragAlpha: 0.9
+  bringToFrontWhenDragged: 1
+  addDragRotation: 0
+  maxDragRotation: 1.5
+  dragRotationSpeed: 1
+  enableDropEffects: 1
+  bounceDrop: 1
+  dropBounceDuration: 0.3
+  dropBounceEase: 30
+  shakeOnDrop: 0
+  shakeStrength: 5
+  shakeVibrato: 10
 --- !u!1 &1630273091508496338
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +499,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4445059474669916789}
+      - m_Target: {fileID: 8621005331939928585}
         m_TargetAssemblyTypeName: DroneController, Assembly-CSharp
         m_MethodName: OnDenyButtonClicked
         m_Mode: 1
@@ -841,7 +927,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4445059474669916789}
+      - m_Target: {fileID: 8621005331939928585}
         m_TargetAssemblyTypeName: DroneController, Assembly-CSharp
         m_MethodName: OnConfirmButtonClicked
         m_Mode: 1
@@ -896,10 +982,7 @@ GameObject:
   - component: {fileID: 1806074902116326381}
   - component: {fileID: 3305729969169039395}
   - component: {fileID: 7861522727485716537}
-  - component: {fileID: 455371691685608059}
   - component: {fileID: 1521569960716912468}
-  - component: {fileID: 4445059474669916789}
-  - component: {fileID: 4276199523363964202}
   m_Layer: 5
   m_Name: DroneUIPopUp
   m_TagString: Untagged
@@ -922,10 +1005,10 @@ RectTransform:
   - {fileID: 3355947550590233561}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 400}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1806074902116326381
 Canvas:
@@ -990,22 +1073,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &455371691685608059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4226430301864996962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205170f74412c7241b81a457293c5b76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dragHandle: {fileID: 8335507322168728731}
-  backgroundPanel: {fileID: 3355947550590233561}
-  parentCanvas: {fileID: 0}
-  edgePadding: 20
 --- !u!225 &1521569960716912468
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1018,76 +1085,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &4445059474669916789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4226430301864996962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7414d21cc13d114fa5f8f237d7be956, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  droneIdText: {fileID: 1137897947056138298}
-  statusText: {fileID: 4492184003851729818}
-  suspectImage: {fileID: 8722538512487864260}
-  suspectNameText: {fileID: 3290294768683648160}
-  confirmButton: {fileID: 5549736527170023635}
-  denyButton: {fileID: 3393448581566976732}
-  timerSlider: {fileID: 3784778457642195393}
-  scanInterval: 8
-  identificationDuration: 5
-  accuracyRate: 0.45
-  autoStartScanning: 1
-  scanningImageTint: {r: 0.6, g: 0.6, b: 0.6, a: 0.5}
-  activeImageTint: {r: 1, g: 1, b: 1, a: 1}
-  placeholderSprite: {fileID: 6701807026480723599, guid: 7fd7ee40e4eedbb429e7c2fdd9fbdcc4, type: 3}
---- !u!114 &4276199523363964202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4226430301864996962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b28f67af4264b934fb226544da65b9c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playAppearAnimation: 0
-  appearDelay: 0
-  appearDuration: 0.1
-  appearEase: 27
-  useRandomRotation: 0
-  maxRandomRotation: 5
-  enableHoverEffects: 1
-  hoverScale: 1.05
-  hoverScaleDuration: 0.2
-  hoverEase: 6
-  useHoverColor: 0
-  hoverColor: {r: 1, g: 1, b: 1, a: 1}
-  enableClickEffects: 1
-  clickScale: 0.95
-  clickDuration: 0.1
-  clickEase: 6
-  playClickSound: 0
-  clickSound: {fileID: 0}
-  enableDragEffects: 1
-  dragScale: 1.05
-  dragAlpha: 0.9
-  bringToFrontWhenDragged: 1
-  addDragRotation: 0
-  maxDragRotation: 1.5
-  dragRotationSpeed: 1
-  enableDropEffects: 1
-  bounceDrop: 1
-  dropBounceDuration: 0.3
-  dropBounceEase: 30
-  shakeOnDrop: 0
-  shakeStrength: 5
-  shakeVibrato: 10
 --- !u!1 &4705167528888147494
 GameObject:
   m_ObjectHideFlags: 0

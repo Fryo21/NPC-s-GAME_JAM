@@ -11,7 +11,7 @@ public class FeedbackManager : MonoBehaviour
 
     [Header("Success Feedback")]
     [SerializeField] private GameObject successPopupPrefab;
-    [SerializeField] private Transform canvasTransform;
+    [SerializeField] private Transform popUpCanvasTransform;
     [SerializeField] private float successPopupDuration = 2f;
     [SerializeField]
     private string[] successMessages = new string[]
@@ -119,13 +119,13 @@ public class FeedbackManager : MonoBehaviour
 
     public void ShowEmployeeOfMonthPopup()
     {
-        if (employeeOfMonthPrefab == null || canvasTransform == null) return;
+        if (employeeOfMonthPrefab == null || popUpCanvasTransform == null) return;
 
         // If it's already shown, don't create another one
         if (employeePopup != null) return;
 
         // Instantiate employee popup
-        employeePopup = Instantiate(employeeOfMonthPrefab, canvasTransform);
+        employeePopup = Instantiate(employeeOfMonthPrefab, popUpCanvasTransform);
 
     }
 
@@ -140,10 +140,10 @@ public class FeedbackManager : MonoBehaviour
 
     public void ShowSuccessFeedback()
     {
-        if (successPopupPrefab == null || canvasTransform == null) return;
+        if (successPopupPrefab == null || popUpCanvasTransform == null) return;
 
         // Instantiate success popup
-        GameObject popup = Instantiate(successPopupPrefab, canvasTransform);
+        GameObject popup = Instantiate(successPopupPrefab, popUpCanvasTransform);
 
         // Set random success message
         TextMeshProUGUI messageText = popup.GetComponentInChildren<TextMeshProUGUI>();
@@ -183,10 +183,10 @@ public class FeedbackManager : MonoBehaviour
 
     public void ShowWarningFeedback()
     {
-        if (warningPopupPrefab == null || canvasTransform == null) return;
+        if (warningPopupPrefab == null || popUpCanvasTransform == null) return;
 
         // Instantiate warning popup
-        GameObject popup = Instantiate(warningPopupPrefab, canvasTransform);
+        GameObject popup = Instantiate(warningPopupPrefab, popUpCanvasTransform);
         activeWarnings.Add(popup);
 
         // Set random warning message

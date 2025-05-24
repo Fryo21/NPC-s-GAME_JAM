@@ -145,10 +145,10 @@ public class DroneManager : MonoBehaviour
         GameObject droneUI = Instantiate(droneUIPopupPrefab, droneUIParent);
 
         // Get or add the drone controller
-        DroneController droneController = droneUI.GetComponent<DroneController>();
+        DroneController droneController = droneUI.GetComponentInChildren<DroneController>();
         if (droneController == null)
         {
-            droneController = droneUI.AddComponent<DroneController>();
+            Debug.LogError("DroneController component not found in the drone UI prefab!");
         }
 
         // Initialize the drone with decreasing accuracy for each drone
