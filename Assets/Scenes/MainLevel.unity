@@ -1628,9 +1628,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.16759259
+    width: 0.53489584
+    height: 0.47407407
   near clip plane: 0.1
   far clip plane: 5000
   field of view: 40
@@ -2405,7 +2405,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxRounds: 5
   roundDuration: 60
-  interludeDuration: 10
   quotaPercentage: 0.33
 --- !u!4 &710810331
 Transform:
@@ -3285,7 +3284,6 @@ MonoBehaviour:
   titleText: {fileID: 1345541404}
   titleBar: {fileID: 365707363}
   backgroundPanel: {fileID: 812539738}
-  edgePadding: 5
 --- !u!114 &812539744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4652,8 +4650,6 @@ MonoBehaviour:
   npcSpawnCount: 30
   wantedListManager: {fileID: 1401551733}
   roundManager: {fileID: 710810330}
-  moneyForCorrectArrest: 50
-  penaltyForWrongArrest: 30
 --- !u!4 &1127855608
 Transform:
   m_ObjectHideFlags: 0
@@ -7799,7 +7795,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2039
 --- !u!114 &1953849593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8087,7 +8083,6 @@ MonoBehaviour:
   gameOverReasonText: {fileID: 67124599}
   purchaseDroneButton: {fileID: 1161528659}
   droneCostText: {fileID: 746990791}
-  baseDroneCost: 10
 --- !u!4 &2050695714
 Transform:
   m_ObjectHideFlags: 0
