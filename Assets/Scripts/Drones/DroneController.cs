@@ -40,6 +40,13 @@ public class DroneController : MonoBehaviour
     [FoldoutGroup("Visual Settings")]
     [SerializeField] private Sprite placeholderSprite;  // Default image when scanning
 
+    [FoldoutGroup("Scanning Effect")]
+    [SerializeField] private Sprite[] scanningSprites;  // Array of sprites to flicker through while scanning
+    [FoldoutGroup("Scanning Effect")]
+    [SerializeField] private float flickerSpeed = 0.1f;  // How fast to change between sprites (in seconds)
+    [FoldoutGroup("Scanning Effect")]
+    [SerializeField] private bool useRandomFlicker = true;  // Whether to pick sprites randomly or cycle through them
+
     // State variables
     private int droneId;
     private bool isScanning = false;
@@ -47,6 +54,7 @@ public class DroneController : MonoBehaviour
     private NPCData reportedAs = null;
     private Coroutine scanCoroutine = null;
     private Coroutine timerCoroutine = null;
+    private Coroutine flickerCoroutine = null;  // New coroutine for the flicker effect
 
     // UI States
     private enum DroneState { Idle, Scanning, AwaitingResponse }
@@ -58,6 +66,9 @@ public class DroneController : MonoBehaviour
     // Flag to know if targeting player
     private bool isTargetingPlayer = false;
     private NPCData playerData;
+
+    // Flicker effect variables
+    private int currentFlickerIndex = 0;  // For cycling through sprites
 
     private void Start()
     {
@@ -133,6 +144,9 @@ public class DroneController : MonoBehaviour
             scanCoroutine = null;
         }
 
+        // Stop flicker effect
+        StopFlickerEffect();
+
         // Reset to idle state
         SetDroneState(DroneState.Idle);
     }
@@ -160,6 +174,9 @@ public class DroneController : MonoBehaviour
             scanCount++;
             Debug.Log($"[DroneController] Drone #{droneId} starting scan #{scanCount}");
 
+            // Start flicker effect
+            StartFlickerEffect();
+
             // Wait for scan interval
             float scanProgress = 0;
             while (scanProgress < scanInterval)
@@ -174,6 +191,9 @@ public class DroneController : MonoBehaviour
 
                 yield return null;
             }
+
+            // Stop flicker effect before showing results
+            StopFlickerEffect();
 
             Debug.Log($"[DroneController] Drone #{droneId} scan completed, attempting identification");
 
@@ -214,6 +234,63 @@ public class DroneController : MonoBehaviour
                 // If identification failed, continue scanning after a short delay
                 yield return new WaitForSeconds(1f);
             }
+        }
+    }
+
+    // Start the flicker effect - rapidly changes between scanning sprites
+    private void StartFlickerEffect()
+    {
+        if (flickerCoroutine != null)
+        {
+            StopCoroutine(flickerCoroutine);
+        }
+
+        // Only start if we have sprites to flicker through
+        if (scanningSprites != null && scanningSprites.Length > 0)
+        {
+            flickerCoroutine = StartCoroutine(FlickerRoutine());
+        }
+    }
+
+    // Stop the flicker effect
+    private void StopFlickerEffect()
+    {
+        if (flickerCoroutine != null)
+        {
+            StopCoroutine(flickerCoroutine);
+            flickerCoroutine = null;
+        }
+    }
+
+    // The actual flicker routine that changes the suspect image rapidly
+    private IEnumerator FlickerRoutine()
+    {
+        while (currentState == DroneState.Scanning && scanningSprites != null && scanningSprites.Length > 0)
+        {
+            // Pick the next sprite to show
+            Sprite nextSprite;
+
+            if (useRandomFlicker)
+            {
+                // Pick a random sprite from the array
+                nextSprite = scanningSprites[Random.Range(0, scanningSprites.Length)];
+            }
+            else
+            {
+                // Cycle through sprites in order
+                nextSprite = scanningSprites[currentFlickerIndex];
+                currentFlickerIndex = (currentFlickerIndex + 1) % scanningSprites.Length;
+            }
+
+            // Update the suspect image with the scanning tint
+            if (suspectImage != null)
+            {
+                suspectImage.sprite = nextSprite;
+                suspectImage.color = scanningImageTint;  // Keep the scanning tint
+            }
+
+            // Wait before changing to the next sprite
+            yield return new WaitForSeconds(flickerSpeed);
         }
     }
 
@@ -358,6 +435,9 @@ public class DroneController : MonoBehaviour
             StopCoroutine(scanCoroutine);
         }
 
+        // Stop flicker effect
+        StopFlickerEffect();
+
         // Set up the identification
         reportedAs = playerData;
         currentTarget = null; // There's no actual NPC for the player
@@ -429,12 +509,17 @@ public class DroneController : MonoBehaviour
                 if (statusText != null)
                     statusText.text = "Scanning...";
 
-                // Show placeholder image with grey tint
+                // The flicker effect will handle updating the suspect image
+                // So we don't set it to placeholder here anymore
                 if (suspectImage != null)
                 {
                     suspectImage.gameObject.SetActive(true);
-                    suspectImage.sprite = placeholderSprite;
-                    suspectImage.color = scanningImageTint;
+                    // Only set placeholder if we don't have scanning sprites
+                    if (scanningSprites == null || scanningSprites.Length == 0)
+                    {
+                        suspectImage.sprite = placeholderSprite;
+                        suspectImage.color = scanningImageTint;
+                    }
                 }
 
                 if (suspectNameText != null)

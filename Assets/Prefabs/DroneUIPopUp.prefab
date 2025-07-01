@@ -68,7 +68,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 6701807026480723599, guid: 7fd7ee40e4eedbb429e7c2fdd9fbdcc4, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -233,6 +233,39 @@ MonoBehaviour:
   scanningImageTint: {r: 0.6, g: 0.6, b: 0.6, a: 0.5}
   activeImageTint: {r: 1, g: 1, b: 1, a: 1}
   placeholderSprite: {fileID: 6701807026480723599, guid: 7fd7ee40e4eedbb429e7c2fdd9fbdcc4, type: 3}
+  scanningSprites:
+  - {fileID: 9207213396156921402, guid: be87610b7ad20ce45bc9926d6436ec41, type: 3}
+  - {fileID: 8544188903614532235, guid: bf4ad3825fa0ac643a5d1b90f6e2fd55, type: 3}
+  - {fileID: 9114832484588776266, guid: 42a7be46e7b8b2b4abb89245e45ace70, type: 3}
+  - {fileID: -5843391286067668560, guid: 4fbbeeb95b2428246b904e9d2fb76e2f, type: 3}
+  - {fileID: -7006435523904415407, guid: ba99fe3314e575c40890fe25f83226b1, type: 3}
+  - {fileID: -158828478046782101, guid: 74085a73fe40d724eb53f78aca45d573, type: 3}
+  - {fileID: 6651842606088877432, guid: 264ee2d14ef65db4695e29faf47c648c, type: 3}
+  - {fileID: 1999806457498846354, guid: 4680af88a095e274f994c7e927d3594e, type: 3}
+  - {fileID: 5568501599868398380, guid: 5b56f79e9e5e15f499cae56168b0a252, type: 3}
+  - {fileID: 2871348932445481207, guid: 88c97d9165cb0e4429fbfbab48ecca52, type: 3}
+  - {fileID: -589419924189294328, guid: d256781c81595d646940a5687335fdda, type: 3}
+  - {fileID: 3364157193554082929, guid: 94a0961b90146bb4a8a6995296849766, type: 3}
+  - {fileID: 6047854433539618863, guid: 35fd92148aec98842b4355481ff68620, type: 3}
+  - {fileID: -8235791089260632336, guid: e6dea5a467d9e9744852192e51254650, type: 3}
+  - {fileID: 8994814595283649571, guid: 062ae27f34c641146b473e8641592ae0, type: 3}
+  - {fileID: 686971895948327810, guid: c0ad501c777e1d24f9e53e6b3e6fae8b, type: 3}
+  - {fileID: -1811681241542034290, guid: 99b1eaf868f6e4241a82d7a946d65201, type: 3}
+  - {fileID: -4957293350305332966, guid: b6e3de83ae6da2b4fbcd3571ddf888dc, type: 3}
+  - {fileID: 1106289131704528443, guid: 678bb7fb12ffcc1488c23c4def39f0bb, type: 3}
+  - {fileID: -9215926459087222238, guid: ecec5ccebe310064f9b3c62e2f3731ec, type: 3}
+  - {fileID: 1563906824357353356, guid: 4201d303ae7fbb64bb58645639ca7f4b, type: 3}
+  - {fileID: -4264880257999178827, guid: 38f2ef2049eef6f4097f05f0358d1eb4, type: 3}
+  - {fileID: -7309819046658868788, guid: ab7d83d1407c8a44cad23c9089e88f60, type: 3}
+  - {fileID: -373952157807185400, guid: 37e58fcd324109d4e844020bb72ff75c, type: 3}
+  - {fileID: -6856090802600081173, guid: 4c394c44a10ddd042b878914b0b0b50f, type: 3}
+  - {fileID: -71001407512880960, guid: 6af19553dbf3eef48a07cbf9468976de, type: 3}
+  - {fileID: -3293526705685238071, guid: 41eeef206f01a85439fc18b485ad4512, type: 3}
+  - {fileID: 8296135279415064946, guid: 89f3436f33455ab43b374a78a45f71e1, type: 3}
+  - {fileID: -1737842573624192735, guid: b6c87db519160d64ba927f6aa87fa1d7, type: 3}
+  - {fileID: -4121178396329078076, guid: d19e6e708f08cec4bb2a79ff0520a750, type: 3}
+  flickerSpeed: 0.1
+  useRandomFlicker: 1
 --- !u!114 &5465335326669429939
 MonoBehaviour:
   m_ObjectHideFlags: 0
