@@ -24,8 +24,14 @@ public class WantedListManager : MonoBehaviour
     // Class to count mapping (for UI and logic)
     private Dictionary<NPCClass, int> wantedClassCounts = new Dictionary<NPCClass, int>();
 
+    // Track which NPCs are pending removal (animation playing)
+    private HashSet<NPCData> pendingRemovalNPCs = new HashSet<NPCData>();
+
     // Event for when the wanted list changes
     public event Action<List<NPCData>> OnWantedListUpdated;
+
+    // Event for when a suspect should be marked as apprehended (for UI)
+    public event Action<NPCData> OnSuspectApprehended;
 
     private void Awake()
     {
@@ -62,6 +68,7 @@ public class WantedListManager : MonoBehaviour
         // Clear previous wanted list
         currentWantedList.Clear();
         wantedClassCounts.Clear();
+        pendingRemovalNPCs.Clear();
 
         // Calculate how many wanted persons for this round
         int wantedCount = baseWantedCount + (roundNumber - 1) * wantedCountIncreasePerRound;
@@ -121,14 +128,103 @@ public class WantedListManager : MonoBehaviour
             }
         }
 
-        // LogDebug($"Generated wanted list for round {roundNumber} with {currentWantedList.Count} suspects");
-        // foreach (NPCData npc in currentWantedList)
-        // {
-        //     LogDebug($"Wanted: {npc.npcName} (Class: {npc.nPCClass}, SubClass: {npc.npcSubClass})");
-        // }
-
         // Notify listeners that the wanted list has been updated
         OnWantedListUpdated?.Invoke(currentWantedList);
+    }
+
+    /// <summary>
+    /// Call this when a suspect has been arrested to start the apprehension process
+    /// This will trigger the animation and then remove them from the list
+    /// </summary>
+    public void ApprehendSuspect(NPCData arrestedNPC)
+    {
+        if (arrestedNPC == null || !currentWantedList.Contains(arrestedNPC))
+        {
+            LogDebug($"Attempted to apprehend NPC that's not on wanted list: {arrestedNPC?.npcName}");
+            return;
+        }
+
+        if (pendingRemovalNPCs.Contains(arrestedNPC))
+        {
+            LogDebug($"NPC {arrestedNPC.npcName} is already being processed for removal");
+            return;
+        }
+
+        LogDebug($"Starting apprehension process for {arrestedNPC.npcName}");
+
+        // Mark as pending removal so we don't process them again
+        pendingRemovalNPCs.Add(arrestedNPC);
+
+        // Immediately update stats (player gets credit right away)
+        UpdatePlayerStats(arrestedNPC);
+
+        // Trigger the UI animation
+        OnSuspectApprehended?.Invoke(arrestedNPC);
+
+        // The actual removal from the list will happen when the animation completes
+        // This should be called by the UI after the animation finishes
+    }
+
+    /// <summary>
+    /// Call this method when the animation has finished and the suspect should be fully removed
+    /// This should be called by the UI component after the cross-out animation completes
+    /// </summary>
+    public void CompleteSuspectRemoval(NPCData arrestedNPC)
+    {
+        if (arrestedNPC == null || !pendingRemovalNPCs.Contains(arrestedNPC))
+        {
+            LogDebug($"Attempted to complete removal for NPC not pending removal: {arrestedNPC?.npcName}");
+            return;
+        }
+
+        LogDebug($"Completing removal of {arrestedNPC.npcName} from wanted list");
+
+        // Remove from both the pending list and the actual wanted list
+        pendingRemovalNPCs.Remove(arrestedNPC);
+        currentWantedList.Remove(arrestedNPC);
+
+        // Update class counts
+        if (wantedClassCounts.ContainsKey(arrestedNPC.nPCClass))
+        {
+            wantedClassCounts[arrestedNPC.nPCClass]--;
+            if (wantedClassCounts[arrestedNPC.nPCClass] <= 0)
+            {
+                wantedClassCounts.Remove(arrestedNPC.nPCClass);
+            }
+        }
+
+        // Check if all suspects have been apprehended
+        if (currentWantedList.Count <= 0)
+        {
+            LogDebug("All suspects apprehended! Ending round early.");
+            if (RoundManager.Instance != null)
+            {
+                RoundManager.Instance.EndRoundEarly();
+            }
+        }
+
+        // Update UI
+        if (GameUIController.Instance != null)
+        {
+            GameUIController.Instance.UpdateArrestQuotaUI();
+        }
+
+        // DON'T notify OnWantedListUpdated here - let the UI handle individual removals
+        // OnWantedListUpdated?.Invoke(GetCurrentWantedList());
+    }
+
+    /// <summary>
+    /// Updates player stats when a suspect is apprehended
+    /// </summary>
+    private void UpdatePlayerStats(NPCData arrestedNPC)
+    {
+        // Add your player stats update logic here
+        // For example, increase score, update arrest count, etc.
+        LogDebug($"Updated player stats for arresting {arrestedNPC.npcName}");
+
+        // Example: Notify other systems about the successful arrest
+        // ScoreManager.Instance?.AddArrestScore(arrestedNPC);
+        // PlayerStatsManager.Instance?.IncrementArrestCount();
     }
 
     public void UpdateWantedList(List<NPCData> updatedList)
@@ -166,7 +262,6 @@ public class WantedListManager : MonoBehaviour
         {
             LogDebug("GameUIController.Instance is null. Cannot update Arrest Quota UI.");
         }
-
     }
 
     public bool IsWanted(NPCData npcData)
@@ -190,9 +285,27 @@ public class WantedListManager : MonoBehaviour
         return new List<NPCData>(currentWantedList);
     }
 
+    /// <summary>
+    /// Get the wanted list including suspects that are pending removal (still animating)
+    /// </summary>
+    public List<NPCData> GetWantedListIncludingPending()
+    {
+        var fullList = new List<NPCData>(currentWantedList);
+        fullList.AddRange(pendingRemovalNPCs);
+        return fullList;
+    }
+
     public Dictionary<NPCClass, int> GetWantedClassCounts()
     {
         return new Dictionary<NPCClass, int>(wantedClassCounts);
+    }
+
+    /// <summary>
+    /// Check if a suspect is currently being processed for removal (animation playing)
+    /// </summary>
+    public bool IsPendingRemoval(NPCData npcData)
+    {
+        return pendingRemovalNPCs.Contains(npcData);
     }
 
     private void LogDebug(string message)

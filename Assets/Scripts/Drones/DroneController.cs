@@ -72,12 +72,12 @@ public class DroneController : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log($"[DroneController] Start called. Initialized={initialized}, AutoStart={autoStartScanning}");
+        //Debug.Log($"[DroneController] Start called. Initialized={initialized}, AutoStart={autoStartScanning}");
 
         // Auto-start scanning if enabled and already initialized
         if (initialized && autoStartScanning)
         {
-            Debug.Log("[DroneController] Auto-starting scanning from Start()");
+            //Debug.Log("[DroneController] Auto-starting scanning from Start()");
             StartScanning();
         }
     }
@@ -107,7 +107,7 @@ public class DroneController : MonoBehaviour
         // Start scanning immediately if autostart is enabled
         if (autoStartScanning)
         {
-            Debug.Log("[DroneController] Auto-starting scanning from Initialize()");
+            //Debug.Log("[DroneController] Auto-starting scanning from Initialize()");
             StartScanning();
         }
     }
@@ -116,11 +116,11 @@ public class DroneController : MonoBehaviour
     {
         if (isScanning)
         {
-            Debug.Log($"[DroneController] Drone #{droneId} is already scanning");
+            //Debug.Log($"[DroneController] Drone #{droneId} is already scanning");
             return;
         }
 
-        Debug.Log($"[DroneController] Drone #{droneId} starting scanning");
+        //Debug.Log($"[DroneController] Drone #{droneId} starting scanning");
         isScanning = true;
 
         if (scanCoroutine != null)
@@ -135,7 +135,7 @@ public class DroneController : MonoBehaviour
     {
         if (!isScanning) return;
 
-        Debug.Log($"[DroneController] Drone #{droneId} stopping scanning");
+        //Debug.Log($"[DroneController] Drone #{droneId} stopping scanning");
         isScanning = false;
 
         if (scanCoroutine != null)
@@ -153,7 +153,7 @@ public class DroneController : MonoBehaviour
 
     private IEnumerator ScanningRoutine()
     {
-        Debug.Log($"[DroneController] Drone #{droneId} scanning routine started");
+        // Debug.Log($"[DroneController] Drone #{droneId} scanning routine started");
 
         // Short delay before starting first scan (to allow UI to initialize)
         yield return new WaitForSeconds(1f);
@@ -164,7 +164,7 @@ public class DroneController : MonoBehaviour
             // Check if the round is in progress
             if (RoundManager.Instance == null || RoundManager.Instance.CurrentState != GameState.Playing)
             {
-                Debug.Log($"[DroneController] Drone #{droneId} waiting for round to start");
+                // Debug.Log($"[DroneController] Drone #{droneId} waiting for round to start");
                 yield return new WaitForSeconds(1f);
                 continue;
             }
@@ -172,7 +172,7 @@ public class DroneController : MonoBehaviour
             // Set to scanning state
             SetDroneState(DroneState.Scanning);
             scanCount++;
-            Debug.Log($"[DroneController] Drone #{droneId} starting scan #{scanCount}");
+            // Debug.Log($"[DroneController] Drone #{droneId} starting scan #{scanCount}");
 
             // Start flicker effect
             StartFlickerEffect();
@@ -195,12 +195,12 @@ public class DroneController : MonoBehaviour
             // Stop flicker effect before showing results
             StopFlickerEffect();
 
-            Debug.Log($"[DroneController] Drone #{droneId} scan completed, attempting identification");
+            //Debug.Log($"[DroneController] Drone #{droneId} scan completed, attempting identification");
 
             // Try to identify a suspect
             if (TryIdentifySuspect())
             {
-                Debug.Log($"[DroneController] Drone #{droneId} successfully identified a suspect");
+                //Debug.Log($"[DroneController] Drone #{droneId} successfully identified a suspect");
 
                 // Awaiting response
                 SetDroneState(DroneState.AwaitingResponse);
@@ -230,7 +230,7 @@ public class DroneController : MonoBehaviour
             }
             else
             {
-                Debug.Log($"[DroneController] Drone #{droneId} failed to identify a suspect, continuing scanning");
+                //Debug.Log($"[DroneController] Drone #{droneId} failed to identify a suspect, continuing scanning");
                 // If identification failed, continue scanning after a short delay
                 yield return new WaitForSeconds(1f);
             }
@@ -314,7 +314,7 @@ public class DroneController : MonoBehaviour
         // If this was our current target, restart scanning
         if (currentTarget == arrestedNPC)
         {
-            Debug.Log($"Drone #{droneId} - Current target was arrested. Finding new target.");
+            //Debug.Log($"Drone #{droneId} - Current target was arrested. Finding new target.");
 
             // Reset state to scanning
             currentTarget = null;
@@ -456,7 +456,7 @@ public class DroneController : MonoBehaviour
 
         timerCoroutine = StartCoroutine(ResponseTimerRoutine());
 
-        Debug.Log($"Drone #{droneId} is now targeting the player!");
+        //Debug.Log($"Drone #{droneId} is now targeting the player!");
     }
 
     private void SetDroneState(DroneState newState)

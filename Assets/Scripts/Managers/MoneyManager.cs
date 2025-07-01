@@ -63,7 +63,7 @@ public class MoneyManager : MonoBehaviour
             OnBankruptcy?.Invoke();
         }
 
-        Debug.Log($"Subtracted ${amount}. New balance: ${CurrentBalance}");
+        //        Debug.Log($"Subtracted ${amount}. New balance: ${CurrentBalance}");
     }
 
     public void ProcessCorrectArrest()

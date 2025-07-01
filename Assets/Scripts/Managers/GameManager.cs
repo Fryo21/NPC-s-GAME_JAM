@@ -248,12 +248,8 @@ public class GameManager : MonoBehaviour
 
             spawnedNPCs.Remove(selectedNPC);
 
-            // Remove from wanted list - use the public method instead of accessing the field directly
-            var currentList = wantedListManager.GetCurrentWantedList();
-            currentList.Remove(dataHolder.nPCData);
-
-            // Use the event to update the wanted list
-            wantedListManager.UpdateWantedList(currentList);
+            // USE THE ANIMATION SYSTEM - Call ApprehendSuspect instead of UpdateWantedList
+            wantedListManager.ApprehendSuspect(dataHolder.nPCData);
 
             // Destroy the NPC object after all processing is done
             Destroy(selectedNPC);

@@ -238,13 +238,11 @@ public class DroneManager : MonoBehaviour
                 // Notify other drones that this target was arrested
                 NotifyTargetArrested(target);
 
+                // ✅ USE THE ANIMATION SYSTEM - Call ApprehendSuspect instead of UpdateWantedList
+                WantedListManager.Instance.ApprehendSuspect(target.nPCData);
+
                 // Remove NPC
                 Destroy(target.gameObject);
-
-                // Remove from wanted list
-                var currentList = WantedListManager.Instance.GetCurrentWantedList();
-                currentList.Remove(target.nPCData);
-                WantedListManager.Instance.UpdateWantedList(currentList);
             }
             else
             {
@@ -260,8 +258,6 @@ public class DroneManager : MonoBehaviour
                     FeedbackManager.Instance.ShowWarningFeedback();
                 }
             }
-
-
         }
         else
         {
