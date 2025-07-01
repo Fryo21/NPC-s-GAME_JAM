@@ -37,6 +37,9 @@ public class DraggablePopup : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
         // Bring to front
         transform.SetAsLastSibling();
+
+        // if (AnimatedCursorManager.Instance != null)
+        //     AnimatedCursorManager.Instance.OnCursorClick();
     }
 
     public void OnDrag(PointerEventData eventData)

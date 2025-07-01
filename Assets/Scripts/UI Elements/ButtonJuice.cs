@@ -220,11 +220,6 @@ public class ButtonJuice : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         if (AnimatedCursorManager.Instance != null)
             AnimatedCursorManager.Instance.OnCursorClick();
 
-        // // Invoke the original onClick events after a tiny delay for better feel
-        // DOVirtual.DelayedCall(0.05f, () =>
-        // {
-        //     originalOnClick.Invoke();
-        // });
     }
 
     private void ResetToOriginalState()
