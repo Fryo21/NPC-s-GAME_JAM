@@ -143,12 +143,18 @@ public class ButtonJuice : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             audioSource.clip = hoverSound;
             audioSource.Play();
         }
+
+        if (AnimatedCursorManager.Instance != null)
+            AnimatedCursorManager.Instance.OnCursorHoverUIElement();
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         isPointerOver = false;
         ResetToOriginalState();
+
+        if (AnimatedCursorManager.Instance != null)
+            AnimatedCursorManager.Instance.OnCursorExitUIElement();
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -175,6 +181,7 @@ public class ButtonJuice : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             );
             colorTween = image.DOColor(darkerColor, colorDuration / 2);
         }
+
     }
 
     public void OnPointerUp(PointerEventData eventData)
@@ -208,6 +215,10 @@ public class ButtonJuice : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             audioSource.clip = clickSound;
             audioSource.Play();
         }
+
+
+        if (AnimatedCursorManager.Instance != null)
+            AnimatedCursorManager.Instance.OnCursorClick();
 
         // // Invoke the original onClick events after a tiny delay for better feel
         // DOVirtual.DelayedCall(0.05f, () =>
