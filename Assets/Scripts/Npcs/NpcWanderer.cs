@@ -22,6 +22,8 @@ public class NpcWanderer : MonoBehaviour
     private float pauseTimer = 0f;
     private Vector3 currentTarget;
 
+    private bool isIdle = false;
+
     private void Awake()
     {
         // Get components
@@ -45,7 +47,9 @@ public class NpcWanderer : MonoBehaviour
         FindNewWanderTarget();
 
         // Initialize animation state
-        UpdateIdleState();
+        // UpdateIdleState();
+        animator.SetBool("IsIdle", isIdle);
+
     }
 
     private void Update()
@@ -207,6 +211,8 @@ public class NpcWanderer : MonoBehaviour
         animator.SetFloat("VelocityX", Mathf.Abs(velocity.x));
         animator.SetFloat("VelocityY", velocity.y);
 
+        // UpdateIdleState();
+
         // Handle sprite flipping based on horizontal direction
         if (velocity.x < -0.1f)
         {
@@ -223,7 +229,7 @@ public class NpcWanderer : MonoBehaviour
         if (animator == null) return;
 
         // Set isIdle parameter based on movement state
-        bool isIdle = isPaused || !aiPath.canMove || aiPath.velocity.magnitude < 0.1f;
+        isIdle = isPaused || !aiPath.canMove || aiPath.velocity.magnitude < 0.1f;
         animator.SetBool("IsIdle", isIdle);
     }
 

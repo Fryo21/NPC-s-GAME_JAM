@@ -5207,7 +5207,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1110086765833948527, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
       propertyPath: helpTipDuration
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2021699086866593673, guid: 660b7bbbd8720c24ba56c3bd5807fb23, type: 3}
       propertyPath: m_text

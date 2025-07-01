@@ -153,7 +153,7 @@ public class GameManager : MonoBehaviour
         }
 
 
-        Debug.Log($"Spawned {spawnedNPCs.Count} NPCs");
+        //        Debug.Log($"Spawned {spawnedNPCs.Count} NPCs");
     }
 
     private void UpdateNPCVisuals(GameObject npc, NPCData npcData)

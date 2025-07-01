@@ -121,11 +121,11 @@ public class WantedListManager : MonoBehaviour
             }
         }
 
-        LogDebug($"Generated wanted list for round {roundNumber} with {currentWantedList.Count} suspects");
-        foreach (NPCData npc in currentWantedList)
-        {
-            LogDebug($"Wanted: {npc.npcName} (Class: {npc.nPCClass}, SubClass: {npc.npcSubClass})");
-        }
+        // LogDebug($"Generated wanted list for round {roundNumber} with {currentWantedList.Count} suspects");
+        // foreach (NPCData npc in currentWantedList)
+        // {
+        //     LogDebug($"Wanted: {npc.npcName} (Class: {npc.nPCClass}, SubClass: {npc.npcSubClass})");
+        // }
 
         // Notify listeners that the wanted list has been updated
         OnWantedListUpdated?.Invoke(currentWantedList);
