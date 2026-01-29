@@ -1,7 +1,7 @@
-# Face of the Feature  
+# Face of the Future  
 **Kingston University Game Jam Winner 2025**
 
-Face of the Feature is a systems-driven surveillance and decision-making game prototype developed during the Kingston University Game Jam. The player does not directly control a character, but instead oversees an automated policing system, making high-stakes decisions under uncertainty as pressure escalates over time.
+Face of the Future is a systems-driven surveillance and decision-making game prototype developed during the Kingston University Game Jam. The player does not directly control a character, but instead oversees an automated policing system, making high-stakes decisions under uncertainty as pressure escalates over time.
 
 The project focuses on system design, state management, and player-facing consequences rather than content scale or visual fidelity.
 
@@ -46,7 +46,7 @@ No additional setup is required.
 ## Development Team
 - **Dave Murray** — Lead Designer / Programmer  
 - **Francis Obiokala** — Gameplay Programmer  
-- **Ash Methven** — UI / Game Programmer  
+- **Ash Methven** — UI / Game Programmer / Artist 
 - **Leo** — Gameplay Programmer  
 
 ---
