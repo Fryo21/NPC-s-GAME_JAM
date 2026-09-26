@@ -3,48 +3,47 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Linq;
-using Sirenix.OdinInspector;
 
 public class DroneController : MonoBehaviour
 {
-    [FoldoutGroup("UI References")]
+    [Header("UI References")]
     [SerializeField] private TextMeshProUGUI droneIdText;
-    [FoldoutGroup("UI References")]
+    [Header("UI References")]
     [SerializeField] private TextMeshProUGUI statusText;
-    [FoldoutGroup("UI References")]
+    [Header("UI References")]
     [SerializeField] private Image suspectImage;
-    [FoldoutGroup("UI References")]
+    [Header("UI References")]
     [SerializeField] private TextMeshProUGUI suspectNameText;
-    [FoldoutGroup("UI References")]
+    [Header("UI References")]
     [SerializeField] private Button confirmButton;
-    [FoldoutGroup("UI References")]
+    [Header("UI References")]
     [SerializeField] private Button denyButton;
-    [FoldoutGroup("UI References")]
+    [Header("UI References")]
     [SerializeField] private Slider timerSlider;
-    [FoldoutGroup("UI References")]
+    [Header("UI References")]
     [SerializeField] private GameObject helpTip;  // Reference to the help tip UI element
 
-    [FoldoutGroup("Settings")]
+    [Header("Settings")]
     [SerializeField] private float scanInterval = 8f;  // Time between scans
-    [FoldoutGroup("Settings")]
+    [Header("Settings")]
     [SerializeField] private float identificationDuration = 5f;  // Time player has to respond
-    [FoldoutGroup("Settings")]
+    [Header("Settings")]
     [SerializeField] private float accuracyRate = 0.75f;  // Chance of correct identification
-    [FoldoutGroup("Settings")]
+    [Header("Settings")]
     [SerializeField] private bool autoStartScanning = true;  // Start scanning immediately
 
-    [FoldoutGroup("Visual Settings")]
+    [Header("Visual Settings")]
     [SerializeField] private Color scanningImageTint = new Color(0.6f, 0.6f, 0.6f, 0.5f);  // Greyed out tint
-    [FoldoutGroup("Visual Settings")]
+    [Header("Visual Settings")]
     [SerializeField] private Color activeImageTint = Color.white;  // Normal tint
-    [FoldoutGroup("Visual Settings")]
+    [Header("Visual Settings")]
     [SerializeField] private Sprite placeholderSprite;  // Default image when scanning
 
-    [FoldoutGroup("Scanning Effect")]
+    [Header("Scanning Effect")]
     [SerializeField] private Sprite[] scanningSprites;  // Array of sprites to flicker through while scanning
-    [FoldoutGroup("Scanning Effect")]
+    [Header("Scanning Effect")]
     [SerializeField] private float flickerSpeed = 0.1f;  // How fast to change between sprites (in seconds)
-    [FoldoutGroup("Scanning Effect")]
+    [Header("Scanning Effect")]
     [SerializeField] private bool useRandomFlicker = true;  // Whether to pick sprites randomly or cycle through them
 
     // State variables

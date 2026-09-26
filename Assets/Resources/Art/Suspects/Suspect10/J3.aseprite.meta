@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -42,7 +43,9 @@ ScriptedImporter:
     cubemapConvolution: 0
     seamlessCubemap: 0
     alphaIsTransparency: 1
+    spriteTessellationMethod: 0
     spriteTessellationDetail: -1
+    spriteGeometrySubdivision: 0
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
@@ -83,6 +86,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -96,9 +101,9 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
-  importFileNodeState: 1
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   platformSettingsDirtyTick: 638829569104347099
-  textureAssetName: 
   singleSpriteImportData:
   - name: 
     originalName: 
@@ -396,15 +401,21 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 212, y: 4}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -448231175
+    uuid:
+      value0: 1664928797
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 1664928797
     name: J3
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: J3_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -413,7 +424,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: 878a213f6a32e8a4f9affbd326020808
-    - name: J3_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -422,7 +433,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: 817a3ef76c5600e4d9eb33c3ae27e387
-    - name: J3_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -431,7 +442,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: 4516b5e65efe9d9438d83576ba41086e
-    - name: J3_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -440,7 +451,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: 5ba7c957674dba14298a4627a223a7e9
-    - name: J3_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -449,7 +460,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: b8807d87c2d0edb46a1bfed3bd7eec1c
-    - name: J3_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -458,7 +469,7 @@ ScriptedImporter:
         width: 32
         height: 224
       spriteId: 8a95c28ff58fbd14db2cda8232e18e11
-    - name: J3_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -467,7 +478,7 @@ ScriptedImporter:
         width: 96
         height: 216
       spriteId: 7dae55ebb607ac7428d7cb87fc85e571
-    - name: J3_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -476,7 +487,7 @@ ScriptedImporter:
         width: 32
         height: 224
       spriteId: 5fff180a4426543419d5f6f21d416091
-    - name: J3_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -485,7 +496,7 @@ ScriptedImporter:
         width: 96
         height: 216
       spriteId: 88af614cf9e905641b421713558621d3
-    - name: J3_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -494,7 +505,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: 2d89d242b210a2a4d9bca81313da3d3d
-    - name: J3_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -503,7 +514,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: 8a24014ceaf47ef438e551dd735d7248
-    - name: J3_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -512,7 +523,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: fc63510904eb8c34981072e72cb2b315
-    - name: J3_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +533,10 @@ ScriptedImporter:
         height: 224
       spriteId: 1b2b0ef67c5ddcc468c2c3bd889c44f7
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -550,5 +564,5 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
-  spritePackingTag: 
+  previousTextureSize: {x: 512, y: 1024}
   canvasSize: {x: 256, y: 256}

@@ -17,7 +17,7 @@ public class DroneAnim : MonoBehaviour
     {
         if (animator == null) return;
 
-        Vector2 velocity = rb.velocity; 
+        Vector2 velocity = rb.linearVelocity; 
 
         if (velocity.x < 0.1f)
         {

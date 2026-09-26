@@ -2,54 +2,53 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
-using Sirenix.OdinInspector;
 
 public class GameUIController : MonoBehaviour
 {
-    [FoldoutGroup("Money UI")]
+    [Header("Money UI")]
     [SerializeField] private TextMeshProUGUI balanceText;
-    [FoldoutGroup("Money UI")]
+    [Header("Money UI")]
     [SerializeField] private Color positiveBalanceColor = Color.green;
-    [FoldoutGroup("Money UI")]
+    [Header("Money UI")]
     [SerializeField] private Color negativeBalanceColor = Color.red;
 
-    [FoldoutGroup("Round UI")]
+    [Header("Round UI")]
     [SerializeField] private TextMeshProUGUI roundText;
-    [FoldoutGroup("Round UI")]
+    [Header("Round UI")]
     [SerializeField] private TextMeshProUGUI timerText;
-    [FoldoutGroup("Round UI")]
+    [Header("Round UI")]
     [SerializeField] private Color timerLowColor = Color.red; // Color when time is low
-    [FoldoutGroup("Round UI")]
+    [Header("Round UI")]
     [SerializeField] private TextMeshProUGUI arrestQuotaText;
 
-    [FoldoutGroup("Game State Panels")]
+    [Header("Game State Panels")]
     [SerializeField] private GameObject interludePanel;
-    [FoldoutGroup("Game State Panels")]
+    [Header("Game State Panels")]
     [SerializeField] private GameObject gameOverPanel;
 
-    [FoldoutGroup("Interlude UI")]
+    [Header("Interlude UI")]
     [SerializeField] private TextMeshProUGUI roundSummaryText;
 
-    [FoldoutGroup("Game Over UI")]
+    [Header("Game Over UI")]
     [SerializeField] private TextMeshProUGUI gameOverReasonText;
 
-    [FoldoutGroup("Drone Purchase UI")]
+    [Header("Drone Purchase UI")]
     [SerializeField] private Button purchaseDroneButton;
-    [FoldoutGroup("Drone Purchase UI")]
+    [Header("Drone Purchase UI")]
     [SerializeField] private TextMeshProUGUI droneCostText;
 
-    [FoldoutGroup("ESC Menu")]
+    [Header("ESC Menu")]
     [SerializeField] private GameObject escMenu;
 
-    [FoldoutGroup("Help Tips")]
+    [Header("Help Tips")]
     [SerializeField] private GameObject timerHelpTip;
-    [FoldoutGroup("Help Tips")]
+    [Header("Help Tips")]
     [SerializeField] private GameObject arrestQuotaHelpTip;
-    [FoldoutGroup("Help Tips")]
+    [Header("Help Tips")]
     [SerializeField] private GameObject balanceHelpTip;
-    [FoldoutGroup("Help Tips")]
+    [Header("Help Tips")]
     [SerializeField] private GameObject dronePurchaseHelpTip;
-    [FoldoutGroup("Help Tips")]
+    [Header("Help Tips")]
     [SerializeField] private GameObject moveableUIHelpTip;
 
     public static GameUIController Instance { get; private set; }

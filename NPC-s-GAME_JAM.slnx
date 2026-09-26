@@ -1,0 +1,11 @@
+﻿<Solution>
+  <Project Path="AstarPathfindingProject.csproj" />
+  <Project Path="AstarPathfindingProjectEditor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Drawing.csproj" />
+  <Project Path="PackageToolsEditor.csproj" />
+  <Project Path="andywiecko.BurstTriangulator.csproj" />
+  <Project Path="PackageTools.csproj" />
+  <Project Path="DrawingEditor.csproj" />
+  <Project Path="DrawingPackageToolsEditor.csproj" />
+</Solution>

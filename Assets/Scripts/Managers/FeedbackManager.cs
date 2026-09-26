@@ -4,19 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using DG.Tweening;
-using Sirenix.OdinInspector;
 
 public class FeedbackManager : MonoBehaviour
 {
     public static FeedbackManager Instance { get; private set; }
 
-    [FoldoutGroup("Success Feedback")]
+    [Header("Success Feedback")]
     [SerializeField] private GameObject successPopupPrefab;
-    [FoldoutGroup("Success Feedback")]
+    [Header("Success Feedback")]
     [SerializeField] private Transform popUpCanvasTransform;
-    [FoldoutGroup("Success Feedback")]
+    [Header("Success Feedback")]
     [SerializeField] private float successPopupDuration = 2f;
-    [FoldoutGroup("Success Feedback")]
+    [Header("Success Feedback")]
     [SerializeField]
     private string[] successMessages = new string[]
  {
@@ -26,13 +25,13 @@ public class FeedbackManager : MonoBehaviour
         "Target acquired. Well done."
  };
 
-    [FoldoutGroup("Warning Feedback")]
+    [Header("Warning Feedback")]
     [SerializeField] private GameObject warningPopupPrefab;
-    [FoldoutGroup("Warning Feedback")]
+    [Header("Warning Feedback")]
     [SerializeField] private Vector2 warningSpawnPosition = new Vector2(200, -100);
-    [FoldoutGroup("Warning Feedback")]
+    [Header("Warning Feedback")]
     [SerializeField] private float warningSpawnOffset = 20f;
-    [FoldoutGroup("Warning Feedback")]
+    [Header("Warning Feedback")]
     [SerializeField]
     private string[] warningMessages = new string[]
  {
@@ -42,13 +41,13 @@ public class FeedbackManager : MonoBehaviour
         "Civilian wrongfully detained. Watch your accuracy!"
  };
 
-    [FoldoutGroup("Employee of the Month")]
+    [Header("Employee of the Month")]
     [SerializeField] private GameObject employeeOfMonthPrefab;
-    [FoldoutGroup("Employee of the Month")]
+    [Header("Employee of the Month")]
     [SerializeField] private Sprite playerCharacterSprite;
-    [FoldoutGroup("Employee of the Month")]
+    [Header("Employee of the Month")]
     [SerializeField] private string playerName = "Officer #7482";
-    [FoldoutGroup("Employee of the Month")]
+    [Header("Employee of the Month")]
     [SerializeField] private Vector2 employeePopupPosition = new Vector2(-200, 100);
 
     private GameObject employeePopup;
@@ -172,7 +171,7 @@ public class FeedbackManager : MonoBehaviour
             rect.localScale = Vector3.zero;
 
             // Animation sequence
-            Sequence sequence = DOTween.Sequence();
+            var sequence = DG.Tweening.DOTween.Sequence();
 
             // Pop in
             sequence.Append(rect.DOScale(1f, 0.3f).SetEase(Ease.OutBack));

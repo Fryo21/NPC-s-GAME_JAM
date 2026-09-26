@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -42,7 +43,9 @@ ScriptedImporter:
     cubemapConvolution: 0
     seamlessCubemap: 0
     alphaIsTransparency: 1
+    spriteTessellationMethod: 0
     spriteTessellationDetail: -1
+    spriteGeometrySubdivision: 0
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
@@ -83,6 +86,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -96,9 +101,9 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
-  importFileNodeState: 1
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   platformSettingsDirtyTick: 638829488071819850
-  textureAssetName: 
   singleSpriteImportData:
   - name: 
     originalName: 
@@ -417,15 +422,21 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 124, y: 236}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 792945072
+    uuid:
+      value0: 1808696432
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 1808696432
     name: SuspectA2
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: SuspectA2_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -434,7 +445,7 @@ ScriptedImporter:
         width: 96
         height: 232
       spriteId: 1c89b1237b5be484386c8a3b947c2fd2
-    - name: SuspectA2_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -443,7 +454,7 @@ ScriptedImporter:
         width: 96
         height: 232
       spriteId: 416e68c9ca3a4484ca4bf22c22d9a4d9
-    - name: SuspectA2_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -452,7 +463,7 @@ ScriptedImporter:
         width: 96
         height: 232
       spriteId: 9dc30f03dacb85044bbe27b86c985811
-    - name: SuspectA2_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -461,7 +472,7 @@ ScriptedImporter:
         width: 96
         height: 232
       spriteId: 91376c3423eb3b343a8986806f7ed898
-    - name: SuspectA2_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -470,7 +481,7 @@ ScriptedImporter:
         width: 96
         height: 232
       spriteId: 7a7442a989b51cd48a481768b19bc4b6
-    - name: SuspectA2_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -479,7 +490,7 @@ ScriptedImporter:
         width: 96
         height: 232
       spriteId: a7074787cc388074bb3a6b96d2f0a2d5
-    - name: SuspectA2_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -488,7 +499,7 @@ ScriptedImporter:
         width: 56
         height: 232
       spriteId: 1e0c954b33e5b664c93fc9d88a5d5da2
-    - name: SuspectA2_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -497,7 +508,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: 437015f31cfb5e549b885997152961ef
-    - name: SuspectA2_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -506,7 +517,7 @@ ScriptedImporter:
         width: 56
         height: 232
       spriteId: 09aeef0252736bf46a26e70d61294233
-    - name: SuspectA2_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -515,7 +526,7 @@ ScriptedImporter:
         width: 96
         height: 224
       spriteId: b5ba298bbb0903f44a0141338134d9e0
-    - name: SuspectA2_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -524,7 +535,7 @@ ScriptedImporter:
         width: 256
         height: 256
       spriteId: bc2f54b0a5da4874aba6416f46317d92
-    - name: SuspectA2_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -533,7 +544,7 @@ ScriptedImporter:
         width: 256
         height: 256
       spriteId: 16e92ac1183d009459745d4b850b5485
-    - name: SuspectA2_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -542,7 +553,7 @@ ScriptedImporter:
         width: 256
         height: 256
       spriteId: 02f1b954ec1d66c45b48bbcdea353075
-    - name: SuspectA2_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -552,7 +563,10 @@ ScriptedImporter:
         height: 256
       spriteId: 99c47829c6764b845bb5dc34f31cbbf8
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -580,5 +594,5 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
-  spritePackingTag: 
+  previousTextureSize: {x: 512, y: 1024}
   canvasSize: {x: 256, y: 256}

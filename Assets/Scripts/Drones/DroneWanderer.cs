@@ -1,6 +1,5 @@
 using UnityEngine;
 using Pathfinding;
-using System.Collections.Generic;
 
 [RequireComponent(typeof(Seeker))]
 [RequireComponent(typeof(AIPath))]
@@ -101,7 +100,7 @@ public class DroneWanderer : MonoBehaviour
         if (startNode == null) return null;
 
         // Create a constraint for walkable nodes only
-        NNConstraint constraint = NNConstraint.Walkable;
+        NNConstraint constraint = NNConstraint.Default;
 
         // Try several random directions
         for (int i = 0; i < 10; i++)
@@ -148,7 +147,7 @@ public class DroneWanderer : MonoBehaviour
             Vector3 candidatePosition = transform.position + new Vector3(randomDirection.x, randomDirection.y, 0) * randomDistance;
 
             // Find the nearest node on the graph
-            NNInfo nearestNodeInfo = AstarPath.active.GetNearest(candidatePosition, NNConstraint.Walkable);
+            NNInfo nearestNodeInfo = AstarPath.active.GetNearest(candidatePosition, NNConstraint.Default);
 
             // Check if the node is walkable
             if (nearestNodeInfo.node != null && nearestNodeInfo.node.Walkable)
@@ -168,7 +167,7 @@ public class DroneWanderer : MonoBehaviour
         if (!foundValidPoint)
         {
             // If all else fails, try to find ANY walkable position very nearby
-            NNInfo nearestNodeInfo = AstarPath.active.GetNearest(transform.position, NNConstraint.Walkable);
+            NNInfo nearestNodeInfo = AstarPath.active.GetNearest(transform.position, NNConstraint.Default);
             if (nearestNodeInfo.node != null && nearestNodeInfo.node.Walkable)
             {
                 Vector3 safePosition = (Vector3)nearestNodeInfo.position;

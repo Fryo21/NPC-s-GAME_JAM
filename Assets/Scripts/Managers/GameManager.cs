@@ -1,23 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    [FoldoutGroup("NPC Spawning")]
-    [FoldoutGroup("NPC Spawning")]
+    [Header("NPC Spawning")]
     [SerializeField] private GameObject npcPrefab;
-    [FoldoutGroup("NPC Spawning")]
+    [Header("NPC Spawning")]
     [SerializeField] private Transform[] spawnPoints;
-    [FoldoutGroup("NPC Spawning")]
+    [Header("NPC Spawning")]
     [SerializeField] private Transform npcSpawnParent; // Parent object to keep spawned NPCs organized
-    [FoldoutGroup("NPC Spawning")]
+    [Header("NPC Spawning")]
     [SerializeField] private NPCData[] allNPCDataAssets; // Assign all your NPCData scriptable objects here
-    [FoldoutGroup("NPC Spawning")]
+    [Header("NPC Spawning")]
     [SerializeField] private int npcSpawnCount = 30;     // How many NPCs to spawn in total
 
     [Header("References")]
